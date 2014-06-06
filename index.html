@@ -3,37 +3,132 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>.NET/FRINGE/ - An atypical conference for open-source .NET developers.</title>
-        <meta name="description" content=".NET/FRINGE/ - An atypical conference for open-source .NET developers. Sept 28-30 2014, Portland, OR">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>.NET/FRINGE/ - An atypical conference for open-source .NET developers.</title>
+  <meta name="description" content=".NET/FRINGE/ - An atypical conference for open-source .NET developers. Sept 28-30 2014, Portland, OR">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <style>
+    #mc_embed_signup .form-inline {
+      overflow: hidden;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    #mc_embed_signup .form-inline .input-container {
+      display: block;
+      overflow: hidden;
+      padding-right: 15px;
+    }
+    #mc_embed_signup .form-inline input {
+      border-color: #8899a6;
+      width: 100%;
+    }
+    #mc_embed_signup .form-inline button {
+      border-color: #8899a6;
+      background-color: #ccd6dd;
+      color: #292f33;
+      float: right;
+    }
+    #mc_embed_signup .form-inline button:hover {
+      border-color: #66757f;
+      background-color: #8899a6;
+      color: #292f33;
+    }
+    .form-control {
+      height: 48px;
+      padding: 2px 12px;
+      font-size: 22px;
+      line-height: 1.42857143;
+      color: #333;
+      background-color: #ffd5d5;
+      background-image: none;
+      border: 4px solid #b3b3b3;
+      border-radius: 0;
+    }
+    .btn {
+      font-weight: 700;
+      border: 4px solid transparent;
+      font-size: 19px;
+      border-radius: 0;
+    }
+    span.tell-me-more {
+      float:left;
+    }
+    span.tell-me-more strong {
+      font-size: 48px;
+      line-height: 48px;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 25px;
+    }
+    @media (max-width: 800px) {
+      span.tell-me-more {
+        display:block;
+        float: none;
+        }
+      span.tell-me-more strong {
+        font-size: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 0;
+        text-align: center;
+      }
+    }
+    .splash {
+      margin: 30px;
+    }
+    .splash img {
+      width: 90%;
+    }
+  </style>
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
 
-        <center style="margin: 30px">
-          <img src="img/vector/dotnetfringe-splash.svg" style="width: 90%"/>
-          <h2>More details coming soon...</h2>
-        </center>
+  <div class="splash">
+    <center>
+      <img src="img/vector/dotnetfringe-splash.svg"/>
+    </center>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="mc_embed_signup">
+          <span class="tell-me-more">
+            <strong>TELL ME MORE</strong>
+          </span>
+          <form class="form-inline" action="http://dotnetfringe.us8.list-manage.com/subscribe/post?u=ba68ae915a1a06c6cb2302e3c&amp;id=2ee142e90b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
 
-        <!-- <script src="js/main.js"></script> -->
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">GO</button>
 
-          ga('create', 'UA-51709103-1', 'dotnetfringe.org');
-          ga('send', 'pageview');
-        </script>
-    </body>
+            <span class="input-container">
+              <input class="form-control" type="EMAIL" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="js/main.js"></script> -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-51709103-1', 'dotnetfringe.org');
+    ga('send', 'pageview');
+  </script>
+</body>
 </html>
