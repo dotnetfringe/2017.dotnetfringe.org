@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="343.96762"
+   height="45.657318"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="dotnetfringe-logo.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2447" />
+    <inkscape:perspective
+       id="perspective10"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.65428734"
+     inkscape:cx="133.83146"
+     inkscape:cy="-31.253973"
+     inkscape:document-units="px"
+     inkscape:current-layer="text3483"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="925"
+     inkscape:window-height="693"
+     inkscape:window-x="31"
+     inkscape:window-y="15"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- transform="translate(-104.40808,91.203418)"> -->
+  <!-- transform="matrix(0.93969262,-0.34202014,0.34202014,0.93969262,0,0)" -->
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.4669888,-52.284773)">
+    <g
+       style="font-size:63.50114059px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Intro Cond;-inkscape-font-specification:Intro Cond Bold"
+       id="text3483">
+      <path
+         d="M 27.764905,73.719754 29.070779,75.025628 24.33094,80.587683 28.974047,86.004642 27.716539,87.358882 23.025066,81.941923 18.430324,87.407248 17.172815,86.101374 21.912654,80.636049 17.076084,75.025628 18.333592,73.719754 23.121797,79.281809 27.764905,73.719754 M 8.4669888,80.587683 C 8.4669888,88.664748 14.996367,95.194126 23.073431,95.194126 31.150496,95.194126 37.72824,88.664748 37.72824,80.587683 37.72824,72.510619 31.150496,65.932875 23.073431,65.932875 14.996367,65.932875 8.4669888,72.510619 8.4669888,80.587683"
+         style="font-size:48.36570358px;fill:#008080"
+         id="path3525"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 54.75714,97.370583 54.75714,75.716694 73.743981,97.688088 76.919038,97.688088 76.919038,52.919784 65.93334,52.919784 65.93334,74.129165 47.200504,52.538777 43.771442,52.538777 43.771442,97.370583 54.75714,97.370583"
+         style="fill:#0000ff"
+         id="path3527"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 95.561587,63.016466 108.51582,63.016466 108.51582,52.919784 84.639391,52.919784 84.639391,97.370583 109.02383,97.370583 109.02383,86.765892 95.561587,86.765892 95.561587,79.526762 107.3728,79.526762 107.3728,69.36658 95.561587,69.36658 95.561587,63.016466"
+         style="fill:#0000ff"
+         id="path3529"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 112.4767,52.919784 112.4767,63.079967 121.23986,63.079967 121.23986,97.370583 131.90805,97.370583 131.90805,63.079967 140.60771,63.079967 140.60771,52.919784 112.4767,52.919784"
+         style="fill:#0000ff"
+         id="path3531"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 159.25521,83.019325 170.49491,83.019325 172.52695,72.859142 161.28724,72.859142 163.25578,63.016466 176.14651,63.016466 178.17855,52.919784 154.30212,52.919784 145.41196,97.370583 156.39766,97.370583 159.25521,83.019325"
+         style="font-style:italic;font-variant:normal;font-stretch:normal;fill:#ff00ff;font-family:Intro Cond;-inkscape-font-specification:Intro Cond Bold Italic"
+         id="path3533"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 207.94768,97.307081 208.07469,96.735571 203.75661,80.606281 C 208.26519,77.685232 210.42423,73.684652 211.50375,68.604566 213.34528,59.206406 208.64619,52.919784 199.62904,52.919784 L 183.94425,52.919784 175.05409,97.307081 186.03979,97.307081 188.83384,83.400332 193.02492,83.400332 195.94597,97.307081 207.94768,97.307081 M 190.54837,73.938662 192.70741,62.952964 197.5335,62.952964 C 200.20054,62.952964 201.59757,65.112006 200.89906,68.350561 200.26405,71.716118 198.0415,73.938662 195.37446,73.938662 L 190.54837,73.938662"
+         style="font-style:italic;font-variant:normal;font-stretch:normal;fill:#ff00ff;font-family:Intro Cond;-inkscape-font-specification:Intro Cond Bold Italic"
+         id="path3535"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 231.42426,97.370583 233.3293,87.972414 228.82072,87.972414 233.90081,62.317953 237.96488,62.317953 239.86991,52.919784 220.81957,52.919784 218.91454,62.317953 222.91511,62.317953 217.83502,87.972414 213.38994,87.972414 211.4849,97.370583 231.42426,97.370583"
+         style="font-style:italic;font-variant:normal;font-stretch:normal;fill:#ff00ff;font-family:Intro Cond;-inkscape-font-specification:Intro Cond Bold Italic"
+         id="path3537"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 248.73328,97.370583 253.05136,75.716694 267.65662,97.688088 270.83168,97.688088 279.78534,52.919784 268.79964,52.919784 264.54506,74.129165 250.1303,52.538777 246.70124,52.538777 237.74758,97.370583 248.73328,97.370583"
+         style="font-style:italic;font-variant:normal;font-stretch:normal;fill:#ff00ff;font-family:Intro Cond;-inkscape-font-specification:Intro Cond Bold Italic"
+         id="path3539"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 281.15559,75.208685 C 278.42504,88.861416 284.39416,97.942093 296.14186,97.942093 309.92159,97.942093 317.35124,86.257869 319.12927,72.16063 L 301.28545,72.16063 299.38041,81.939805 306.11153,81.939805 C 304.143,86.194378 301.34895,87.337402 298.30089,87.337402 293.22081,87.337402 290.80776,82.447807 292.26829,75.145183 293.79231,67.652056 297.66589,62.69896 303.19048,62.69896 306.42904,62.69896 308.52458,64.032487 308.96909,67.588548 L 319.63728,67.588548 C 319.89128,56.666362 312.77915,52.284773 305.28602,52.284773 294.04633,52.284773 283.88613,61.428951 281.15559,75.208685"
+         style="font-style:italic;font-variant:normal;font-stretch:normal;fill:#ff00ff;font-family:Intro Cond;-inkscape-font-specification:Intro Cond Bold Italic"
+         id="path3541"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 337.44835,63.016466 350.40258,63.016466 352.43462,52.919784 328.55819,52.919784 319.66803,97.370583 344.05247,97.370583 346.14801,86.765892 332.68577,86.765892 334.14629,79.526762 345.9575,79.526762 347.98954,69.36658 336.17833,69.36658 337.44835,63.016466"
+         style="font-style:italic;font-variant:normal;font-stretch:normal;fill:#ff00ff;font-family:Intro Cond;-inkscape-font-specification:Intro Cond Bold Italic"
+         id="path3543"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
