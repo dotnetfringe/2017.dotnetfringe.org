@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>.NET/FRINGE/ - An atypical conference for open-source .NET developers.</title>
+  <meta name="description" content=".NET/FRINGE/ - An atypical conference for open-source .NET developers. April 12-14 2015, Portland, OR">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <style>
+    body {
+      font-family: "Roboto";
+      /*color: rgb(119,119,119);*/
+      font-weight: 400;
+      font-size: 1.080rem;
+      font-style: normal;
+    }
+    #mc_embed_signup .form-inline {
+      overflow: hidden;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    #mc_embed_signup .form-inline .input-container {
+      display: block;
+      overflow: hidden;
+      padding-right: 15px;
+    }
+    #mc_embed_signup .form-inline input {
+      border-color: #8899a6;
+      width: 100%;
+    }
+    #mc_embed_signup .form-inline button {
+      border-color: #8899a6;
+      background-color: #ccd6dd;
+      color: #292f33;
+      float: right;
+    }
+    #mc_embed_signup .form-inline button:hover {
+      border-color: #66757f;
+      background-color: #8899a6;
+      color: #292f33;
+    }
+    .form-control {
+      height: 48px;
+      padding: 2px 12px;
+      font-size: 22px;
+      line-height: 1.42857143;
+      color: #333;
+      background-color: #ffd5d5;
+      background-image: none;
+      border: 4px solid #b3b3b3;
+      border-radius: 0;
+    }
+    .btn {
+      font-weight: 700;
+      border: 4px solid transparent;
+      font-size: 19px;
+      border-radius: 0;
+    }
+    span.tell-me-more {
+      float:left;
+    }
+    .tell-me-more strong {
+      font-size: 48px;
+      line-height: 48px;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 25px;
+    }
+    @media (max-width: 800px) {
+      span.tell-me-more {
+        display:block;
+        float: none;
+        }
+      span.tell-me-more strong {
+        font-size: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 0;
+        text-align: center;
+      }
+      h2 span {
+        font-size: 48px;
+        line-height: 48px;
+      }
+    }
+    .splash {
+      margin: 30px;
+    }
+    .splash img {
+      width: 90%;
+    }
+    .convo-right img, .convo-left img {
+      width: 100%;
+    }
+    .convo-left, .convo-right {
+      margin-top: 20px;
+    }
+    .convo-left .convo-box {
+      float: left;
+    }
+    .convo-right .convo-box {
+      float: right;
+    }
+    .convo-box {
+      border: solid 5px #b3b3b3;
+      padding: 10px;
+      display: inline-block;
+      background-color: #eee;
+    }
+
+    .convo-left .convo-box:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right:15px solid #b3b3b3;
+      position: absolute;
+      left: 0px
+    }
+
+    .convo-right .convo-box:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left:15px solid #b3b3b3;
+      position: absolute;
+      right: 0px
+    }
+    .convo-box span {
+      font-family: monospace;
+      font-size: 16px;
+    }
+
+    h2 {
+      text-align: center;
+      padding-top: 50px;
+      margin-bottom: 50px;
+      vertical-align: middle;
+    }
+
+    h2 span {
+      font-size: 40px;
+      line-height: 40px;
+      font-weight: 700;
+      border-top: solid 5px #ffd5d5;
+      border-bottom: solid 5px #ffd5d5;
+    }
+    h2 span a, h2 span a:focus {
+      color: inherit;
+    }
+    h2 span a, h2 span a:hover, h2 span a:active, h2 span a:visited, h2 span a:focus {
+      text-decoration: none;
+      outline: none;
+    }
+
+    h3.front-button a {
+      font-size: 32px;
+      font-weight: bold;
+      color: #666;
+      border: solid 5px #8899a6;
+      padding: 5px 7px;
+      display: inline-block;
+    }
+    h3.front-button a:hover {
+      color: #333;
+      border-color: #333;
+      text-decoration: none;
+    }
+    .front-button-row {
+      margin-bottom: 50px
+    }
+    .fringe-nav {
+      text-align: center;
+      margin-bottom: 50px;
+      vertical-align: middle;
+      padding: 10px 0;
+      /*border-top: solid 5px #ffd5d5;*/
+      /*border-bottom: solid 5px #ffd5d5;*/
+      background-color: #ffd5d5;
+      border-top: solid 5px #b3b3b3;
+      border-bottom: solid 5px #b3b3b3;
+    }
+    .fringe-nav {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 700;
+    }
+    .fringe-nav span {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    .fringe-nav a {
+      text-decoration: none;
+    }
+    .fringe-nav a:hover {
+      text-decoration: none;
+    }
+    .fringe-nav a:visited {
+      text-decoration: none;
+    }
+    .fringe-nav a:focus {
+      text-decoration: none;
+    }
+    iframe, object, embed{max-width: 100%;}
+    .speaker-image {
+      position: relative;
+    }
+
+    .speaker-image img {
+      width: 100%;
+    }
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background: #eee;
+      margin-top: 30px;
+      padding-top: 15px;
+    }
+
+    iframe {
+      pointer-events: none;
+    }
+
+    #nav.affix {
+      position: fixed;
+      top: 0;
+      z-index: 100;
+    }
+a[name]:before, h2[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+</style>
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="splash">
+    <center>
+      <img src="img/vector/dotnetfringe-splash.svg"/>
+    </center>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="mc_embed_signup">
+          <span class="tell-me-more">
+            <strong>TELL ME MORE</strong>
+          </span>
+          <form class="form-inline" action="http://dotnetfringe.us8.list-manage.com/subscribe/post?u=ba68ae915a1a06c6cb2302e3c&amp;id=2ee142e90b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">GO</button>
+
+            <span class="input-container">
+              <input class="form-control" type="EMAIL" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row front-button-row">
+      <div class="col-md-3 col-sm-2 xs-hidden">
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <h3 class="front-button"><a href="cfp.html#call-for-proposals">SUBMIT A TALK</a></h3>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <h3 class="front-button"><a href="tickets.html#ticket-types">BUY A TICKET</a></h3>
+      </div>
+      <div class="col-md-3 col-sm-2 xs-hidden">
+      </div>
+    </div>
+    <div id="nav-wrapper">
+      <div id="nav" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="fringe-nav">
+              <span>
+                <a href="index.html#what-is-net-fringe">WHAT IS .NET FRINGE?</a>
+              </span>
+              <span>
+                <a href="cfp.html#call-for-proposals">CFP</a>
+              </span>
+              <span>
+                <a href="index.html#speakers">SPEAKERS</a>
+              </span>
+              <span>
+                <a href="tickets.html#ticket-types">TICKETS</a>
+              </span>
+              <span>
+                <a href="index.html#info">INFO</a>
+              </span>
+              <span>
+                <a href="index.html#sponsors">SPONSORS</a>
+              </span>
+              <span>
+                <a href="index.html#team">TEAM</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-content">
+        <h2><span><a name="ticket-types" href="#ticket-types">TICKETS</a></span></h2>
+        <p>Ticket sales will open on <strong>February 16th, 2015</strong>. More information will be coming soon.
+
+        <p>Until then, please email us at
+        <a href="mailto:dotnetfringe@gmail.com?subject=Ticketing Questions">dotnetfringe@gmail.com</a> if you have any questions.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <p>&copy; 2015 .NET Fringe.
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <p><a href="https://twitter.com/dotnetfringe">Twitter</a> · <a href="https://github.com/dotnetfringe">Github</a> · <a href="mailto:dotnetfringe@gmail.com?subject=General Inquiry">Email</a> · <a href="http://confcodeofconduct.com/">Code of Conduct</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- <script src="js/main.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type='text/javascript'>
+    $(window).load(function(){
+      $(function() {
+          $('#nav-wrapper').height($("#nav").height());
+
+          $('#nav').affix({
+              offset: { top: $('#nav').offset().top }
+          });
+      });
+    });
+
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-51709103-1', 'dotnetfringe.org');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
