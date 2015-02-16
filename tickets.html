@@ -235,23 +235,31 @@
       padding-top: 15px;
     }
 
-    iframe {
-      pointer-events: none;
-    }
-
     #nav.affix {
       position: fixed;
       top: 0;
       z-index: 100;
     }
-a[name]:before, h2[id]:before {
-  display: block;
-  content: " ";
-  margin-top: -75px;
-  height: 75px;
-  visibility: hidden;
-}
-</style>
+
+    a[name]:before, h2[id]:before, h3[id]:before {
+      display: block;
+      content: " ";
+      margin-top: -75px;
+      height: 75px;
+      visibility: hidden;
+    }
+    h3 {
+      margin-bottom: 20px;
+      padding-bottom: 5px;
+      border-bottom: dashed 1px lightgrey;
+    }
+    h3 small {
+      color: #666;
+    }
+  </style>
+  <!-- Tito.io Integration -->
+  <script src='https://js.tito.io/v1' async></script>
+  <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -327,10 +335,63 @@ a[name]:before, h2[id]:before {
     <div class="row">
       <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-content">
         <h2><span><a name="ticket-types" href="#ticket-types">TICKETS</a></span></h2>
-        <p>Ticket sales will open on <strong>February 16th, 2015</strong>. More information will be coming soon.
+        <p>We have a variety of tickets available for this year's conference. Have a look below and pick the ticket that looks right for you.
 
-        <p>Until then, please email us at
-        <a href="mailto:dotnetfringe@gmail.com?subject=Ticketing Questions">dotnetfringe@gmail.com</a> if you have any questions.</p>
+        <p>If you have any questions, or would like to <a href="#financial-assistance">apply for a free ticket</a>, please email
+        <a href="mailto:dotnetfringe@gmail.com?subject=Ticketing Questions">dotnetfringe@gmail.com</a> and we'll be glad to help you out!</p>
+
+        <p>You could also <a href="#volunteering">become a volunteer</a> or <a href="cfp.html#call-for-proposals">submit a proposal</a> to be one of our speakers! Both include complementary tickets.</p>
+
+        <h2><span>General Admission</span></h2>
+        <h3>Corporate Ticket <small>($350 Standard, $300 Early-Bird)</small></h3>
+
+        <p>Purchase a corporate ticket if a company is paying for your attendance.</p>
+
+        <p><tito-button event="dotnetfringe/dotnetfringe" releases="xq4labrk0g8">Buy Now!</tito-button></p>
+
+        <h3>Independent Ticket <small>($250 Standard, $200 Early-Bird)</small></h3>
+
+        <p>If you are paying for yourself, work at a non-profit, or at a company with less than 10 employees.</p>
+
+        <p><tito-button event="dotnetfringe/dotnetfringe" releases="wrmglbmryxs">Buy Now!</tito-button></p>
+
+        <h3>Student or Unemployed <small>($100 Standard)</small></h3>
+        <p>If you are enrolled as a student, or don't currently have a source of income.</p>
+
+        <p><tito-button event="dotnetfringe/dotnetfringe" releases="fwh6xuallig">Buy Now!</tito-button></p>
+
+        <h2><span>Community Support</span></h2>
+
+        <p>Show your support of the .NET Fringe community by purchasing one of these tickets. Your purchase will be considered a sponsorship, and you'll be listed as a community supporter on our website.</p>
+
+        <p>You'll also enjoy some special experiences just for community supporters during the event (details to follow).</p>
+
+        <h3>Community Support - Individual <small>($500 Standard)</small></h3>
+
+        <p>Choose this ticket if you're representing a yourself and would like your name listed as a supporter, independent from your employeer.</p>
+
+        <p><tito-button event="dotnetfringe/dotnetfringe" releases="zxc0lclxlti">Buy Now!</tito-button></p>
+
+        <h3>Community Support - Startup <small>($1000 Standard)</small></h3>
+
+        <p>Choose this ticket if you're representing a small company and would like to list the company name as a supporter (includes small logo and link).</p>
+
+        <p><tito-button event="dotnetfringe/dotnetfringe" releases="sjp3m5z8wfe">Buy Now!</tito-button></p>
+
+        <h2><span>Financial Assistance</span></h2>
+
+        <p>We have a few opportunities for folks that can't afford the independent tickets, but still want to attend.
+
+        <h3 id="volunteering">Volunteering</h3>
+
+        <p>Becoming a volunteer for .NET Fringe entitled you to a free ticket. We have a ton of stuff to do during the conference, and before. If you'd like to be involved, <a href="mailto:dotnetfringe@gmail.com?subject=Become A Volunteer">send us an email</a>, and we'll get you signed up!</p>
+
+        <h3 id="financial-assistance">Apply For a Free Ticket</h3>
+
+        <p>We understand that not everyone can afford a ticket, or is able to volunteer. That's ok! We've got a few tickets set aside for situations like this.</p>
+
+        <p>We handle this on a case-by-case basis, so please <a href="mailto:dotnetfringe@gmail.com?subject=Financial Assistance">send us an email</a> explaining your situation and we'll do our best to help out.</p>
+
       </div>
     </div>
   </div>
