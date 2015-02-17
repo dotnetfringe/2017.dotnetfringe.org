@@ -98,7 +98,12 @@
       margin: 30px;
     }
     .splash img {
-      width: 90%;
+      width: 80%;
+    }
+    @media (max-width: 800px) {
+      .splash img {
+        width: 95%;
+      }
     }
     .convo-right img, .convo-left img {
       width: 100%;
@@ -254,14 +259,13 @@
       top: 0;
       z-index: 100;
     }
-*[name]:before {
-  display: block;
-  content: " ";
-  margin-top: -75px;
-  height: 75px;
-  visibility: hidden;
-}
-
+    *[name]:before {
+      display: block;
+      content: " ";
+      margin-top: -75px;
+      height: 75px;
+      visibility: hidden;
+    }
 </style>
 </head>
 <body>
@@ -271,7 +275,7 @@
 
   <div class="splash">
     <center>
-      <img src="img/vector/dotnetfringe-splash.svg"/>
+      <a href="/"><img src="img/vector/dotnetfringe-splash.png"/></a>
     </center>
   </div>
   <div class="container">
