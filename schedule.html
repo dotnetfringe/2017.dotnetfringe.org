@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>.NET/FRINGE/ - An atypical conference for open-source .NET developers.</title>
+  <meta name="description" content=".NET/FRINGE/ - An atypical conference for open-source .NET developers. April 12-14 2015, Portland, OR">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <style>
+    body {
+      font-family: "Roboto";
+      /*color: rgb(119,119,119);*/
+      font-weight: 400;
+      font-size: 1.080rem;
+      font-style: normal;
+    }
+    #mc_embed_signup .form-inline {
+      overflow: hidden;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    #mc_embed_signup .form-inline .input-container {
+      display: block;
+      overflow: hidden;
+      padding-right: 15px;
+    }
+    #mc_embed_signup .form-inline input {
+      border-color: #8899a6;
+      width: 100%;
+    }
+    #mc_embed_signup .form-inline button {
+      border-color: #8899a6;
+      background-color: #ccd6dd;
+      color: #292f33;
+      float: right;
+    }
+    #mc_embed_signup .form-inline button:hover {
+      border-color: #66757f;
+      background-color: #8899a6;
+      color: #292f33;
+    }
+    .form-control {
+      height: 48px;
+      padding: 2px 12px;
+      font-size: 22px;
+      line-height: 1.42857143;
+      color: #333;
+      background-color: #ffd5d5;
+      background-image: none;
+      border: 4px solid #b3b3b3;
+      border-radius: 0;
+    }
+    .btn {
+      font-weight: 700;
+      border: 4px solid transparent;
+      font-size: 19px;
+      border-radius: 0;
+    }
+    span.tell-me-more {
+      float:left;
+    }
+    .tell-me-more strong {
+      font-size: 48px;
+      line-height: 48px;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 25px;
+    }
+    @media (max-width: 800px) {
+      span.tell-me-more {
+        display:block;
+        float: none;
+        }
+      span.tell-me-more strong {
+        font-size: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 0;
+        text-align: center;
+      }
+      h2 span {
+        font-size: 48px;
+        line-height: 48px;
+      }
+    }
+    .splash {
+      margin: 30px;
+    }
+    .splash img {
+      width: 80%;
+    }
+    @media (max-width: 800px) {
+      .splash img {
+        width: 95%;
+      }
+    }
+    .convo-right img, .convo-left img {
+      width: 100%;
+    }
+    .convo-left, .convo-right {
+      margin-top: 20px;
+    }
+    .convo-left .convo-box {
+      float: left;
+    }
+    .convo-right .convo-box {
+      float: right;
+    }
+    .convo-box {
+      border: solid 5px #b3b3b3;
+      padding: 10px;
+      display: inline-block;
+      background-color: #eee;
+    }
+
+    .convo-left .convo-box:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right:15px solid #b3b3b3;
+      position: absolute;
+      left: 0px
+    }
+
+    .convo-right .convo-box:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left:15px solid #b3b3b3;
+      position: absolute;
+      right: 0px
+    }
+    .convo-box span {
+      font-family: monospace;
+      font-size: 16px;
+    }
+
+    h2 {
+      text-align: center;
+      padding-top: 50px;
+      margin-bottom: 50px;
+      vertical-align: middle;
+    }
+
+    h2 span {
+      font-size: 40px;
+      line-height: 40px;
+      font-weight: 700;
+      border-top: solid 5px #ffd5d5;
+      border-bottom: solid 5px #ffd5d5;
+    }
+    h2 span a, h2 span a:focus {
+      color: inherit;
+    }
+    h2 span a, h2 span a:hover, h2 span a:active, h2 span a:visited, h2 span a:focus {
+      text-decoration: none;
+      outline: none;
+    }
+
+    h3.front-button a {
+      font-size: 32px;
+      font-weight: bold;
+      color: #666;
+      border: solid 5px #8899a6;
+      padding: 5px 7px;
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    h3.front-button a:hover {
+      color: #333;
+      border-color: #333;
+      text-decoration: none;
+    }
+    .front-button-row {
+      margin-bottom: 50px
+    }
+    .fringe-nav {
+      text-align: center;
+      margin-bottom: 50px;
+      vertical-align: middle;
+      padding: 10px 0;
+      /*border-top: solid 5px #ffd5d5;*/
+      /*border-bottom: solid 5px #ffd5d5;*/
+      background-color: #ffd5d5;
+      border-top: solid 5px #b3b3b3;
+      border-bottom: solid 5px #b3b3b3;
+    }
+    .fringe-nav {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 700;
+    }
+    .fringe-nav span {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    .fringe-nav a {
+      text-decoration: none;
+    }
+    .fringe-nav a:hover {
+      text-decoration: none;
+    }
+    .fringe-nav a:visited {
+      text-decoration: none;
+    }
+    .fringe-nav a:focus {
+      text-decoration: none;
+    }
+    iframe, object, embed{max-width: 100%;}
+
+    .speaker {
+      margin-bottom: 50px;
+    }
+
+    .speaker-image {
+      position: relative;
+      max-height: 214px;
+    }
+
+    .speaker-image img {
+      width: 100%;
+      max-height: 214px;
+      max-width: 214px;
+    }
+
+    .sponsor-image {
+      position: relative;
+      /*min-height: 214px;*/
+    }
+
+    .sponsor-image img {
+      width: 100%;
+    }
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background: #eee;
+      margin-top: 30px;
+      padding-top: 15px;
+    }
+
+    iframe {
+      pointer-events: none;
+    }
+
+    #nav.affix {
+      position: fixed;
+      top: 0;
+      z-index: 100;
+    }
+    *[name]:before {
+      display: block;
+      content: " ";
+      margin-top: -75px;
+      height: 75px;
+      visibility: hidden;
+    }
+</style>
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="splash">
+    <center>
+      <a href="/"><img src="img/vector/dotnetfringe-splash.png"/></a>
+    </center>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="mc_embed_signup">
+          <span class="tell-me-more">
+            <strong>TELL ME MORE</strong>
+          </span>
+          <form class="form-inline" action="http://dotnetfringe.us8.list-manage.com/subscribe/post?u=ba68ae915a1a06c6cb2302e3c&amp;id=2ee142e90b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">GO</button>
+
+            <span class="input-container">
+              <input class="form-control" type="EMAIL" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row front-button-row">
+      <div class="col-md-3 col-sm-2 xs-hidden">
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <h3 class="front-button"><a href="schedule.html#schedule">VIEW SCHEDULE</a></h3>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <h3 class="front-button"><a href="tickets.html#ticket-types">BUY A TICKET</a></h3>
+      </div>
+      <div class="col-md-3 col-sm-2 xs-hidden">
+      </div>
+    </div>
+    <div id="nav-wrapper">
+      <div id="nav" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="fringe-nav">
+              <span>
+                <a href="index.html#what-is-net-fringe">WHAT IS .NET FRINGE?</a>
+              </span>
+              <span>
+                <a href="schedule.html#schedule">SCHEDULE</a>
+              </span>
+              <span>
+                <a href="index.html#speakers">SPEAKERS</a>
+              </span>
+              <span>
+                <a href="tickets.html#ticket-types">TICKETS</a>
+              </span>
+              <span>
+                <a href="index.html#info">INFO</a>
+              </span>
+              <span>
+                <a href="index.html#sponsors">SPONSORS</a>
+              </span>
+              <span>
+                <a href="index.html#team">TEAM</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="schedule">
+      <style>
+        .talk img {
+          width: 50%;
+        }
+        .speaker-image {
+            background-repeat: no-repeat;
+            background-position: 50%;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        .round {
+          border-radius: 50%;
+          overflow: hidden;
+          width: 200px;
+          height: auto;
+          margin-top: 20px;
+          margin-bottom: 30px;
+        }
+
+        .round img {
+          display: block;
+          min-width: 100%;
+          min-height: 100%;
+        }
+
+        .title {
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+        .time-header {
+          background: Bisque;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          margin-top: 1.25em;
+          padding: 1em 0;
+        }
+        .room-header {
+          margin: 0;
+          padding: 0;
+          margin-bottom: 1.25em;
+          padding: 1em 0;
+          text-align: center;
+        }
+        .mainstage .room-header {
+          background: LightSkyBlue;
+        }
+        .lolas h2 {
+          background: Gold;
+        }
+      </style>
+      <template id="day-header">
+        <div class="row">
+          <div class="col-md-12">
+            <h2><span><a name="" href=""></a></span></h2>
+          </div>
+        </div>
+      </template>
+      <template id="single-track">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 mainstage">
+            <h2 class="time-header"></h2>
+            <h2 class="room-header">Main Stage</h2>
+          </div>
+        </div>
+        <div class="row talk">
+          <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-content">
+            <div>
+              <div class="round"><img src="img/speaker/unknown.svg"></div>
+              <a class="calendar-link" target="_blank" href="">+ Add to Google Calendar</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-content">
+            <h3 class="speaker-name">Speaker Name</h3>
+            <hr />
+            <h3 class="title">Talk Title</h3>
+            <p class="abstract">Abstract</p>
+          </div>
+        </div>
+      </template>
+      <template id="two-track">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h2 class="time-header">00:00a-00:00a</h2>
+          </div>
+        </div>
+        <div class="row talk">
+          <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-content mainstage">
+            <h2 class="room-header">Main Stage</h2>
+            <div class="round"><img src="img/speaker/unknown.svg"></div>
+            <a class="calendar-link" target="_blank" href="">+ Add to Google Calendar</a>
+            <h3 class="speaker-name">Speaker Name</h3>
+            <hr />
+            <h3 class="title">Talk Title</h3>
+            <p class="abstract">Abstract</p>
+          </div>
+          <div class="col-md-5 col-sm-5 col-content lolas">
+            <h2 class="room-header">Lola's Room</h2>
+            <div class="round"><img src="img/speaker/unknown.svg"></div>
+            <a class="calendar-link" target="_blank" href="">+ Add to Google Calendar</a>
+            <h3 class="speaker-name">Speaker Name</h3>
+            <hr />
+            <h3 class="title">Talk Title</h3>
+            <p class="abstract">Abstract</p>
+          </div>
+        </div>
+      </template>
+      <div id="schedule">
+      </div>
+    </div>
+  </div>
+  </footer>
+  <!-- <script src="js/main.js"></script> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type='text/javascript'>
+    $(window).load(function(){
+      $(function() {
+          $('#nav-wrapper').height($("#nav").height());
+          $('#nav').affix({
+              offset: { top: $('#nav').offset().top }
+          });
+      });
+    });
+  </script>
+  <script>
+    function googleCalendarLink(speaker, title, startdate, enddate, abstract, location) {
+      // 20150413T090000
+      var calendarLink = "https://www.google.com/calendar/render?action=TEMPLATE&text=#SPEAKERNAME - #TALKTITLE&dates=#DATESTART/#DATEEND&details=#ABSTRACT&location=#LOCATION&pli=1&uid=&sf=true&output=xml#f"
+      calendarLink = calendarLink.replace("#SPEAKERNAME", encodeURIComponent(speaker));
+      calendarLink = calendarLink.replace("#TALKTITLE", encodeURIComponent(title));
+      calendarLink = calendarLink.replace("#DATESTART", encodeURIComponent(startdate));
+      calendarLink = calendarLink.replace("#DATEEND", encodeURIComponent(enddate));
+      calendarLink = calendarLink.replace("#ABSTRACT", encodeURIComponent(abstract));
+      calendarLink = calendarLink.replace("#LOCATION", encodeURIComponent(location));
+      return calendarLink;
+    }
+
+    $(window).load(function(){
+      $(function() {
+
+        function TimeSlot(hour, min, duration) {
+          this.hour = hour;
+          this.min = min;
+          this.duration = duration;
+
+          this.toCalendarFormat = function(day) {
+            var date_root = '201504'  + (12 + day).toString() + 'T';
+            var start_hour = "00".substring(this.hour.toString().length) + this.hour.toString()
+            var start_min = "00".substring(this.min.toString().length) + this.min.toString()
+
+            var start_time = date_root + start_hour + start_min + "00"
+
+            var end_hour = this.hour;
+            var end_min = this.min + this.duration;
+
+            if(end_min > 60) {
+              end_hour = end_hour + 1;
+              end_min = (end_min) - 60;
+            }
+            end_hour = "00".substring(end_hour.toString().length) + end_hour.toString()
+            end_min = "00".substring(end_min.toString().length) + end_min.toString()
+            var end_time = date_root + end_hour + end_min + "00"
+            return [start_time, end_time];
+          };
+
+          this.toDisplayFormat = function() {
+            var start_hour = "00".substring(this.hour.toString().length) + this.hour.toString()
+            var start_min = "00".substring(this.min.toString().length) + this.min.toString()
+            var start_time = start_hour + ":" + start_min
+            var ampm = "a";
+            if (this.hour > 11) { ampm = "p" };
+            start_time = start_time + ampm + "-";
+
+            var end_hour = this.hour;
+            var end_min = this.min + this.duration;
+
+            if(end_min > 60) {
+              end_hour = end_hour + 1;
+              end_min = (end_min) - 60;
+            }
+
+            var ampm = "a";
+            if (end_hour > 11) { ampm= "p"; }
+
+            end_hour = "00".substring(end_hour.toString().length) + end_hour.toString()
+            end_min = "00".substring(end_min.toString().length) + end_min.toString()
+            var end_time = end_hour + ":"  + end_min + ampm
+
+            return start_time + end_time;
+          };
+          return this;
+        };
+
+        TimeSlot.fromString = function(s) {
+          var parts = s.split(':');
+          return TimeSlot(parts[0], parts[1], parts[2]);
+        }
+
+        var schedule = {
+          day_0: {
+            slug: "day0",
+            text: "DAY 0 : April 12th"
+          },
+          day_1: {
+            slug: "day1",
+            text: "DAY 1 : April 13th",
+            slots: {
+              // This notation is... start_hour_24:start_min:duration_mins
+              "09:00:30": {
+                "mainstage": {
+                  speaker: {
+                    name: "Scott Hanselman",
+                    image: "shanselman.png",
+                    link: "http://twitter.com/shanselman"
+                  },
+                  title: "This is a test of Scott's Talk Title",
+                  abstract: "This is the abstract for Scott's talk. It might be rather long.",
+                }
+              },
+              "09:00:30": {
+                "mainstage": {
+                  speaker: {
+                    name: "Scott Hanselman MAIN",
+                    image: "shanselman.png",
+                    link: "http://twitter.com/shanselman"
+                  },
+                  title: "This is MAIN a test of Scott's Talk Title",
+                  abstract: "This is the MAIN abstract for Scott's talk. It might be rather long.",
+                },
+                "lolas": {
+                  speaker: {
+                    name: "Scott Hanselman LOLAS",
+                    image: "shanselman.png",
+                    link: "http://twitter.com/shanselman"
+                  },
+                  title: "This is a LOLAS test of Scott's Talk Title",
+                  abstract: "This is LOLAS the abstract for Scott's talk. It might be rather long.",
+                }
+              }
+            }
+          },
+          day_2: {
+            slug: "day2",
+            text: "DAY 2 : April 14th",
+          }
+        };
+
+        var schedule_element = document.querySelector('#schedule');
+        var day_header_template = document.querySelector('#day-header');
+        var single_track_template = document.querySelector('#single-track');
+        var two_track_template = document.querySelector('#two-track');
+
+        var sorted_days = Object.keys(schedule).sort();
+
+        console.log(schedule);
+        for(var day in sorted_days) {
+          day = sorted_days[day]
+          console.log(day);
+          day = schedule[day];
+          day_header_template.content.querySelector('a').href = '#' + day.slug;
+          day_header_template.content.querySelector('a').innerText = day.text;
+
+          var clone = document.importNode(day_header_template.content, true);
+
+          schedule_element.appendChild(clone);
+
+          if (day.hasOwnProperty('slots')){
+            var sorted_slots = Object.keys(day.slots).sort();
+            for(var slot_key in sorted_slots) {
+              slot_key = sorted_slots[slot_key]
+              slot = day.slots[slot_key];
+              if(Object.keys(slot).length == 1) {
+                var track = slot['mainstage'];
+                var time_slot = TimeSlot.fromString(slot_key);
+                single_track_template.content.querySelector('.time-header').innerText = time_slot.toDisplayFormat();
+                single_track_template.content.querySelector('.speaker-name').innerText = track.speaker.name;
+                single_track_template.content.querySelector('.title').innerText = track.title;
+                single_track_template.content.querySelector('.abstract').innerText = track.abstract;
+                single_track_template.content.querySelector('img').src = '/img/speaker/' + track.speaker.image;
+
+                var calendar_dates = time_slot.toCalendarFormat(parseInt(day[3]));
+
+                var calendar_link = googleCalendarLink(track.speaker.name, track.title, calendar_dates[0], calendar_dates[1], track.abstract, location);
+
+                single_track_template.content.querySelector('.calendar-link').href = calendar_link;
+
+                clone = document.importNode(single_track_template.content, true);
+                schedule_element.appendChild(clone);
+              }
+              else {
+                var time_slot = TimeSlot.fromString(slot_key);
+
+                two_track_template.content.querySelector('.time-header').innerText = time_slot.toDisplayFormat();
+                for(var track_key in slot){
+                  var track = slot[track_key];
+                  two_track_template.content.querySelector('.' + track_key + ' .speaker-name').innerText = track.speaker.name;
+                  two_track_template.content.querySelector('.' + track_key + ' .title').innerText = track.title;
+                  two_track_template.content.querySelector('.' + track_key + ' .abstract').innerText = track.abstract;
+                  two_track_template.content.querySelector('.' + track_key + ' img').src = '/img/speaker/' + track.speaker.image;
+
+                  var location = "";
+                  if(track_key == "mainstage"){
+                    location = "Main Stage";
+                  }
+                  else if(track_key == "lolas"){
+                    location = "Lola's Room";
+                  }
+
+                  var calendar_dates = time_slot.toCalendarFormat(parseInt(day[3]));
+
+                  var calendar_link = googleCalendarLink(track.speaker.name, track.title, calendar_dates[0], calendar_dates[1], track.abstract, location);
+
+                  two_track_template.content.querySelector('.' + track_key + ' .calendar-link').href = calendar_link;
+
+                }
+                clone = document.importNode(two_track_template.content, true);
+                schedule_element.appendChild(clone);
+              }
+            }
+          }
+        }
+      });
+    });
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-51709103-1', 'dotnetfringe.org');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
