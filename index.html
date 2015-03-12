@@ -237,6 +237,29 @@
       max-width: 214px;
     }
 
+    .keynote .speaker-image {
+      max-height: initial;
+      max-width: initial;
+    }
+
+    .keynote h2 {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      white-space: nowrap;
+    }
+
+    .keynote h3 {
+      text-align: center;
+    }
+    .keynote h3 small {
+      font-size: 70%;
+      color: #777;
+    }
+
+    .keynote .speaker-image img {
+      max-width: 100%;
+      max-height: initial;
+    }
     .sponsor-image {
       position: relative;
       /*min-height: 214px;*/
@@ -361,14 +384,23 @@
       <h2><span><a name="speakers" href="#speakers">SPEAKERS</a></span></h2>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-content">
-      <h3>Submit a talk</h3>
-      <p>Want to speak at .NET Fringe? Check out <a href="cfp.html#call-for-proposals">our CFP</a> for details on how to submit a talk!.
-    </div>
-  </div>
+
   <div class="row">
     <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="speaker keynote">
+            <div class="speaker-image">
+              <a href="https://github.com/jbogard"><img src="img/speaker/jbogard.png" alt="Jimmy Bogard"></a>
+            </div>
+            <h2><a href="https://github.com/jbogard">Jimmy Bogard (@jbogard)</a><br><small>KEYNOTE SPEAKER</small></h2>
+            <h3><small>How to Succeed in OSS Without Really Trying</small></h3>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
@@ -407,6 +439,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
@@ -445,6 +478,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
@@ -464,18 +498,65 @@
             <h4><small>Embracing Clouds: F#, MBrace &amp; Azure</small></h4>
           </div>
         </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/tjanczuk"><img src="img/speaker/tjanczuk.jpg" alt="@tjanczuk"></a>
+            </div>
+            <h3><a href="https://github.com/tjanczuk">@tjanczuk</a></h3>
+            <h4><small>Node.js and .NET with Edge.js</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/jbevain"><img src="img/speaker/jbevain.png" alt="@jbevain"></a>
+            </div>
+            <h3><a href="https://github.com/jbevain">@jbevain</a></h3>
+            <h4><small>The most important file format</small></h4>
+          </div>
+        </div>
       </div>
+
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
             <div class="speaker-image">
-              <a href="cfp.html#call-for-proposals"><img src="img/speaker/unknown.svg" alt="Submit a talk!"></a>
+              <a href="https://twitter.com/LadyNaggaga"><img src="img/speaker/ladynaggaga.jpg" alt="@LadyNaggaga"></a>
             </div>
-            <h3><a href="cfp.html#call-for-proposals">You?</a></h3>
-            <h4><small>Submit a talk!</small></h4>
+            <h3><a href="https://twitter.com/LadyNaggaga">@LadyNaggaga</a></h3>
+            <h4><small>Legacy... What?</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/gmelnik"><img src="img/speaker/gmelnik.jpg" alt="@gmelnik"></a>
+            </div>
+            <h3><a href="https://github.com/gmelnik">@gmelnik</a></h3>
+            <h4><small>Development in the Open: A CQRS Journey</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/shiftkey"><img src="img/speaker/shiftkey.png" alt="@shiftkey"></a>
+            </div>
+            <h3><a href="https://github.com/shiftkey">@shiftkey</a></h3>
+            <h4><small>The Joys of Being A Maintainer</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/jamesmontemagno"><img src="img/speaker/jamesmontemagno.jpg" alt="@jamesmontemagno"></a>
+            </div>
+            <h3><a href="https://github.com/jamesmontemagno">@jamesmontemagno</a></h3>
+            <h4><small>C# Powered Robots Controlled by C# Mobile Apps</small></h4>
           </div>
         </div>
       </div>
+
     </div>
   </div>
   <div class="row">
