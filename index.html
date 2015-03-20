@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
 
   <script src="js/modernizr-2.6.2.min.js"></script>
   <style>
@@ -223,6 +225,7 @@
     iframe, object, embed{max-width: 100%;}
 
     .speaker {
+      text-align: center;
       margin-bottom: 50px;
     }
 
@@ -296,6 +299,41 @@
       height: 75px;
       visibility: hidden;
     }
+    .sub-nav .social a {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      display: -moz-inline-stack;
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      zoom: 1;
+      *display: inline;
+      margin: 0 8px 15px 0;
+      opacity: 0.5;
+      width: 28px;
+      height: 28px;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      color: #000;
+    }
+    .sub-nav .social a:hover { opacity: 1 }
+    .sub-nav .social a.twitter {
+      color: #fff; font-size: 0.8em;
+      background-color: #55cff8;
+      border: 1px solid #55CFF8;
+    }
+    .sub-nav .social a.twitter:hover { border: 1px solid #24c1f6 }
+    .sub-nav .social a.github {
+      font-size: 1em;
+      background-color: #afb6ca;
+      border: 1px solid #afb6ca;
+    }
+    .sub-nav .social a.github:hover { border: 1px solid #909ab6 }
 </style>
 </head>
 <body>
@@ -410,8 +448,16 @@
             <div class="speaker-image">
               <a href="https://github.com/haacked"><img src="img/speaker/haacked.jpg" alt="@haacked"></a>
             </div>
-            <h3><a href="https://github.com/haacked">@haacked</a></h3>
+            <h3>Phil Haack</h3>
             <h4><small>Grassroots Open Source</small></h4>
+
+            <div class="sub-nav">
+              <div class="social">        
+                <a class="twitter" href="http://twitter.com/haacked" title="Twitter"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="github" href="https://github.com/haacked" title="GitHub"><i class="fa fa-github fa-lg"></i></a>
+              </div>
+            </div>
+
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
@@ -419,18 +465,34 @@
             <div class="speaker-image">
               <a href="https://github.com/ammeep"><img src="img/speaker/amypalamountain.jpg" alt="@ammeep"></a>
             </div>
-            <h3><a href="https://github.com/ammeep">@ammeep</a></h3>
+            <h3>Amy Palamountain</h3>
             <h4><small>Space, Time and State</small></h4>
+
+            <div class="sub-nav">
+              <div class="social">        
+                <a class="twitter" href="http://twitter.com/ammeep" title="Twitter"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="github" href="https://github.com/ammeep" title="GitHub"><i class="fa fa-github fa-lg"></i></a>
+              </div>
+            </div>
+
           </div>
         </div>
         <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
             <div class="speaker-image">
-              <a href="https://github.com/synhershko"><img src="img/speaker/synhershko.jpg" alt="@synhershko"></a>
+              <a href="https://twitter.com/synhershko"><img src="img/speaker/synhershko.jpg" alt="@synhershko"></a>
             </div>
-            <h3><a href="https://github.com/synhershko">@synhershko</a></h3>
+            <h3>Itamar Syn-Hershko</h3>
             <h4><small>Lucene.Net</small></h4>
+
+            <div class="sub-nav">
+              <div class="social">        
+                <a class="twitter" href="http://twitter.com/synhershko" title="Twitter"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="github" href="https://github.com/synhershko" title="GitHub"><i class="fa fa-github fa-lg"></i></a>
+              </div>
+            </div>
+
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
@@ -438,8 +500,16 @@
             <div class="speaker-image">
               <a href="https://twitter.com/uxnoah"><img src="img/speaker/noahaddy.jpg" alt="@noahaddy"></a>
             </div>
-            <h3><a href="https://twitter.com/uxnoah">@UXNoah</a></h3>
+            <h3>Noah Addy</h3>
             <h4><small>Spice Up Your Apps</small></h4>
+
+            <div class="sub-nav">
+              <div class="social">        
+                <a class="twitter" href="http://twitter.com/UXNoah" title="Twitter"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="github" href="https://github.com/UXNoah" title="GitHub"><i class="fa fa-github fa-lg"></i></a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
