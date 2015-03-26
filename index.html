@@ -12,269 +12,10 @@
 
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+  <link rel="stylesheet" href="css/main.css">
 
   <script src="js/modernizr-2.6.2.min.js"></script>
-  <style>
-    body {
-      font-family: "Roboto";
-      /*color: rgb(119,119,119);*/
-      font-weight: 400;
-      font-size: 1.080rem;
-      font-style: normal;
-    }
-    #mc_embed_signup .form-inline {
-      overflow: hidden;
-      margin-top: 20px;
-      margin-bottom: 40px;
-    }
-    #mc_embed_signup .form-inline .input-container {
-      display: block;
-      overflow: hidden;
-      padding-right: 15px;
-    }
-    #mc_embed_signup .form-inline input {
-      border-color: #8899a6;
-      width: 100%;
-    }
-    #mc_embed_signup .form-inline button {
-      border-color: #8899a6;
-      background-color: #ccd6dd;
-      color: #292f33;
-      float: right;
-    }
-    #mc_embed_signup .form-inline button:hover {
-      border-color: #66757f;
-      background-color: #8899a6;
-      color: #292f33;
-    }
-    .form-control {
-      height: 48px;
-      padding: 2px 12px;
-      font-size: 22px;
-      line-height: 1.42857143;
-      color: #333;
-      background-color: #ffd5d5;
-      background-image: none;
-      border: 4px solid #b3b3b3;
-      border-radius: 0;
-    }
-    .btn {
-      font-weight: 700;
-      border: 4px solid transparent;
-      font-size: 19px;
-      border-radius: 0;
-    }
-    span.tell-me-more {
-      float:left;
-    }
-    .tell-me-more strong {
-      font-size: 48px;
-      line-height: 48px;
-      vertical-align: middle;
-      display: inline-block;
-      margin-right: 25px;
-    }
-    @media (max-width: 800px) {
-      span.tell-me-more {
-        display:block;
-        float: none;
-        }
-      span.tell-me-more strong {
-        font-size: 40px;
-        line-height: 40px;
-        vertical-align: middle;
-        display: inline-block;
-        margin-right: 0;
-        text-align: center;
-      }
-      h2 span {
-        font-size: 48px;
-        line-height: 48px;
-      }
-    }
-    .splash {
-      margin: 30px;
-    }
-    .splash img {
-      width: 80%;
-    }
-    @media (max-width: 800px) {
-      .splash img {
-        width: 95%;
-      }
-    }
-    .convo-right img, .convo-left img {
-      width: 100%;
-    }
-    .convo-left, .convo-right {
-      margin-top: 20px;
-    }
-    .convo-left .convo-box {
-      float: left;
-    }
-    .convo-right .convo-box {
-      float: right;
-    }
-    .convo-box {
-      border: solid 5px #b3b3b3;
-      padding: 10px;
-      display: inline-block;
-      background-color: #eee;
-    }
-
-    .convo-left .convo-box:before {
-      content: '';
-      width: 0;
-      height: 0;
-      border-top: 5px solid transparent;
-      border-bottom: 10px solid transparent;
-      border-right:15px solid #b3b3b3;
-      position: absolute;
-      left: 0px
-    }
-
-    .convo-right .convo-box:before {
-      content: '';
-      width: 0;
-      height: 0;
-      border-top: 5px solid transparent;
-      border-bottom: 10px solid transparent;
-      border-left:15px solid #b3b3b3;
-      position: absolute;
-      right: 0px
-    }
-    .convo-box span {
-      font-family: monospace;
-      font-size: 16px;
-    }
-
-    h2 {
-      text-align: center;
-      padding-top: 50px;
-      margin-bottom: 50px;
-      vertical-align: middle;
-    }
-
-    h2 span {
-      font-size: 40px;
-      line-height: 40px;
-      font-weight: 700;
-      border-top: solid 5px #ffd5d5;
-      border-bottom: solid 5px #ffd5d5;
-    }
-    h2 span a, h2 span a:focus {
-      color: inherit;
-    }
-    h2 span a, h2 span a:hover, h2 span a:active, h2 span a:visited, h2 span a:focus {
-      text-decoration: none;
-      outline: none;
-    }
-
-    h3.front-button a {
-      font-size: 32px;
-      font-weight: bold;
-      color: #666;
-      border: solid 5px #8899a6;
-      padding: 5px 7px;
-      display: inline-block;
-      white-space: nowrap;
-    }
-    h3.front-button a:hover {
-      color: #333;
-      border-color: #333;
-      text-decoration: none;
-    }
-    .front-button-row {
-      margin-bottom: 50px
-    }
-    .fringe-nav {
-      text-align: center;
-      margin-bottom: 50px;
-      vertical-align: middle;
-      padding: 10px 0;
-      /*border-top: solid 5px #ffd5d5;*/
-      /*border-bottom: solid 5px #ffd5d5;*/
-      background-color: #ffd5d5;
-      border-top: solid 5px #b3b3b3;
-      border-bottom: solid 5px #b3b3b3;
-    }
-    .fringe-nav {
-      font-size: 20px;
-      line-height: 20px;
-      font-weight: 700;
-    }
-    .fringe-nav span {
-      margin-right: 5px;
-      margin-left: 5px;
-    }
-    .fringe-nav a {
-      text-decoration: none;
-    }
-    .fringe-nav a:hover {
-      text-decoration: none;
-    }
-    .fringe-nav a:visited {
-      text-decoration: none;
-    }
-    .fringe-nav a:focus {
-      text-decoration: none;
-    }
-    iframe, object, embed{max-width: 100%;}
-
-    .speaker {
-      margin-bottom: 50px;
-    }
-
-    .speaker-image {
-      position: relative;
-      max-height: 214px;
-    }
-
-    .speaker-image img {
-      width: 100%;
-      max-height: 214px;
-      max-width: 214px;
-    }
-
-    .sponsor-image {
-      position: relative;
-      /*min-height: 214px;*/
-    }
-
-    .sponsor-image img {
-      width: 100%;
-    }
-
-    p {
-      margin-top: 10px;
-      margin-bottom: 30px;
-    }
-
-    footer {
-      background: #eee;
-      margin-top: 30px;
-      padding-top: 15px;
-    }
-
-    iframe {
-      pointer-events: none;
-    }
-
-    #nav.affix {
-      position: fixed;
-      top: 0;
-      z-index: 100;
-    }
-    *[name]:before {
-      display: block;
-      content: " ";
-      margin-top: -75px;
-      height: 75px;
-      visibility: hidden;
-    }
-</style>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -305,15 +46,15 @@
       </div>
     </div>
     <div class="row front-button-row">
-      <div class="col-md-3 col-sm-2 xs-hidden">
+      <div class="col-md-2 col-sm-1 xs-hidden">
       </div>
-      <div class="col-md-3 col-sm-4 col-xs-6">
-        <h3 class="front-button"><a href="schedule.html#schedule">VIEW SCHEDULE</a></h3>
+      <div class="col-md-4 col-sm-5 col-xs-12">
+        <h3 class="front-button"><center><a href="schedule.html#schedule">VIEW SCHEDULE</a></center></h3>
       </div>
-      <div class="col-md-3 col-sm-4 col-xs-6">
-        <h3 class="front-button"><a href="tickets.html#ticket-types">BUY A TICKET</a></h3>
+      <div class="col-md-4 col-sm-5 col-xs-12">
+        <h3 class="front-button"><center><a href="tickets.html#ticket-types">BUY A TICKET</a></center></h3>
       </div>
-      <div class="col-md-3 col-sm-2 xs-hidden">
+      <div class="col-md-2 col-sm-1 xs-hidden">
       </div>
     </div>
     <div id="nav-wrapper">
@@ -342,6 +83,9 @@
               <span>
                 <a href="index.html#team">TEAM</a>
               </span>
+              <span>
+                <a href="geektrain.html#geektrain">GEEK TRAIN</a>
+              </span>
             </div>
           </div>
         </div>
@@ -362,8 +106,23 @@
       <h2><span><a name="speakers" href="#speakers">SPEAKERS</a></span></h2>
     </div>
   </div>
+
   <div class="row">
     <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="speaker keynote">
+            <div class="speaker-image">
+              <a href="https://github.com/jbogard"><img src="img/speaker/jbogard.png" alt="Jimmy Bogard"></a>
+            </div>
+            <h2><a href="https://github.com/jbogard">Jimmy Bogard (@jbogard)</a><br><small>KEYNOTE SPEAKER</small></h2>
+            <h3><small>How to Succeed in OSS Without Really Trying</small></h3>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
@@ -383,6 +142,7 @@
             <h4><small>Space, Time and State</small></h4>
           </div>
         </div>
+        <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
             <div class="speaker-image">
@@ -402,6 +162,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
@@ -421,6 +182,7 @@
             <h4><small>ScriptCS</small></h4>
           </div>
         </div>
+        <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
             <div class="speaker-image">
@@ -440,6 +202,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <div class="speaker">
@@ -458,6 +221,258 @@
             <h3><a href="http://ua.linkedin.com/pub/alena-dzenisenka/5a/903/447">Alena Dzenisenka</a></h3>
             <h4><small>Embracing Clouds: F#, MBrace &amp; Azure</small></h4>
           </div>
+        </div>
+        <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/tjanczuk"><img src="img/speaker/tjanczuk.jpg" alt="@tjanczuk"></a>
+            </div>
+            <h3><a href="https://github.com/tjanczuk">@tjanczuk</a></h3>
+            <h4><small>Node.js and .NET with Edge.js</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/jbevain"><img src="img/speaker/jbevain.png" alt="@jbevain"></a>
+            </div>
+            <h3><a href="https://github.com/jbevain">@jbevain</a></h3>
+            <h4><small>The most important file format</small></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://twitter.com/LadyNaggaga"><img src="img/speaker/ladynaggaga.jpg" alt="@LadyNaggaga"></a>
+            </div>
+            <h3><a href="https://twitter.com/LadyNaggaga">@LadyNaggaga</a></h3>
+            <h4><small>Legacy... What?</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/gmelnik"><img src="img/speaker/gmelnik.jpg" alt="@gmelnik"></a>
+            </div>
+            <h3><a href="https://github.com/gmelnik">@gmelnik</a></h3>
+            <h4><small>Development in the Open: A CQRS Journey</small></h4>
+          </div>
+        </div>
+        <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/shiftkey"><img src="img/speaker/shiftkey.png" alt="@shiftkey"></a>
+            </div>
+            <h3><a href="https://github.com/shiftkey">@shiftkey</a></h3>
+            <h4><small>The Joys of Being A Maintainer</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/jamesmontemagno"><img src="img/speaker/jamesmontemagno.jpg" alt="@jamesmontemagno"></a>
+            </div>
+            <h3><a href="https://github.com/jamesmontemagno">@jamesmontemagno</a></h3>
+            <h4><small>C# Powered Robots Controlled by C# Mobile Apps</small></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/lukebakken"><img src="img/speaker/lukebakken.jpg" alt="@lukebakken"></a>
+            </div>
+            <h3><a href="https://github.com/lukebakken">@lukebakken</a></h3>
+            <h4><small>OSS Stewardship</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://www.linkedin.com/in/joshvaneikeren"><img src="img/speaker/jvaneikeren.jpg" alt="@jvaneikeren"></a>
+            </div>
+            <h3><a href="https://www.linkedin.com/in/joshvaneikeren">Josh van Eikeren</a></h3>
+            <h4><small>Chemical structure searching using Lucene.NET and Indigo</small></h4>
+          </div>
+        </div>
+        <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="http://twitter.com/panesofglass"><img src="img/speaker/panesofglass.jpg" alt="@panesofglass"></a>
+            </div>
+            <h3><a href="https://twitter.com/panesofglass">@panesofglass</a></h3>
+            <h4><small>Relax and let the HTTP Machine do the Work</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="http://twitter.com/ruby_gem"><img src="img/speaker/ruby_gem.jpg" alt="@ruby_gem"></a>
+            </div>
+            <h3><a href="https://twitter.com/ruby_gem">@ruby_gem</a></h3>
+            <h4><small>DevOps: What's next?</small></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/eddiegarmon"><img src="img/speaker/eddiegarmon.jpg" alt="@eddiegarmon"></a>
+            </div>
+            <h3><a href="https://github.com/eddiegarmon">@eddiegarmon</a></h3>
+            <h4><small>Bringing Tasks to NETMF via a Batmobile</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://www.github.com/adamralph"><img src="img/speaker/adamralph.png" alt="@adamralph"></a>
+            </div>
+            <h3><a href="https://www.github.com/adamralph">@adamralph</a></h3>
+            <h4><small>Nancy, the super duper happy OSS .NET project</small></h4>
+          </div>
+        </div>
+        <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="http://twitter.com/darrel_miller"><img src="img/speaker/darrelmiller.jpg" alt="@darrel_miller"></a>
+            </div>
+            <h3><a href="https://twitter.com/darrel_miller">@darrel_miller</a></h3>
+            <h4><small>Tooling for the HTTP Uniform Interface</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="http://github.com/ferventcoder"><img src="img/speaker/ferventcoder.jpg" alt="@ferventcoder"></a>
+            </div>
+            <h3><a href="https://github.com/ferventcoder">@ferventcoder</a></h3>
+            <h4><small>DevOps: Chocolatey Goodness</small></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/avanderhoorn"><img src="img/speaker/avanderhoorn.jpg" alt="@avanderhoorn"></a>
+            </div>
+            <h3><a href="https://github.com/avanderhoorn">@avanderhoorn</a></h3>
+            <h4><small>Modern Web Diagnostics with a Glimpse into ASP.NET</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://www.github.com/arielbh"><img src="img/speaker/arielbh.png" alt="@arielbh"></a>
+            </div>
+            <h3><a href="https://www.github.com/arielbh">@arielbh</a></h3>
+            <h4><small>Prism the Next Generation</small></h4>
+          </div>
+        </div>
+        <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="http://github.com/brianlagunas"><img src="img/speaker/brianlagunas.jpg" alt="@brianlagunas"></a>
+            </div>
+            <h3><a href="https://github.com/brianlagunas">@brianlagunas</a></h3>
+            <h4><small>Prism the Next Generation</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="http://github.com/jrusbatch"><img src="img/speaker/jrusbatch.png" alt="@jrusbatch"></a>
+            </div>
+            <h3><a href="https://github.com/jrusbatch">@jrusbatch</a></h3>
+            <h4><small>Embellishing APIs with Code Analyzers</small></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/adamhill"><img src="img/speaker/adamhill.jpg" alt="@adamhill"></a>
+            </div>
+            <h3><a href="https://github.com/adamhill">@adamhill</a></h3>
+            <h4><small>LISP on the CLR, Living In A Game Engine. Mass Hysteria!</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://www.github.com/amirrajan"><img src="img/speaker/amirrajan.jpg" alt="@amirrajan"></a>
+            </div>
+            <h3><a href="https://www.github.com/amirrajan">@amirrajan</a></h3>
+            <h4><small>C# going dynamic, Ruby style!</small></h4>
+          </div>
+        </div>
+        <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="http://github.com/kenegozi"><img src="img/speaker/kenegozi.jpg" alt="@kenegozi"></a>
+            </div>
+            <h3><a href="https://github.com/kenegozi">@kenegozi</a></h3>
+            <h4><small>NotNet - what lies beyond the wall</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="http://twitter.com/dsplaisted"><img src="img/speaker/dsplaisted.jpg" alt="@dsplaisted"></a>
+            </div>
+            <h3><a href="https://twitter.com/dsplaisted">@dsplaisted</a></h3>
+            <h4><small>Serilog - The best logging library for .NET you've never heard of</small></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://github.com/mat-mcloughlin"><img src="img/speaker/mat-mcloughlin.jpg" alt="@mat-mcloughlin"></a>
+            </div>
+            <h3><a href="https://github.com/mat-mcloughlin">@mat-mcloughlin</a></h3>
+            <h4><small>OmniSharp: .NET development in YOUR editor of choice</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="https://www.github.com/sethjuarez"><img src="img/speaker/sethjuarez.jpg" alt="@sethjuarez"></a>
+            </div>
+            <h3><a href="https://github.com/sethjuarez">@sethjuarez</a></h3>
+            <h4><small>Simplifying Machine Learning with nuML</small></h4>
+          </div>
+        </div>
+        <div class="clearfix hidden-sm hidden-md hidden-lg visible-xs-block"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="speaker">
+            <div class="speaker-image">
+              <a href="http://twitter.com/robertfriberg"><img src="img/speaker/robertfriberg.jpg" alt="@robertfriberg"></a>
+            </div>
+            <h3><a href="https://twitter.com/robertfriberg">@robertfriberg</a></h3>
+            <h4><small>DDD dead simple</small></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
         </div>
       </div>
     </div>
@@ -504,6 +519,7 @@
       <img src="img/vector/dotnetfringe-convo-2.svg" />
     </div>
   </div>
+
   <div class="row">
     <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10">
       <h2><span><a name="info" href="#info">INFO</a></span></h2>
@@ -578,10 +594,11 @@
           #splunk {
             margin-bottom: 80px;
           }
-          #github, #microsoft {
+          #github, #microsoft,
+          #infragistics, #thoughtworks, #octopusdeploy {
             margin-bottom: 80px;
           }
-          #jetbrains, #codevalue {
+          #jetbrains, #everymove, #ozcode {
             /**/
           }
         </style>
@@ -608,6 +625,26 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="sponsor-image" id="infragistics">
+            <a href="http://www.infragistics.com"><img src="img/sponsor/infragistics-horizontal.png" alt="Infragistics"></a>
+            <center><h4><a href="http://www.infragistics.com">Great Apps Happen By Design</a></h4></center>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="sponsor-image" id="thoughtworks">
+            <a href="http://www.thoughtworks.com"><img src="img/sponsor/thoughtworks.png" alt="ThoughtWorks"></a>
+            <center><h4><a href="http://www.thoughtworks.com">Knowledge should be for all, not just for the few</a></h4></center>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="sponsor-image" id="octopusdeploy">
+            <a href="http://www.octopusdeploy.com"><img src="img/sponsor/octopusdeploy.png" alt="Octopus Deploy"></a>
+            <center><h4><a href="http://www.octopusdeploy.com">Automated deployment for .NET</a></h4></center>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <div class="sponsor-image" id="jetbrains">
             <a href="http://jetbrains.com"><img src="img/sponsor/jetbrains.png" alt="JetBrains"></a>
@@ -615,11 +652,15 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="sponsor-image" id="everymove">
+            <a href="http://everymove.org"><img src="img/sponsor/everymove.png" alt="EveryMove"></a>
+            <center><h4><a href="http://everymove.org">Motivation is contagious</a></h4></center>
+          </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="sponsor-image" id="codevalue">
-            <a href="http://codevalue.net"><img src="img/sponsor/codevalue.png" alt="CodeValue"></a>
-            <center><h4><a href="http://codevalue.net">Inspiring Code. Creating Value.</a></h4></center>
+          <div class="sponsor-image" id="ozcode">
+            <a href="http://oz-code.com"><img src="img/sponsor/ozcode.png" alt="OzCode"></a>
+            <center><h4><a href="http://oz-code.com">Your Road to Magical Debugging</a></h4></center>
           </div>
         </div>
       </div>
