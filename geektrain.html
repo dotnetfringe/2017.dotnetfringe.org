@@ -12,291 +12,10 @@
 
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+  <link rel="stylesheet" href="css/main.css">
 
   <script src="js/modernizr-2.6.2.min.js"></script>
-  <style>
-    body {
-      font-family: "Roboto";
-      /*color: rgb(119,119,119);*/
-      font-weight: 400;
-      font-size: 1.080rem;
-      font-style: normal;
-    }
-    #mc_embed_signup .form-inline {
-      overflow: hidden;
-      margin-top: 20px;
-      margin-bottom: 40px;
-    }
-    #mc_embed_signup .form-inline .input-container {
-      display: block;
-      overflow: hidden;
-      padding-right: 15px;
-    }
-    #mc_embed_signup .form-inline input {
-      border-color: #8899a6;
-      width: 100%;
-    }
-    #mc_embed_signup .form-inline button {
-      border-color: #8899a6;
-      background-color: #ccd6dd;
-      color: #292f33;
-      float: right;
-    }
-    #mc_embed_signup .form-inline button:hover {
-      border-color: #66757f;
-      background-color: #8899a6;
-      color: #292f33;
-    }
-    .form-control {
-      height: 48px;
-      padding: 2px 12px;
-      font-size: 22px;
-      line-height: 1.42857143;
-      color: #333;
-      background-color: #ffd5d5;
-      background-image: none;
-      border: 4px solid #b3b3b3;
-      border-radius: 0;
-    }
-    .btn {
-      font-weight: 700;
-      border: 4px solid transparent;
-      font-size: 19px;
-      border-radius: 0;
-    }
-    span.tell-me-more {
-      float:left;
-    }
-    .tell-me-more strong {
-      font-size: 48px;
-      line-height: 48px;
-      vertical-align: middle;
-      display: inline-block;
-      margin-right: 25px;
-    }
-    @media (max-width: 800px) {
-      span.tell-me-more {
-        display:block;
-        float: none;
-        }
-      span.tell-me-more strong {
-        font-size: 40px;
-        line-height: 40px;
-        vertical-align: middle;
-        display: inline-block;
-        margin-right: 0;
-        text-align: center;
-      }
-      h2 span {
-        font-size: 48px;
-        line-height: 48px;
-      }
-    }
-    .splash {
-      margin: 30px;
-    }
-    .splash img {
-      width: 80%;
-    }
-    @media (max-width: 800px) {
-      .splash img {
-        width: 95%;
-      }
-    }
-    .convo-right img, .convo-left img {
-      width: 100%;
-    }
-    .convo-left, .convo-right {
-      margin-top: 20px;
-    }
-    .convo-left .convo-box {
-      float: left;
-    }
-    .convo-right .convo-box {
-      float: right;
-    }
-    .convo-box {
-      border: solid 5px #b3b3b3;
-      padding: 10px;
-      display: inline-block;
-      background-color: #eee;
-    }
-
-    .convo-left .convo-box:before {
-      content: '';
-      width: 0;
-      height: 0;
-      border-top: 5px solid transparent;
-      border-bottom: 10px solid transparent;
-      border-right:15px solid #b3b3b3;
-      position: absolute;
-      left: 0px
-    }
-
-    .convo-right .convo-box:before {
-      content: '';
-      width: 0;
-      height: 0;
-      border-top: 5px solid transparent;
-      border-bottom: 10px solid transparent;
-      border-left:15px solid #b3b3b3;
-      position: absolute;
-      right: 0px
-    }
-    .convo-box span {
-      font-family: monospace;
-      font-size: 16px;
-    }
-
-    h2 {
-      text-align: center;
-      padding-top: 50px;
-      margin-bottom: 50px;
-      vertical-align: middle;
-    }
-
-    h2 span {
-      font-size: 40px;
-      line-height: 40px;
-      font-weight: 700;
-      border-top: solid 5px #ffd5d5;
-      border-bottom: solid 5px #ffd5d5;
-    }
-    h2 span a, h2 span a:focus {
-      color: inherit;
-    }
-    h2 span a, h2 span a:hover, h2 span a:active, h2 span a:visited, h2 span a:focus {
-      text-decoration: none;
-      outline: none;
-    }
-
-    h3.front-button a {
-      font-size: 32px;
-      font-weight: bold;
-      color: #666;
-      border: solid 5px #8899a6;
-      padding: 5px 7px;
-      display: inline-block;
-    }
-    h3.front-button a:hover {
-      color: #333;
-      border-color: #333;
-      text-decoration: none;
-    }
-    .front-button-row {
-      margin-bottom: 50px
-    }
-    .fringe-nav {
-      text-align: center;
-      margin-bottom: 50px;
-      vertical-align: middle;
-      padding: 10px 0;
-      /*border-top: solid 5px #ffd5d5;*/
-      /*border-bottom: solid 5px #ffd5d5;*/
-      background-color: #ffd5d5;
-      border-top: solid 5px #b3b3b3;
-      border-bottom: solid 5px #b3b3b3;
-    }
-    .fringe-nav {
-      font-size: 20px;
-      line-height: 20px;
-      font-weight: 700;
-    }
-    .fringe-nav span {
-      margin-right: 5px;
-      margin-left: 5px;
-    }
-    .fringe-nav a {
-      text-decoration: none;
-    }
-    .fringe-nav a:hover {
-      text-decoration: none;
-    }
-    .fringe-nav a:visited {
-      text-decoration: none;
-    }
-    .fringe-nav a:focus {
-      text-decoration: none;
-    }
-    iframe, object, embed{max-width: 100%;}
-
-    .speaker {
-      margin-bottom: 50px;
-    }
-
-    .speaker-image {
-      position: relative;
-      max-height: 214px;
-    }
-
-    .speaker-image img {
-      width: 100%;
-      max-height: 214px;
-      max-width: 214px;
-    }
-
-    .keynote .speaker-image {
-      max-height: initial;
-      max-width: initial;
-    }
-
-    .keynote h2 {
-      margin-top: 0px;
-      margin-bottom: 0px;
-      white-space: nowrap;
-    }
-
-    .keynote h3 {
-      text-align: center;
-    }
-    .keynote h3 small {
-      font-size: 70%;
-      color: #777;
-    }
-
-    .keynote .speaker-image img {
-      max-width: 100%;
-      max-height: initial;
-    }
-    .sponsor-image {
-      position: relative;
-      /*min-height: 214px;*/
-    }
-
-    .sponsor-image img {
-      width: 100%;
-    }
-
-    p {
-      margin-top: 10px;
-      margin-bottom: 30px;
-    }
-
-    footer {
-      background: #eee;
-      margin-top: 30px;
-      padding-top: 15px;
-    }
-
-    iframe {
-      pointer-events: none;
-    }
-
-    #nav.affix {
-      position: fixed;
-      top: 0;
-      z-index: 100;
-    }
-    *[name]:before {
-      display: block;
-      content: " ";
-      margin-top: -75px;
-      height: 75px;
-      visibility: hidden;
-    }
-</style>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -305,12 +24,39 @@
 
   <div class="splash">
     <center>
-
+      <a href="/"><img src="img/vector/dotnetfringe-splash.png"/></a>
     </center>
   </div>
   <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="mc_embed_signup">
+          <span class="tell-me-more">
+            <strong>TELL ME MORE</strong>
+          </span>
+          <form class="form-inline" action="http://dotnetfringe.us8.list-manage.com/subscribe/post?u=ba68ae915a1a06c6cb2302e3c&amp;id=2ee142e90b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
 
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">GO</button>
 
+            <span class="input-container">
+              <input class="form-control" type="EMAIL" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row front-button-row">
+      <div class="col-md-2 col-sm-1 xs-hidden">
+      </div>
+      <div class="col-md-4 col-sm-5 col-xs-12">
+        <h3 class="front-button"><center><a href="schedule.html#schedule">VIEW SCHEDULE</a></center></h3>
+      </div>
+      <div class="col-md-4 col-sm-5 col-xs-12">
+        <h3 class="front-button"><center><a href="tickets.html#ticket-types">BUY A TICKET</a></center></h3>
+      </div>
+      <div class="col-md-2 col-sm-1 xs-hidden">
+      </div>
+    </div>
     <div id="nav-wrapper">
       <div id="nav" class="container">
         <div class="row">
@@ -320,7 +66,7 @@
                 <a href="index.html#what-is-net-fringe">WHAT IS .NET FRINGE?</a>
               </span>
               <span>
-                <a href="cfp.html#call-for-proposals">CFP</a>
+                <a href="schedule.html#schedule">SCHEDULE</a>
               </span>
               <span>
                 <a href="index.html#speakers">SPEAKERS</a>
@@ -338,46 +84,43 @@
                 <a href="index.html#team">TEAM</a>
               </span>
               <span>
-                <a href="geektrain.html">GEEK TRAIN</a>
+                <a href="geektrain.html#geektrain">GEEK TRAIN</a>
               </span>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10">
+        <h2><span><a name="geektrain" href="#geektrain">GEEK TRAIN</a></span></h2>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 col-content">
+            <a href="http://wp.me/pXk7p-2NH"><img src="img/geektrain/geektrainheader.png" alt="GeekTrain"></a>
+            <h3>Join us on the Geek Train to Portlandia Fringe!</h3>
+            <p>This year's conference, for our guests north of Portland will have the added benefit of taking the Geek Train to the conference. Not only will you have this great benefit, but it'll only cost <a href="https://ti.to/dotnetfringe/dotnetfringe?release_id=ufe-9-evb-u">$10 bucks</a>! That's right fringe coders, <a href="https://ti.to/dotnetfringe/dotnetfringe?release_id=ufe-9-evb-u">$10 bucks for the ride down</a>! So RSVP <em>TODAY</em> to join the Geek Train to .NET Fringe! Read on for the details!</p>
+            <h3>Train Departure</h3>
+            <p>
+              Saturday, April 11th at 2pm, with an ETA into Portland at 5:50pm.
+            </p>
+            <h3>Itinerary</h3>
+            <ul>
+              <li>1:40pm Arrive at train station in Seattle to join group for boarding. **</li>
+              <li>2:00pm Departing Seattle King Street Station (i.e. you better be on the train)</li>
+              <li>2:10pm We'll be seated and get setup for...</li>
+              <li>2:15pm We'll break into teams of ~4 or so people (or however many of us there are we'll break out to a reasonable size groups).</li>
+              <li>2:17pm I'll announce hacking goals and ideas for the teams and we'll launch into coding. More information will be announced soon, but suffice it to say we'll be planning a hack around geo and logistics based solutions! <em>The solutions hacking begins!</em></li>
+              <li>- - - much hacking and enjoying of the trip occurs here!  :)  - - -</li>
+              <li>5:00pm We announce who's completed what and we'll demo and discuss the app awesomeness of what we've managed to come up with.</li>
+              <li>5:50pm or before we arrive in Portland and the fringe fun shall begin.</li>
+            </ul>
 
-
-
-  <div class="row">
-    <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10">
-      <h2><span><a name="geektrain" href="#geektrain">GEEK TRAIN</a></span></h2>
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 col-content">
-          <a href="http://wp.me/pXk7p-2NH"><img src="img/geektrain/geektrainheader.png" alt="GeekTrain"></a>
-          <h3>Join us on the Geek Train to Portlandia Fringe!</h3>
-          <p>This year's conference, for our guests north of Portland will have the added benefit of taking the Geek Train to the conference. Not only will you have this great benefit, but it'll only cost <a href="https://ti.to/dotnetfringe/dotnetfringe?release_id=ufe-9-evb-u">$10 bucks</a>! That's right fringe coders, <a href="https://ti.to/dotnetfringe/dotnetfringe?release_id=ufe-9-evb-u">$10 bucks for the ride down</a>! So RSVP <em>TODAY</em> to join the Geek Train to .NET Fringe! Read on for the details!</p>
-          <h3>Train Departure</h3>
-          <p>
-            Saturday, April 11th at 2pm, with an ETA into Portland at 5:50pm.
-          </p>
-          <h3>Itinerary</h3>
-          <ul>
-            <li>1:40pm Arrive at train station in Seattle to join group for boarding. **</li>
-            <li>2:00pm Departing Seattle King Street Station (i.e. you better be on the train)</li>
-            <li>2:10pm We'll be seated and get setup for...</li>
-            <li>2:15pm We'll break into teams of ~4 or so people (or however many of us there are we'll break out to a reasonable size groups).</li>
-            <li>2:17pm I'll announce hacking goals and ideas for the teams and we'll launch into coding. More information will be announced soon, but suffice it to say we'll be planning a hack around geo and logistics based solutions! <em>The solutions hacking begins!</em></li>
-            <li>- - - much hacking and enjoying of the trip occurs here!  :)  - - -</li>
-            <li>5:00pm We announce who's completed what and we'll demo and discuss the app awesomeness of what we've managed to come up with.</li>
-            <li>5:50pm or before we arrive in Portland and the fringe fun shall begin.</li>
-          </ul>
-
-          <p><em>**</em>If you're joining us along the route or coming in on the train from Vancouver BC let us know where your boarding station is. This way I can follow up with information regarding which car (It'll be the "Nerd Train to PDX" car, but I'll have the Amtrak car # also once we depart Seattle) we'll be located in and related information to the current status of our hacking.</p>
+            <p><em>**</em>If you're joining us along the route or coming in on the train from Vancouver BC let us know where your boarding station is. This way I can follow up with information regarding which car (It'll be the "Nerd Train to PDX" car, but I'll have the Amtrak car # also once we depart Seattle) we'll be located in and related information to the current status of our hacking.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
   <footer>
     <div class="container">
       <div class="row">
