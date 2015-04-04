@@ -594,37 +594,47 @@
       <h3>Become a Sponsor!</h3>
       <p>If you'd like to sponsor .NET Fringe, please send an email to <a href="mailto:dotnetfringe@gmail.com?subject=Sponsorship Info">dotnetfringe@gmail.com</a> for more info.
 
+      <style>
+        .sponsor-image img {
+          width: 100%;
+          vertical-align: middle;
+        }
+        .sponsor-image {
+          white-space: nowrap;
+          text-align: center; margin: 1em 0;
+        }
+        .image-spacer{
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+        }
+        #splunk, #elastic {
+          margin-bottom: 80px;
+        }
+        #github, #microsoft,
+        #infragistics, #thoughtworks, #octopusdeploy {
+          margin-bottom: 80px;
+        }
+        #jetbrains, #everymove, #ozcode, #puppet {
+          margin-bottom: 80px;
+          /**/
+        }
+      </style>
       <div class="row">
-        <style>
-          .sponsor-image img {
-            width: 100%;
-            vertical-align: middle;
-          }
-          .sponsor-image {
-            white-space: nowrap;
-            text-align: center; margin: 1em 0;
-          }
-          .image-spacer{
-            display: inline-block;
-            height: 100%;
-            vertical-align: middle;
-          }
-          #splunk {
-            margin-bottom: 80px;
-          }
-          #github, #microsoft,
-          #infragistics, #thoughtworks, #octopusdeploy {
-            margin-bottom: 80px;
-          }
-          #jetbrains, #everymove, #ozcode {
-            /**/
-          }
-        </style>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <div class="sponsor-image" id="splunk">
             <span class="image-spacer"></span>
             <a href="http://www.splunk.com"><img src="img/sponsor/splunk.png" alt="Splunk"></a>
             <center><h3><a href="http://www.splunk.com">Listen to your data</a></h3></center>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="sponsor-image" id="elastic">
+            <span class="image-spacer"></span>
+            <a href="http://www.elastic.co"><img src="img/sponsor/elastic.jpg" alt="Elastic"></a>
+            <center><h3><a href="http://www.elastic.co">Make Sense of Your Data</a></h3></center>
           </div>
         </div>
       </div>
@@ -684,10 +694,14 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="sponsor-image" id="puppet">
+            <a href="https://puppetlabs.com/"><img src="img/sponsor/puppet.png" alt="Puppet Labs"></a>
+            <center><h4><a href="https://puppetlabs.com/">Automation Makes IT Better</a></h4></center>
+          </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <div class="sponsor-image">
-            <a href="mailto:dotnetfringe@gmail.com?subject=Sponsorship Info"><img style="width:70%; left: 15%; top: 15%; min-height: 256px;" src="img/sponsor/unknown.svg" alt="Become a sponsor!"></a>
+            <a href="mailto:dotnetfringe@gmail.com?subject=Sponsorship Info"><img style="width:70%; left: 15%; top: 15%; max-height: 64px;" src="img/sponsor/unknown.svg" alt="Become a sponsor!"></a>
             <center><h4><a href="mailto:dotnetfringe@gmail.com?subject=Sponsorship Info">Your Company?<br><small>Become a sponsor!</small></a></h4></center>
           </div>
         </div>
