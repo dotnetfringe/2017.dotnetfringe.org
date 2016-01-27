@@ -401,7 +401,7 @@ p {
 /*---------------------------------------------------------------*/
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url('http://placehold.it/1920x1080'); /*[here you can put your own static background image]*/
+    /*background-image: url('/images/dotnetfringe/audience2-1920x1080.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
@@ -524,7 +524,7 @@ p {
 }
 
 .fill_1 {
-    background-image: url('http://placehold.it/1920x1080'); /*[here you can put your own slider background image]*/
+    background-image: url('/images/dotnetfringe/audience1920x1080.jpg'); /*[here you can put your own slider background image]*/
     width: 100%;
     height: 750px;
     background-position: top;
@@ -535,7 +535,7 @@ p {
 }
 
 .fill_2 {
-    background-image: url('http://placehold.it/1920x1080'); /*[here you can put your own slider background image]*/
+    background-image: url('/images/dotnetfringe/audience1920x1080.jpg'); /*[here you can put your own slider background image]*/
     width: 100%;
     height: 750px;
     background-position: top;
@@ -546,7 +546,7 @@ p {
 }
 
 .fill_3 {
-    background-image: url('http://placehold.it/1920x1080'); /*[here you can put your own slider background image]*/
+    background-image: url('/images/dotnetfringe/audience1920x1080.jpg'); /*[here you can put your own slider background image]*/
     width: 100%;
     height: 750px;
     background-position: top;
@@ -949,7 +949,7 @@ blockquote footer, blockquote small, blockquote .small {
 /*---------------------------------------------------------------*/
 .animate-numbers {
     height: auto;
-    background: url(http://placehold.it/1920x1080) 50% 0 fixed;
+    /*background: url(/images/dotnetfringe/audience1920x1080.jpg) 50% 0 fixed;*/
 }
 
 .number {

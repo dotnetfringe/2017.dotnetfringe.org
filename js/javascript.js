@@ -2,7 +2,7 @@
 
 // Google Maps
 function initialize() {
-    var myLatlng = new google.maps.LatLng(51.5068837, -0.1286353, 16); // here you can specify your location
+    var myLatlng = new google.maps.LatLng(45.523110, -122.681379, 16); // here you can specify your location
     var styles = [{
         "featureType": "landscape", "stylers": [{"saturation": -100}, {"lightness": 65},
             {"visibility": "on"}]
