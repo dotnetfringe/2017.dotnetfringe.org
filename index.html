@@ -1,10 +1,505 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>.NET Fringe 2016!</title>
+
+    <!-- favicon -->
+    <link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <!-- css class -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- scroll Plugin -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light' rel='stylesheet' type='text/css'>
+    <link href='./css/additional-fonts.css' rel='stylesheet' type='text/css'>
+
 </head>
-<body>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+<!-- Preloader-end -->
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+            <a class="navbar-brand" href="#" data-sr='wait 1s, then enter top and hustle 40px over 1.5s'>
+                <img alt=".NET Fringe" src="./images/dotnetfringe/Logo-148x38.png">
+            </a>
+            <p class="navbar-text"></p>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right nav nav-pills">
+                <li class="active"><a class="page-scroll" href="#start" data-anijs="if: mouseover, do: bounce animated">.NET</a>
+                </li>
+                <li><a class="page-scroll" href="#fringe" data-anijs="if: mouseover, do: bounce animated">FRINGE</a>
+                </li>
+                <li><a class="page-scroll" href="#works" data-anijs="if: mouseover, do: bounce animated">PREVIOUS</a>
+                </li>
+                <li><a class="page-scroll" href="#team" data-anijs="if: mouseover, do: bounce animated">TEAM</a></li>
+                <li><a class="page-scroll" href="#contact" data-anijs="if: mouseover, do: bounce animated">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--[navbar-end]-->
+
+<!--[jumotron]-->
+<section id="start">
+    <div class="jumbotron jumbo img-responsive1">
+        <div class="container">
+            <h2 style="font-family:'neon', sans-serif;font-size: 72px;font-weight:normal;"
+                data-sr='wait 1.5s, then enter left and hustle 50px over 2s'>.NET</h2>
+            <h5 class="slash" data-sr='wait 2.5s, then enter over 2s'>/</h5>
+            <h2 style="font-family:'neon', sans-serif;font-size: 72px;font-weight:normal;"
+                data-sr='wait 1.5s, then enter right and hustle 50px over 2s'>Fringe</h2>
+            <p id="first_row" data-sr='wait 2.5s, then enter left and hustle 50px over 2s'>
+                We're back for 2016
+            </p>
+            <h6 data-sr='wait 2.5s, then enter right and hustle 50px over 2s'>
+                right past the edge,
+            </h6>
+            <h3><a class="btn btn-primary btn-lg" href="#fringe" role="button" data-sr='wait 3.5s, then enter over 2s'>of
+                Fringe!</a></h3>
+            <img src="images/kreskab.png" class="img-responsive1 kreska" alt="Responsive image"
+                 data-anijs="if: mouseover, on: h3, do: flip animated">
+        </div>
+    </div>
+</section>
+<!--[jumotron end]-->
+
+<!--[testimonial]-->
+<div class="container-fluid testimonial">
+    <div class="row ">
+        <div class="col-md-12" data-wow-delay="0.5s">
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                <div class="carousel-inner text-center">
+                    <!-- Quote 1 -->
+                    <div class="item active">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2 ">
+                                    <div class="testimonial-border">//</div>
+                                    <p class="testimonial-text">“ Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                        elit. Aenean commodo ligula eget dolor cum
+                                        sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit
+                                        amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum
+                                        sociis natoque penatibus et magnis dis parturient montes. ”</p>
+                                    <small>John / Doe</small>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                    <!-- Quote 2 -->
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2">
+                                    <div class="testimonial-border">//</div>
+                                    <p class="testimonial-text">“ Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                        elit. Aenean commodo ligula eget dolor cum
+                                        sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit
+                                        amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum
+                                        sociis natoque penatibus et magnis dis parturient montes. ”</p>
+                                    <small>John / Doe</small>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                    <!-- Quote 3 -->
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2">
+                                    <div class="testimonial-border">//</div>
+                                    <p class="testimonial-text">“ Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                        elit. Aenean commodo ligula eget dolor cum
+                                        sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit
+                                        amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum
+                                        sociis natoque penatibus et magnis dis parturient montes. ”</p>
+                                    <small>John / Doe</small>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--[testimonial-end]-->
+
+<!--[Fringe Us]-->
+<div class="container-fluid">
+    <section id="fringe">
+        <div class="row About-Us">
+            <div class="col-md-6 col-sm-12 about-images">
+                <img src="images/dotnetfringe/audience1920x1080.jpg" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-md-6 col-sm-12 about-text" data-sr='wait 0.1s, then enter right and hustle 125px over 1.5s'>
+                <h2>About</h2><h5 class="slash_about">/</h5>
+                <h2>Fringe</h2>
+                <h3>This what you just must know!</h3>
+                <p id="text-aboutus">.NET Fringe started in 2015 from a rogue idea focused on .NET developers who break
+                    from rules and regularly push boundaries. The .NET platform has leaned up, spread wings, and is
+                    moving into new completely open source realms. We're now in a world where Microsoft pushes open
+                    source along side the community. In turn the .NET OSS Community has been collaborating and breathing
+                    new life into distributed and scalable technology, while pushing a clean story around functional
+                    programming and new ideas of cloud computing with machine learning, data analytics, and Internet of
+                    Things. The boundaries have been removed and we're ready to keep writing the next page of this
+                    story, join us!</p>
+                <img src="images/dots.png" alt="dots">
+            </div>
+        </div>
+    </section>
+</div>
+<!--[About Us end]-->
+
+<!--[Subscribe]-->
+<div class="container-fluid sub-down">
+    <div class="row subscribe">
+        <div class="col-md-6 download">
+            <h2 id="download-text" data-sr='wait 0.1s, then enter left and hustle 125px over 1.5s'>download our offer<a
+                    class="btn_down" href="#" role="button" data-anijs="if: mouseover, do: pulse animated"></a></h2>
+        </div>
+        <div class="col-md-6 row subs">
+            <h2 data-sr='wait 0.1s, then enter right and hustle 125px over 1.5s'>Subscribe to our newsletter</h2>
+            <div class="col-md-3 col-md-offset-3 col-sm-6 col-sm-offset-2 col-xs-6 col-xs-offset-2">
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="col-md-4 col-md-offset-2 col-sm-4 col-xs-4">
+                <button id="buttonSubscribe" type="submit" class="btn send"
+                        data-anijs="if: mouseover, do: pulse animated"></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--[What we do]-->
+<div class="container-fluid what-we">
+    <section id="what_we_do">
+        <div class="row what_we_do">
+            <div class="col-md-12">
+                <h2>Our</h2><h5 class="slash_about">/</h5>
+                <h2>skills</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row what">
+                <div class="col-md-3 col-sm-6 webdesign" data-sr='wait 0.1s, then enter left and hustle 50px over 0.8s'>
+                    <div class="icons">
+                        <i class="fa fa-file-text-o fa-3x file-text-icon"></i>
+                    </div>
+                    <h2>Webdesign</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 copywriting"
+                     data-sr='wait 0.1s, then enter bottom and hustle 50px over 0.8s'>
+                    <div class="icons">
+                        <i class="fa fa-clipboard fa-3x file-text-icon"></i>
+                    </div>
+                    <h2>Copywriting</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 coding" data-sr='wait 0.1s, then enter right and hustle 50px over 0.8s'>
+                    <div class="icons">
+                        <i class="fa fa-file-code-o fa-3x file-text-icon"></i>
+                    </div>
+                    <h2>Coding</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 coding" data-sr='wait 0.1s, then enter right and hustle 50px over 0.8s'>
+                    <div class="icons">
+                        <i class="fa fa-file-code-o fa-3x file-text-icon"></i>
+                    </div>
+                    <h2>Coding</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!--[What we do - end]-->
+
+<!--[Aniamte numbers]-->
+<div class="container-fluid animate-numbers">
+    <div class="row number">
+        <div class="col-md-3 count1 count">
+            <span class="counter">345</span>
+            <h2>/</h2>
+            <p>Playlist</p>
+        </div>
+        <div class="col-md-3 count2 count">
+            <span class="counter">156</span>
+            <h2>/</h2>
+            <p>Clients</p>
+        </div>
+        <div class="col-md-3 count3 count">
+            <span class="counter ">16</span>
+            <h2>/</h2>
+            <p>Awards</p>
+        </div>
+        <div class="col-md-3 count4 count">
+            <span class="counter">99</span>
+            <h2>/</h2>
+            <p>Projects</p>
+        </div>
+    </div>
+</div>
+
+<!--[Gallery]-->
+<div id="works">
+</div>
+<div id="gallery" data-sr='wait 0.1s, then enter bottom and hustle 20px over 1s'>
+    <a href="#openModal1">
+        <figure class="col-md-4 col-sm-6 col-xs-12 images-gallery">
+            <img class="img gallery" src="./images/dotnetfringe/conf/01.jpg" alt=""/>
+            <figcaption>
+                <h1>Picture Name</h1>
+            </figcaption>
+        </figure>
+    </a>
+    <a href="#openModal2">
+        <figure class="col-md-4 col-sm-6 col-xs-12 images-gallery image">
+            <img class="img gallery" src="./images/dotnetfringe/conf/02.jpg" alt=""/>
+            <figcaption>
+                <h1>Picture Name</h1>
+            </figcaption>
+        </figure>
+    </a>
+    <a href="#openModal3">
+        <figure class="col-md-4 col-sm-6 col-xs-12 images-gallery">
+            <img class="img gallery" src="./images/dotnetfringe/conf/03.jpg" alt=""/>
+            <figcaption>
+                <h1>Picture Name</h1>
+            </figcaption>
+        </figure>
+    </a>
+    <a href="#openModal4">
+        <figure class="col-md-4 col-sm-6 col-xs-12 images-gallery">
+            <img class="img gallery" src="./images/dotnetfringe/conf/04.jpg" alt=""/>
+            <figcaption>
+                <h1>Picture Name</h1>
+            </figcaption>
+        </figure>
+    </a>
+    <a href="#openModal5">
+        <figure class="col-md-4 col-sm-6 col-xs-12 images-gallery">
+            <img class="img gallery" src="./images/dotnetfringe/conf/05.jpg" alt=""/>
+            <figcaption>
+                <h1>Picture Name</h1>
+            </figcaption>
+        </figure>
+    </a>
+    <a href="#openModal6">
+        <figure class="col-md-4 col-sm-6 col-xs-12 images-gallery">
+            <img class="img gallery" src="./images/dotnetfringe/conf/06.jpg" alt=""/>
+            <figcaption>
+                <h1>Picture Name</h1>
+            </figcaption>
+        </figure>
+    </a>
+</div>
+
+<div id="openModal1" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <img class="img" src="http://placehold.it/2000x1333.jpg" alt=""/>
+    </div>
+</div>
+
+<div id="openModal2" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <img class="img" src="http://placehold.it/2000x1333" alt=""/>
+    </div>
+</div>
+
+<div id="openModal3" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <img class="img" src="http://placehold.it/2000x1333" alt=""/>
+    </div>
+</div>
+
+<div id="openModal4" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <img class="img" src="http://placehold.it/2000x1333" alt=""/>
+    </div>
+</div>
+
+<div id="openModal5" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <img class="img" src="http://placehold.it/2000x1333" alt=""/>
+    </div>
+</div>
+
+<div id="openModal6" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <img class="img" src="http://placehold.it/2000x1333" alt=""/>
+    </div>
+</div>
+<!--[Gallery-end]-->
+
+<!--[Our Team]-->
+<div class="container-fluid team-section">
+    <section id="team">
+        <div class="row team">
+            <div class="col-md-4" data-sr='wait 0.1s, then enter left and hustle 125px over 1.5s'>
+                <h2>Our</h2><h5 class="slash_about">/</h5>
+                <h2>DSGNR</h2>
+                <h3 data-sr='wait 0.3s, then enter bottom and hustle 125px over 1.5s'>John Doe</h3>
+                <h4 data-sr='wait 0.3s, then enter bottom and hustle 125px over 1.5s'>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. </h4>
+            </div>
+            <div class="col-md-4" data-sr='wait 0.1s, then enter bottom and hustle 125px over 1.5s'>
+                <h2>Our</h2><h5 class="slash_about">/</h5>
+                <h2>CEO</h2>
+                <h3 data-sr='wait 0.3s, then enter bottom and hustle 125px over 1.5s'>John Doe</h3>
+                <h4 data-sr='wait 0.3s, then enter bottom and hustle 125px over 1.5s'>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. </h4>
+            </div>
+            <div class="col-md-4" data-sr='wait 0.1s, then enter right and hustle 125px over 1.5s'>
+                <h2>Our</h2><h5 class="slash_about">/</h5>
+                <h2>PR</h2>
+                <h3 data-sr='wait 0.3s, then enter bottom and hustle 125px over 1.5s'>John Doe</h3>
+                <h4 data-sr='wait 0.3s, then enter bottom and hustle 125px over 1.5s'>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. </h4>
+            </div>
+        </div>
+    </section>
+</div>
+<!--[Our Team]-->
+
+<!--[Google-maps]-->
+<div id="map-canvas"></div>
+<!--[Google-maps-end]-->
+
+<!--[contact]-->
+<div class="container-fluid contact-background">
+    <div id="contact">
+        <div class="col-md-12 contact-us" data-sr='wait 0.1s, then enter top and hustle 20px over 1s'>
+            <h2>Contact</h2><h5 class="slash_contact">/</h5>
+            <h2>us</h2>
+        </div>
+    </div>
+    <div class="row contact">
+        <div class="col-md-5 col-md-offset-2" data-sr='wait 0.2s, then enter left and hustle 50px over 1s'>
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Name" required>
+                    <span class="input-group-addon"><i></i></span></div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email"
+                           required>
+                    <span class="input-group-addon"><i></i></span></div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <textarea name="InputMessage" id="InputMessage" class="form-control" rows="10" placeholder="Message"
+                              required></textarea>
+                    <span class="input-group-addon"><i></i></span></div>
+            </div>
+            <div class="form-group">
+            </div>
+            <button type="submit" name="submit" id="buttonContact" class="btn btn-primary pull-right"></button>
+        </div>
+        <hr class="featurette-divider hidden-lg">
+        <div class="col-md-3 col-md-push-1" data-sr='wait 0.2s, then ease in out and hustle 20px over 1s'>
+            <h2 class="h2-contact">Company Name</h2>
+            <address>
+                <p class="lead">
+                    75 USA North District<br/>
+                    Amazing Street 99/480<br/>
+                    <br/>
+                    Phone: 555-123-458<br/>
+                    Fax: 555-321-582<br/>
+                    email@youradress.com<br/>
+                </p>
+            </address>
+        </div>
+    </div>
+</div>
+<!--[contact-end]-->
+
+<!--[footer]-->
+<div class="container-fluid footer">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="social-icon">
+                <ul class="social-icon">
+                    <li class="icon">
+                        <a href="https://github.com/dotnetfringe" target="_blank" id="footerGithub"></a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://twitter.com/dotnetfringe" target="_blank" id="footerTwitter"></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="footer-text">
+                <h4>Designs Thrashing Care of <a href="https://twitter.com/adron">@Adron</a></h4>
+            </div>
+        </div>
+    </div>
+</div>
+<!--[footer-end]-->
+
+<!-- jQuery Plugin -->
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.countdown.js"></script>
+
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+<!--[animate-number]-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+
+<!--</maps>-->
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAi4pzXIaemolBXDPx_xYjp-97HMC209GI">
+</script>
+
+<script type="text/javascript"
+        src="js/javascript.js">
+</script>
+
+<!-- jQuery -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/anijs.js"></script>
+<script src="js/scrollReveal.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
 
 </body>
 </html>

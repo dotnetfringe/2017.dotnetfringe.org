@@ -1,0 +1,1723 @@
+/*---------------------------------------------------------------
+Project:	Neon One Page Template
+Version:	1.0
+Last change:	05/04/2015
+Assigned to:	moonhunters (moonhuntersteam@gmail.com)
+Primary use:	Themeforest
+---------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2. Preloader
+        - #preloader
+        - #status
+3. Typography
+        - h1
+        - h2
+        - h3
+        - p
+4. Navbar
+        - .navbar
+        - .navbar-default
+        - .navbar-toggle
+        - .navbar-right
+        - .navbar-text
+        - .navbar-brand>img
+        - .navbar-brand
+        - .top-nav-collapse
+
+5. Jumbotron
+        - .jumbotron
+        - .jumbo
+        - .slash
+        - .kreska
+        - .kreska1
+6. Carousel
+        - .carousel,.item,.active
+        - .carousel-inner
+        - .carousel-caption
+        - .fill_1, .fill_2, .fill_3
+7. Video
+        - .youtube
+        - .caro
+8. Testimonial
+        - .testimonial
+        - .testimonial-border
+        - .testimonial-text
+        - blockquote
+        - #quote-carousel
+        - .carousel-inner
+        - .item blockquote
+9. About Us
+        - .about-text
+        - .about-images
+        - #text-aboutus
+        - .slash_about
+10. subscribe
+        - .subscribe
+        - .subs
+        - .subscribe-group
+        - #email
+        - .form-control
+        - .sub-down
+        - .send
+11. download
+        - .download
+        - .download-text
+        - .btn_down
+
+12. animate-numbers
+        - .animate-numbers
+        - .number
+        - .counter
+        - .count
+13. what we do
+        - .what-we
+        - .file-text-icon
+        - .file-text-icon:hover
+        - .icons
+        - .what_we_do
+14. gallery
+        - .images-gallery
+        - .gallery
+        - figure
+        - figcaption
+        - .modalDialog
+        - .modalDialog:target
+        - .modalDialog img
+        - .close
+15. out team
+        - #our-team
+        - .team h2
+        - .team h3
+        - .team h4
+16. google-maps
+        - #map-canvas
+17. contact
+        - .contact-us
+        - .input-group .form-control
+        - .form-control
+        - .input-group-addon
+        - form-control:focus
+
+18. Footer
+        - .footer
+        - .footer-text
+        - .social-icon
+        - .social-icon li
+        - .icon
+        - .icon a
+        - .icon a:hover
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Color codes]
+
+    Body-color: #313131 (dark)
+    Navbar border: #ccff00 (green)
+    jumbotron color: #ffffff (white)
+    testimonial color: #313131 (dark)
+    text-aboutus color: #848484 (grey)
+    contact-us color: #f3f3f3; (white)
+    footer color: #4b4e52 (dark)
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy:		Open Sans 700, 400, 100;
+Input, textarea:	Arial, Helvetica, sans-serif;
+-------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 1. Body */
+/*---------------------------------------------------------------*/
+
+body {
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    overflow: scroll;
+}
+
+.btn-primary {
+    background-color: #ff0052;
+    border: solid 2px #ff0052;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 25px;
+    z-index: 999;
+    position: relative;
+}
+
+.btn-primary:hover {
+    color: #313131;
+    background-color: #ccff00;
+    border: solid 2px #ccff00;
+    z-index: 999;
+    position: relative;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 12px 25px;
+}
+
+/*---------------------------------------------------------------*/
+/* 2. preloader */
+/*---------------------------------------------------------------*/
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 99;
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/status.gif); /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
+
+/*---------------------------------------------------------------*/
+/*  preloader-end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 3. typography */
+/*---------------------------------------------------------------*/
+h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #3f3f3f;
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #a8a8a8;
+    margin-bottom: 35px;
+}
+
+/*---------------------------------------------------------------*/
+/* typography-end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 4. navbar */
+/*---------------------------------------------------------------*/
+.navbar {
+    min-height: 75px;
+    margin-bottom: 25px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    opacity: 1;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-default .navbar-toggle {
+    background-image: url(../images/menu-icon.png);
+    margin-top: 16px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 12px;
+    margin-top: 8px;
+    margin-right: 15px;
+    background-color: #ccff00;
+    background-image: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ccff00;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ccff00;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #ccff00;
+    height: auto;
+    margin-right: 30px;
+}
+
+.navbar-right {
+    margin-top: 10px;
+    border: 2px solid #ccff00;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-text {
+    margin-top: 15px;
+}
+
+.navbar-default .navbar-text {
+    color: #41414f;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #ccff00;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .close.navbar-nav > .active > a:focus {
+    color: #ccff00;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand > img {
+    display: block;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding: 0px 15px;
+}
+
+.nav > li > a {
+    display: inline;
+}
+
+.navbar-nav > li > a {
+    line-height: 50px;
+}
+
+.navbar-brand h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ccff00;
+    margin-top: -7px;
+}
+
+.top-nav-collapse {
+    padding: 0;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+/*---------------------------------------------------------------*/
+/* navbar-end */
+/*---------------------------------------------------------------*/
+
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #777777;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+
+.scroll-top-wrapper.show {
+    visibility: visible;
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+
+/*---------------------------------------------------------------*/
+/* 5. jumbotron */
+/*---------------------------------------------------------------*/
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url('http://placehold.it/1920x1080'); /*[here you can put your own static background image]*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.jumbo {
+    padding-top: 250px;
+    text-align: center;
+    color: #fff;
+}
+
+.jumbotron h2 {
+    font-size: 82px;
+    font-weight: 700;
+    display: inline;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 999;
+    color: #ccff00;
+}
+
+.jumbotron h5 {
+    font-size: 82px;
+    z-index: 999;
+    position: relative;
+}
+
+.jumbotron h3 {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.jumbotron p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    width: 400px;
+    padding-left: 3px;
+    position: relative;
+    z-index: 999;
+}
+
+.button-down {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.slash {
+    display: inline-block;
+    position: relative;
+    color: #ccff00;
+}
+
+#first_row {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.jumbotron h6 {
+    width: 250px;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    z-index: 999;
+}
+
+.kreska {
+    margin: 0 auto;
+    position: relative;
+    margin-top: -320px;
+    margin-bottom: 110px;
+}
+
+.kreska1 {
+    margin: 0 auto;
+    position: relative;
+    margin-top: -320px;
+    margin-bottom: 110px;
+}
+
+/*---------------------------------------------------------------*/
+/* 6. carousel */
+/*---------------------------------------------------------------*/
+.carousel,
+.item,
+.active {
+    height: auto;
+}
+
+.carousel-inner {
+    height: auto;
+}
+
+.carousel {
+    margin-top: -25px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0px 0px rgba(0, 0, 0, .0);
+}
+
+.fill_1 {
+    background-image: url('http://placehold.it/1920x1080'); /*[here you can put your own slider background image]*/
+    width: 100%;
+    height: 750px;
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.fill_2 {
+    background-image: url('http://placehold.it/1920x1080'); /*[here you can put your own slider background image]*/
+    width: 100%;
+    height: 750px;
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.fill_3 {
+    background-image: url('http://placehold.it/1920x1080'); /*[here you can put your own slider background image]*/
+    width: 100%;
+    height: 750px;
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.item h2 {
+    font-size: 82px;
+    font-weight: 700;
+    display: inline;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 999;
+    color: #ccff00;
+}
+
+.caro h2 {
+    font-size: 82px;
+    font-weight: 700;
+    display: inline;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 999;
+}
+
+.caro h5 {
+    font-size: 82px;
+    z-index: 999;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.caro h3 {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.caro h6 {
+    width: 250px;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    z-index: 999;
+}
+
+.caro p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 400px;
+    padding-left: 3px;
+    position: relative;
+    z-index: 999;
+}
+
+/*---------------------------------------------------------------*/
+/* carousel-end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 7. video */
+/*---------------------------------------------------------------*/
+
+.youtube {
+    width: auto;
+    height: 750px;
+    text-align: center;
+    color: #ccff00;
+}
+
+.caro {
+    padding-top: 250px;
+    text-align: center;
+    color: #ccff00;
+}
+
+/*---------------------------------------------------------------*/
+/* video-end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* counter */
+/*---------------------------------------------------------------*/
+ul#example {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    color: #c1a26e;
+}
+
+ul#example li {
+    display: inline-block;
+}
+
+ul#example li span {
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 80px;
+    padding: 20px;
+}
+
+ul#example li.seperator {
+    font-size: 55px;
+    line-height: 70px;
+    vertical-align: top;
+}
+
+ul#example li p {
+    color: #fff;
+    font-size: 15px;
+}
+
+/*---------------------------------------------------------------*/
+/* 8. testimonial */
+/*---------------------------------------------------------------*/
+.testimonial {
+    /*background: url(../images/3.jpg) 50% 0 fixed;*/
+    background-color: #fff;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #e7e7e7;
+
+}
+
+.testimonial-border {
+    color: #282828;
+    font-size: 20px;
+    width: 50px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.testimonial-text {
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #282828;
+}
+
+blockquote {
+    padding: 20px 20px;
+    margin: 0 0 20px;
+    font-size: 13px;
+}
+
+#quote-carousel {
+    padding: 0 10px 10px 10px;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #282828;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 0px;
+}
+
+.carousel-inner {
+    min-height: 220px;
+    margin-top: 25px;
+    color: #282828;
+    line-height: 180%;
+    text-align: left;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+blockquote footer, blockquote small, blockquote .small {
+    margin-top: 20px;
+    padding-bottom: 25px;
+    font-weight: 100;
+    font-size: 14px;
+    color: #282828;
+    font-style: normal;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------*/
+/* testimonial-end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 9. about us */
+/*---------------------------------------------------------------*/
+.about-text {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-align: center;
+
+}
+
+.about-text h2 {
+    font-size: 56px;
+    font-weight: 700;
+    display: inline;
+    color: #282828
+}
+
+.about-text h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 7px;
+    width: 485px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.about-images {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    min-height: 720px;
+}
+
+.img-responsive1, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#text-aboutus {
+    margin-top: 45px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #848484;
+    text-align: justify;
+    display: inline-block;
+    line-height: 2;
+}
+
+#text-aboutus-responsive {
+    display: none;
+}
+
+.slash_about {
+    display: inline-block;
+    color: #000;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.slash_contact {
+    display: inline-block;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+/*---------------------------------------------------------------*/
+/* about us end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 10. subscribe */
+/*---------------------------------------------------------------*/
+.subscribe {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.subs {
+    text-align: left;
+    margin-top: 85px;
+    margin-bottom: 39px;
+}
+
+.subs h2 {
+    text-align: center;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    border-top: 1px solid #e7e7e7;
+    margin-top: -86px;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.subscribe-group {
+    display: inline;
+    text-align: center;
+}
+
+#email {
+    width: 350px;
+    background-color: transparent;
+    margin-bottom: 25px;
+    font-size: 14px;
+    border: transparent;
+    border-bottom: 1px solid #848484;
+}
+
+.form-control {
+    padding-left: 0px;
+    margin-top: -10px;
+}
+
+.sub-down {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -230px;
+}
+
+@-moz-document url-prefix() {
+    .sub-down {
+        margin-top: 0px;
+    }
+}
+
+.ie .sub-down {
+    margin-top: 0px;
+}
+
+.send {
+    border: 0;
+    background: transparent url(../images/subscribe.png) 0 0 no-repeat;
+    width: 24px;
+    height: 39px;
+    outline: 0;
+    margin-left: 7px;
+}
+
+/*---------------------------------------------------------------*/
+/* 11. download */
+/*---------------------------------------------------------------*/
+
+.download {
+    background-color: rgba(40, 40, 40, 0.85);
+    display: inline;
+}
+
+.download h2 {
+    text-align: center;
+    padding-top: 79px;
+    padding-bottom: 90px;
+    color: #fff;
+    opacity: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+.download-text {
+    display: inline;
+}
+
+.btn_down {
+    border: 0;
+    background: transparent url(../images/downloadb.png) 0 0 no-repeat;
+    width: 34px;
+    height: 30px;
+    outline: 0;
+    margin-left: 25px;
+    display: inline-block;
+    position: absolute;
+    margin-top: -6px;
+}
+
+/*---------------------------------------------------------------*/
+/* 12. animate-numbers*/
+/*---------------------------------------------------------------*/
+.animate-numbers {
+    height: auto;
+    background: url(http://placehold.it/1920x1080) 50% 0 fixed;
+}
+
+.number {
+    text-align: center;
+    font-size: 22px;
+}
+
+.counter {
+    color: #ccff00;
+    font-size: 60px;
+    font-weight: 700;
+    display: inline;
+    padding-right: 10px;
+}
+
+.number h2 {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 40px;
+    color: #ff0052;
+    padding-right: 10px;
+}
+
+.number p {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.count {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+/*---------------------------------------------------------------*/
+/* 13. what we do */
+/*---------------------------------------------------------------*/
+.what-we {
+    background-color: #fff;
+}
+
+.file-text-icon {
+    color: #848484;
+    padding-top: 72px;
+    padding-left: 77px;
+    padding-bottom: 81px;
+    padding-right: 77px;
+    background-image: url(../images/square_grey.png);
+    background-repeat: no-repeat;
+}
+
+.file-text-icon:hover {
+    color: #ff0052;
+    background-image: url(../images/square_grey.png);
+}
+
+.icons {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.what_we_do {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.what_we_do h2 {
+    font-size: 56px;
+    font-weight: 700;
+    display: inline;
+    color: #4b4e52;
+}
+
+.what {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.what h2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.what p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.webdesign {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 40px;
+}
+
+.copywriting {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 40px;
+}
+
+.coding {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 40px;
+}
+
+/*---------------------------------------------------------------*/
+/* what we do - end*/
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 14. gallery*/
+/*---------------------------------------------------------------*/
+.images-gallery {
+    position: relative;
+    padding: 0;
+    height: 100%;
+}
+
+.gallery {
+    height: 425px;
+}
+
+#gallery h1 {
+    position: relative;
+    top: 250px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+figure {
+    height: 170px;
+    width: 170px;
+    display: block;
+    overflow: hidden;
+    z-index: 100;
+
+}
+
+figcaption {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: -800px;
+    opacity: 0;
+    padding: 5px;
+}
+
+.sort-gallery a {
+    color: #c1a26e;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+a:hover figcaption {
+    opacity: 0.8;
+    background-color: #ff0052;
+    left: 0;
+    color: #000;
+    transition: all 0.8s;
+}
+
+/*---------------------------------------------------------------*/
+/* modal*/
+/*---------------------------------------------------------------*/
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 1100px;
+    height: 800px;
+    color: #000;
+    position: relative;
+    margin: 7% auto;
+    padding: 5px 20px 13px 20px;
+}
+
+.modalDialog p {
+    color: #000;
+    margin-top: 7px;
+}
+
+.modalDialog img {
+    height: 85%;
+}
+
+.close {
+    color: #ff0052;
+    line-height: 25px;
+    position: absolute;
+    right: -26px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 30px;
+    -webkit-transition: all 1.3s ease-in-out;
+    -moz-transition: all 1.3s ease-in-out;
+    -o-transition: all 1.3s ease-in-out;
+    -ms-transition: all 1.3s ease-in-out;
+}
+
+.close:hover {
+    color: #ff0052;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+/*---------------------------------------------------------------*/
+/* gallery-end*/
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 15. Our Team*/
+/*---------------------------------------------------------------*/
+#our-team {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 56px;
+    font-weight: 700;
+    display: inline;
+    color: #4b4e52
+}
+
+.team h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4b4e52;
+    text-transform: uppercase;
+    padding-top: 50px;
+    letter-spacing: 5px;
+}
+
+.team h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c8c8c;
+    padding-left: 155px;
+    padding-right: 155px;
+    line-height: 2;
+    padding-bottom: 80px;
+}
+
+/*---------------------------------------------------------------*/
+/*  Our Team-end*/
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 16. Google-maps*/
+/*---------------------------------------------------------------*/
+/*html, body, .row, .col-xs-6 { height: 65% }*/
+
+#map-canvas {
+    width: 100%;
+    height: 40%;
+}
+
+/*---------------------------------------------------------------*/
+/*  Google-maps-end*/
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 17. contact*/
+/*---------------------------------------------------------------*/
+.contact-background {
+    background-color: #282828;
+}
+
+.contact-us {
+    text-align: center;
+    color: #313131;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.contact-us h2 {
+    font-size: 56px;
+    font-weight: 700;
+    display: inline;
+    color: #f3f3f3;
+
+}
+
+.input-group .form-control {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0px 0px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #282828;
+    background-image: none;
+    border: 1px solid #5e5e5e;
+
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 0px;
+    line-height: 1;
+    color: transparent;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+    padding: 5px;
+    color: #fff;
+}
+
+.form-control:focus {
+    border-color: #ccff00;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 0px rgba(0, 0, 0, 0);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .0), 0 0 8px rgba(0, 0, 0, 0);
+}
+
+.contact .btn-primary {
+    border: 0;
+    background: transparent url(../images/send-white.png) 0 0 no-repeat;
+    width: 24px;
+    height: 39px;
+    outline: 0;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.contact .btn-primary:hover {
+}
+
+.address {
+    margin-top: -20px;
+}
+
+.h2-contact {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.lead {
+    font-size: 16px;
+}
+
+/*---------------------------------------------------------------*/
+/* contact-end*/
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 18 footer*/
+/*---------------------------------------------------------------*/
+.footer {
+    height: 100px;
+    background-color: #282828;
+    border-top: 1px solid #5e5e5e;
+}
+
+.footer h4 {
+    color: #7c7f83;
+    text-align: right;
+    margin-top: -45px;
+    margin-right: 50px;
+}
+
+.footer-text {
+    position: relative;
+    text-align: right;
+}
+
+.social-icon {
+    display: table;
+    margin-top: 15px;
+}
+
+.social-icon li {
+    display: table-cell;
+    text-align: right;
+    padding: 10px;
+}
+
+#footerGithub {
+    background-image: url('../images/social-icons/github.png');
+}
+
+#footerTwitter {
+    background-image: url('../images/social-icons/twitter.png');
+}
+
+.icon {
+    list-style: none;
+    display: inline-block;
+    height: 30px;
+    width: 41px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 10px;
+}
+
+.icon a {
+    display: block;
+    background-size: 28px, 28px;
+    width: 28px;
+    height: 28px;
+    opacity: 0.2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+
+}
+
+.icon a:hover {
+    opacity: 0.9;
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+}
+
+/*---------------------------------------------------------------*/
+/* footer-end*/
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* responsive*/
+/*---------------------------------------------------------------*/
+@media only screen and (max-width: 1550px) {
+    .jumbotron {
+        height: 600px;
+    }
+
+    .fill_1 {
+        height: 600px;
+    }
+
+    .fill_2 {
+        height: 600px;
+    }
+
+    .fill_3 {
+        height: 600px;
+    }
+
+    .youtube {
+        height: 600px;
+    }
+
+    .jumbo {
+        padding-top: 160px;
+    }
+
+    .caro {
+        padding-top: 160px;
+    }
+
+    .modalDialog > div {
+        width: 785px;
+        height: 600px;
+        margin-top: 100px;
+    }
+
+    .modalDialog img {
+        height: 80%;
+    }
+
+    #email {
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .about-text {
+        margin-top: 25px;
+    }
+
+    .kreska1 {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 1250px) {
+    .jumbotron {
+        height: 550px;
+    }
+
+    .fill_1 {
+        height: 550px;
+    }
+
+    .fill_2 {
+        height: 550px;
+    }
+
+    .fill3 {
+        height: 550px;
+    }
+
+    .youtube {
+        height: 550px;
+    }
+
+    .jumbo {
+        padding-top: 150px;
+    }
+
+    .caro {
+        padding-top: 150px;
+    }
+
+    #email {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .send {
+        margin-left: 40px;
+    }
+
+    .subs .btn-primary {
+        margin-left: 20px;
+    }
+
+    .about-text {
+        margin-top: 20px;
+    }
+
+    .about-text h3 {
+        width: 300px;
+    }
+
+    #text-aboutus {
+        line-height: 1.5;
+    }
+
+    .download h2 {
+    }
+
+    .sub-down {
+        margin-top: 0px;
+    }
+
+    .download {
+        background-color: rgb(255, 0, 82);
+    }
+
+    .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        min-height: 620px;
+    }
+
+    .kreska1 {
+        margin-bottom: 1px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .download h2 {
+        background-color: rgb(255, 0, 82);
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+    .sub-down {
+        margin-top: 0px;
+    }
+
+    .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        min-height: 250px;
+    }
+
+    #email {
+        width: 370px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .jumbotron {
+        height: 450px;
+    }
+
+    .fill_1 {
+        height: 450px;
+    }
+
+    .fill_2 {
+        height: 450px;
+    }
+
+    .fill_3 {
+        height: 450px;
+    }
+
+    .youtube {
+        height: 450px;
+    }
+
+    .jumbo {
+        padding-top: 110px;
+    }
+
+    .caro {
+        padding-top: 110px;
+    }
+
+    .jumbotron h2 {
+        font-size: 42px;
+    }
+
+    .jumbotron h5 {
+        font-size: 42px;
+    }
+
+    .jumbotron h6 {
+        font-size: 12px;
+        width: 160px;
+    }
+
+    .jumbotron p {
+        margin-bottom: 20px;
+        font-size: 12px;
+        width: 200px;
+    }
+
+    ul#example li span {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .footer {
+        height: 125px;
+    }
+
+    .footer h4 {
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    .social-icon {
+        display: none
+    }
+
+    .modalDialog {
+        display: none;
+    }
+
+    #text-aboutus {
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 2;
+    }
+
+    #email {
+        width: 220px;
+        font-size: 14px;
+    }
+
+    .about-text h3 {
+        width: 240px;
+    }
+
+    .team h4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .download h2 {
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .item h2 {
+        font-size: 42px;
+    }
+
+    .caro h2 {
+        font-size: 42px;
+    }
+
+    .caro h5 {
+        font-size: 42px;
+    }
+
+    .caro h3 {
+        width: 75px;
+    }
+
+    .caro h6 {
+        width: 130px;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .caro p {
+        width: 190px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+
+    .carousel-caption .btn {
+        margin-left: -25px;
+    }
+
+    .btn-lg, .btn-group-lg > .btn {
+        margin-left: -25px;
+    }
+
+    .navbar-brand {
+        margin-top: 10px;
+    }
+
+}
+
+/*---------------------------------------------------------------*/
+/* responsive-end*/
+/*---------------------------------------------------------------*/
