@@ -1,0 +1,374 @@
+body {
+
+    color: #313131;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+
+}
+
+.btn-primary {
+    color: #c1a26e;
+    background-color: transparent;
+    border-color: #c1a26e;
+    border-radius: 30px;
+    border: solid 2px;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #c1a26e;
+    border: solid 2px #c1a26e;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 14px 35px;
+}
+
+/*---------------------------------------------------------------*/
+/* typography */
+/*---------------------------------------------------------------*/
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #a8a8a8;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 35px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #9b9b9b;
+    margin-bottom: 35px;
+}
+
+/*---------------------------------------------------------------*/
+/* typography-end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* navbar */
+/*---------------------------------------------------------------*/
+
+.navbar {
+    min-height: 75px;
+    margin-bottom: 25px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    border: 1px solid transparent;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    border: 1px solid #c1a26e;
+    background-color: #c1a26e;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.navbar-default .navbar-text {
+    color: #DBDBDB;
+}
+
+.navbar-right {
+    margin-top: 23px;
+}
+
+.navbar-text {
+    margin-top: 21px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    border: 1px solid #c1a26e;
+    background-color: #c1a26e;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand > img {
+    display: block;
+    width: 50%;
+    margin-top: -5px;
+}
+
+/*---------------------------------------------------------------*/
+/* navbar-end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* jumbotron */
+/*---------------------------------------------------------------*/
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../images/machine.jpg);
+    /*background-position: 0% 50%;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.jumbo {
+    padding-top: 200px;
+}
+
+.jumbotron h1 {
+    font-size: 82px;
+    font-weight: 400;
+}
+
+.jumbotron p {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #b6b6b6;
+}
+
+.button-down {
+    margin-top: 80px;
+    margin-left: 10px;
+
+}
+
+/*---------------------------------------------------------------*/
+/* testimonial */
+/*---------------------------------------------------------------*/
+
+.testimonial {
+    background-color: #2f2f33;
+}
+
+blockquote {
+    padding: 40px 40px;
+    margin: 0 0 20px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+.carousel-inner {
+    min-height: 210px;
+    margin-top: 55px;
+    color: #9b9b9b;
+    line-height: 180%;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+blockquote footer, blockquote small, blockquote .small {
+    margin-top: 40px;
+    font-size: 17px;
+    color: #c1a26e;
+    font-style: normal;
+}
+
+/*---------------------------------------------------------------*/
+/* testimonial-end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* about us */
+/*---------------------------------------------------------------*/
+
+.about-text {
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.about-images {
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+/*---------------------------------------------------------------*/
+/* about us end */
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* what we do */
+/*---------------------------------------------------------------*/
+
+.file-text-icon {
+    color: #c1a26e;
+    padding: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.file-text-icon:hover {
+    color: #fff;
+    padding: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: #c1a26e;
+}
+
+.icons {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.what_we_do {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.what {
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.webdesign {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.copywriting {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.coding {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/*---------------------------------------------------------------*/
+/* what we do - end*/
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* gallery*/
+/*---------------------------------------------------------------*/
+
+.images-gallery {
+    position: relative;
+    padding: 0;
+    height: 100%;
+}
+
+#accueil {
+    background-color: #2f2f33;
+    background-size: cover;
+    margin-top: 50px;
+    height: 150px;
+}
+
+.sort-gallery {
+    display: table;
+    padding-top: 55px;
+    margin-left: 200px;
+    color: #c1a26e;
+}
+
+.sort-gallery li {
+    display: table-cell;
+    padding: 10px;
+}
+
+#gallery h1 {
+    position: relative;
+    top: 200px;
+    font-size: 48px;
+    text-align: center;
+    color: #c1a26e;
+    text-transform: capitalize;
+}
+
+#gallery h2 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+figure {
+    height: 170px;
+    width: 170px;
+    display: block;
+    overflow: hidden;
+    z-index: 100;
+
+}
+
+figcaption {
+    height: 500px;
+    width: 100%;
+    /*background: url(http://gridelicious.net/themes/treble/demo/assets/images/css/thumb_over.png) no-repeat center 150px black;*/
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: -800px;
+    opacity: 0;
+    padding: 5px;
+}
+
+.sort-gallery a {
+    color: #c1a26e;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+a:hover figcaption {
+    opacity: 0.8;
+    background-color: #000;
+    left: 0;
+    color: #fff;
+    transition: all 0.8s;
+}
+
+/*---------------------------------------------------------------*/
+/* gallery-end*/
+/*---------------------------------------------------------------*/
