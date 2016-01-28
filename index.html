@@ -59,11 +59,11 @@
                     <a class="page-scroll" href="#works" data-anijs="if: mouseover, do: bounce animated">IMAGERY</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="http://2015.dotnetfringe.org/"
-                       data-anijs="if: mouseover, do: bounce animated">2015</a>
+                    <a class="page-scroll" href="#join" data-anijs="if: mouseover, do: bounce animated">JOIN</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact" data-anijs="if: mouseover, do: bounce animated">CONTACT</a>
+                    <a class="page-scroll" href="http://2015.dotnetfringe.org/"
+                       data-anijs="if: mouseover, do: bounce animated">2015</a>
                 </li>
             </ul>
         </div>
@@ -294,46 +294,74 @@
 <div id="map-canvas"></div>
 <!--[Google-maps-end]-->
 
-<!--[contact]-->
+<!--[join]-->
 <div class="container-fluid contact-background">
-    <div id="contact">
+    <div id="join">
         <div class="col-md-12 contact-us" data-sr='wait 0.1s, then enter top and hustle 20px over 1s'>
             <h2>Get Updates!</h2>
+        </div>
+    </div>
+    <div>
+        <div class="contact-us" data-sr='wait 0.1s, then enter top and hustle 20px over 1s'>
+            <h2>-</h2>
         </div>
     </div>
     <div class="row contact">
         <div class="col-md-5 col-md-offset-2" data-sr='wait 0.2s, then enter left and hustle 50px over 1s'>
             <div class="form-group">
-                <div class="input-group">
-                    <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Name" required>
-                    <span class="input-group-addon"><i></i></span></div>
+
+                <!-- Begin MailChimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup {
+                        background: #fff;
+                        clear: left;
+                        font: 14px Helvetica, Arial, sans-serif;
+                    }
+
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="//compositecode.us11.list-manage.com/subscribe/post?u=7f73ff0427183b9b64e1f336a&amp;id=16a6a2cee4"
+                          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                          class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL">Subscribe to our mailing list</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+                                   placeholder="email address" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                                                                                      name="b_7f73ff0427183b9b64e1f336a_16a6a2cee4"
+                                                                                                      tabindex="-1"
+                                                                                                      value=""></div>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
+                                                      id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
             </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email"
-                           required>
-                    <span class="input-group-addon"><i></i></span></div>
+
+                <!--End mc_embed_signup-->
             </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <textarea name="InputMessage" id="InputMessage" class="form-control" rows="10"
-                              placeholder="Send us your thoughts, ideas, or suggestions on how to make sure this is a great event for you!"
-                              required></textarea>
-                    <span class="input-group-addon"><i></i></span></div>
-            </div>
-            <div class="form-group">
-            </div>
-            <button type="submit" name="submit" id="buttonContact" class="btn btn-primary pull-right"></button>
+
+
         </div>
+
         <hr class="featurette-divider hidden-lg">
         <div class="col-md-3 col-md-push-1" data-sr='wait 0.2s, then ease in out and hustle 20px over 1s'>
             <h2 class="h2-contact">...</h2>
             <address>
                 <p class="lead">
-                    Sign up for more updates, we'll keep you in the loop on all the events leading up to and the
+                    Sign up for more updates and we'll keep you in the loop on all the events leading up to and the
                     conference event itself.
                 </p>
             </address>
+        </div>
+
+    </div>
+    <div>
+        <div class="contact-us" data-sr='wait 0.1s, then enter top and hustle 20px over 1s'>
+            <h2>. . .</h2>
         </div>
     </div>
 </div>
@@ -358,6 +386,9 @@
                     and cat herding care of <a
                             href="https://twitter.com/adron">@Adron</a> & <a href="https://twitter.com/thoward37">@thoward37</a>
                 </h4>
+                <h4><a href="./code-of-conduct.md">Code of Conduct</a>
+                </h4>
+
             </div>
         </div>
     </div>
