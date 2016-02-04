@@ -18,5 +18,6 @@ Speaker Bio
 Natallia is a Software Solutions Architect, proficient in data storages, focused on high throughput and productive data processing.
 
 *Alena Hall*
-Alena is an experienced Solutions Architect building scalable distributed cloud architectures, designing low latency systems under heavy workloads, working with big data analysis, data science, functional programming and machine learning. Alena is a speaker at international conferences and a member of F# Software Foundation Board of Trustees.
+
+Alena is an experienced Solutions Architect building scalable distributed cloud architectures, designing low latency systems under heavy workloads, working with big data analysis, data science, functional programming and machine learning. Alena is a speaker at international conferences and a member of F# Software Foundation Board of Trustees. You can find her on Twitter as @lenadroid.
 
