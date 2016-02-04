@@ -1,26 +1,20 @@
-[Proposal Title]
+Mastering Cassandra on Docker with F#
 ========================
 
-* Speaker   : [Your Name, eg: *Jane Doe*]
-* Available : [Dates/Times Available, eg: *Apr 18th, 9am-12pm*] 
-* Length    : [Length of Presentation, eg: *30 mins*]
+* Speaker   : Natallia Dzenisenka
+* Available : Apr 17 - 19
+* Length    : 30 - 40 minutes
 
 Description
 -----------
-
-[Presentation description goes here. Try to keep it under say, 500 words, but more than 140 characters]
+Data is everywhere. Open source world gives us an opportunity to use advanced technical solutions to handle not uncommon problems of huge amounts of data that require low latency access. Can we use our favorite languages such as functional-firts F# or C# for that? The answer is yes. This talk is focused on showing how to create a Cassandra cluster based on Docker, and how to build an application that connects to it and uses it with F# and .NET in a cross platform way! We will demonstrate the power of fringe .NET, showing how easy it is to use fully open source tools such as F# with Project Scaffold in Xamarin Studio on OSX to create a .NET solution that uses advanced open source distributed database Cassandra on Docker.
 
 ---------------
-[*All things below are optional*]
 
 Speaker Bio
 -----------
+*Natallia Dzenisenka*
 
-I work for big-corp doing big-corpy stuff and massive distributed systems. I also am known for creating magical unicorn libraries that distribute rainbows on a multi-regional fully distributed global scale to prevent rainbow deprivation!
+Natallia is a Software Solutions Architect, proficient in data storages, focused on high throughput and productive data processing.
 
-Links
------
 
-* Blog: http://writehereido.me/stuff-i-do
-* Company: http://big-corp.com/the-corpy-products
-* Github: http://github.com/jane-doe
