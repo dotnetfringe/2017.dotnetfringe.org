@@ -3,7 +3,7 @@ Dockerize Your Way to Victory in Your .NET Distributed System
 
 * Speaker   : Tugberk Ugurlu
 * Available : Apr 17-18 
-* Length    : 40 mins
+* Length    : 40-45 mins
 
 Description
 -----------
