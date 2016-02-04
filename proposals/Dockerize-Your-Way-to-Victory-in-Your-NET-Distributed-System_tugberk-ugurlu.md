@@ -25,8 +25,8 @@ Links
 -----
 
  - Twitter: https://twitter.com/tourismgeek
- - Blog: http://www.tugberkugurlu.com/
+ - Blog: http://www.tugberkugurlu.com
  - GitHub: http://github.com/tugberkugurlu
  - Stackoverflow: http://stackoverflow.com/users/463785/tugberk
  - LinkedIn: http://www.linkedin.com/in/tugberk
- - Company: https://www.red-gate.com/
+ - Company: https://www.red-gate.com
