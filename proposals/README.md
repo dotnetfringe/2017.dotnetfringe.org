@@ -23,7 +23,7 @@ Every proposal should have, at minimum, the following information:
 * Presentation Description
 * Presentation Duration (typically 30 mins, but we're open minded)
 
-To make this easier, I've created a template you can copy and modify. See [proposal-template_jane-doe.md](https://github.com/nodepdx/nodepdx.github.com/blob/master/proposals/proposal-template_jane-doe.md) in this directory.
+To make this easier, I've created a template you can copy and modify. See [proposal-template_jane-doe.md](https://github.com/dotnetfringe/dotnetfringe.github.io/blob/master/proposals/proposal-template_jane-doe.md) in this directory.
 
 ### Bio
 
