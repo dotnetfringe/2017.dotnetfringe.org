@@ -32,7 +32,7 @@ Any participant asked to stop any harassing behavior is expected to comply immed
 
 If you feel uncomfortable, are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference Staff are identified by STAFF badges or shirts for each day of .NET Fringe.
 
-You can also send an email to [welcome@dotnetfringe.org](mailto:welcome@dotnetfringe.org).
+You can also send an email to [dotnetfringe@gmail.org](mailto:dotnetfringe@gmail.org).
 
 Immediate Response SMS number: [1 \(503\) 890-8036](tel:+15038908036)
 
