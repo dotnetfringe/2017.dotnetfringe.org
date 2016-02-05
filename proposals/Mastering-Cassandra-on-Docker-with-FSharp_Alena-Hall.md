@@ -1,7 +1,7 @@
 Mastering Cassandra on Docker with F#
 ========================
 
-* Speaker   : Natallia Dzenisenka, Alena Hall
+* Speaker   : Alena Hall
 * Available : Apr 17 - 19
 * Length    : 30 - 40 minutes
 
@@ -13,9 +13,6 @@ Data is everywhere. Open source world gives us an opportunity to use advanced te
 
 Speaker Bio
 -----------
-*Natallia Dzenisenka*
-
-Natallia is a Software Solutions Architect, proficient in data storages, focused on high throughput and productive data processing.
 
 *Alena Hall*
 
