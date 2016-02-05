@@ -4,7 +4,7 @@
 
 If you have any questions, comments, concerns, or to report anything that makes you feel uncomfortable or unsafe, you can use these channels:
 
-* Email: [welcome@dotnetfringe.org](mailto:welcome@dotnetfringe.org)
+* Email: [dotnetfringe@gmail.org](mailto:dotnetfringe@gmail.org)
 * In person: Any organizer, identified by STAFF badges or shirts for each day of .NET Fringe.
 * Immediate Response SMS number: [1 \(503\) 890-8036](tel:+15038908036)
 
