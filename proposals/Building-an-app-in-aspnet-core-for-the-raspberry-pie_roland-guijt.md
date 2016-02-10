@@ -12,7 +12,6 @@ This session will bring you up to speed with all the goodness of ASP.NET Core, f
 This release has the best new features seen in a long time. It not only supports development for a lightweight version of .NET called .NET Core, but for the first time you can also target non-Windows platforms. You will learn how this works and I’ll demonstrate this by showing an ASP.NET Core app running on a Raspberry Pi that can be sticked to the side of a fish tank. With a browser you can login the Pi and watch a dashboard showing you the statistics of the fish tank. You’ll also see how MVC6 has become better with tag helpers, view components and many more cool features presented by the author of "Understanding ASP.NET Core" on Pluralsight.
 
 ---------------
-[*All things below are optional*]
 
 Speaker Bio
 -----------
