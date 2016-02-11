@@ -165,6 +165,7 @@ h2 {
 
 h3 {
   font-size: 2em;
+  margin-top: 40px;
 }
 
 p.top_desc{
@@ -175,13 +176,20 @@ p.top_desc{
 	margin-bottom: 20px;
 	font-weight: 300;
 }
-p.bottom_desc{
+p.subscript_desc{
 	color: #EDF6FF;
 	font-size:0.95em;
 	font-style:italic;
 	text-transform:uppercase;
 	margin-bottom: 20px;
 	font-weight: 300;
+}
+p.desc{
+	color: #EDF6FF;
+	font-size:1em;
+	text-transform:uppercase;
+	font-weight: 300;
+  line-height: 1.6em;
 	margin-top:3em;
 }
 .header_btn{
