@@ -1,4 +1,4 @@
-Patterns for building highly scalable services ontop of Azure
+Patterns for building highly scalable services with messaging
 ========================
 
 * Speaker   : Jef King
