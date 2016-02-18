@@ -1,25 +1,26 @@
-King(dot): Years of background processing on Azure Distilled
+Patterns for building highly scalable services ontop of Azure
 ========================
 
 * Speaker   : Jef King
 * Available : Apr 17-18
-* Length    : 60 min
+* Length    : 60-90 min
 
 Description
 -----------
 
-Building highly scalable, and high-throughput systems takes a lot of work. Through King.Service and related libraries, much of the immediate challenges can be avoided. If you are interested in message passing and background processing in high demand environments this is the session for you. King.Service and related libraries, have totaled over 30,000 downloads over the past two years.
+Covering scalable backend processes via message passing on Service Bus, Storage Queues and Service Fabric. We will take a deep look into patterns that enable high-throughput at relatively low cost. We will dip into the codez, and get familiar with timing strategies. Everything covered is distilled in an open-source project which is growing in popularity, and has tens of thousands of downloads on [Nuget](https://www.nuget.org/packages/King.Service/). 
 
 ---------------
 
 Speaker Bio
 -----------
 
-During the day Jef King is a Technical Evangelist with Microsoft, enabling companies of all sizes understand the current landscape in technology. At night, he continues building open source software which enables people to quickly build and test amazing systems.
+During the day Jef King is a Technical Evangelist with Microsoft, enabling companies of all sizes understand the current landscape in technology. At night, he continues building robust open source software which enables people to quickly build and test amazing systems.
 
 Links
 -----
 
-* VBlog: http://writehereido.me/stuff-i-do
+* VBlog: https://channel9.msdn.com/Series/onacloud
 * Company: Microsoft
-* Github: http://github.com/jefking
+* Github: https://github.com/jefking
+* NuGet: https://www.nuget.org/profiles/jefkingabc
