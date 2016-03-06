@@ -1,0 +1,27 @@
+Actor Clustering with Docker Containers and Akka.Net in F#
+========================
+
+* Speaker   : Riccardo Terrell
+* Available : Always
+* Length    : 45 mins
+
+Description
+-----------
+
+In this session, you will learn to build and deploy distributed systems combining the power of Akka.Net, the flexibility of F# Remoting, and the simplicity of Docker containers.  The combination of these technologies enhances the effects of F# “code-quotation”, which allows the deployment of arbitrary Actors into remote Actor-Systems. 
+You will learn the basic concepts behind Microservices implemented using the Actor Clustering, and how to leverage Docker containers for easy deployment. 
+Docker is the new shining star in the dev-ops world. It allows you to easily deploy images to any OS running Docker, while providing an isolated environment for the applications running inside the container image.  Akka.Net is a framework to build concurrent, resilient, distributed and scalable software systems. The cluster feature lets you distribute your Actors across multiple machines to achieve load balancing, fail-over and the ability to scale up and out.  F# is a strongly typed, multi-paradigm programming language that encompasses functional, imperative, and object-oriented programming techniques. During this session we will build and deploy an Actor Cluster to distribute an image recognition system using multiple Machine Learning concepts. 
+
+---------------
+
+Speaker Bio
+-----------
+
+Riccardo Terrell, is a Senior Back-End Developer at Statmuset who is passionate about functional programming. He is active in the F# community and started the DC F# user’s group. Riccardo believes in polyglot programming as a mechanism for finding the right tool for the job. He likes to describe himself as a functional guy living in an imperative world.
+
+Links
+-----
+
+* Twitter: @trikace
+* Company: http://www.statmuse.com
+
