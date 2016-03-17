@@ -477,6 +477,14 @@ p.m_2{
 	line-height:1.8em;
 	color: #1E1E24;
 }
+.tickets {
+  text-align: center;
+  padding: 3em 0;
+}
+.tickets p.bottom_desc {
+  text-transform: none;
+}
+
 .cfp {
   text-align: center;
   padding: 3em 0;
