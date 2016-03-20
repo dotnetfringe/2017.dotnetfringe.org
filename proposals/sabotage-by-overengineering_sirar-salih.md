@@ -3,7 +3,7 @@ Sabotage by Overengineering
 
 * Speaker   : Sirar Salih
 * Available : July 10 - 12
-* Length    : 20 - 30 minutes
+* Length    : 30 minutes
 
 Description
 -----------
