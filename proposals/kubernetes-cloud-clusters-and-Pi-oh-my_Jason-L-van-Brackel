@@ -1,0 +1,28 @@
+Kubernetes, Cloud, Clusters and Pi.  Oh My!
+========================
+
+* Speaker   : Jason L. van Brackel
+* Available : July 10-12th, all times 
+* Length    : 30 - 90 mins.  Will adjust presentation based on available time.
+
+Description
+-----------
+
+In this presentation I will demo a running Raspberry Pi cluster, with Kubernetes and Docker. I will discuss how the cluster was built and how it is configured.  I will also demo a simple .NET application deployment within the docker container.
+
+Speaker Bio
+-----------
+
+I am Solutions Architect with the Client Services team at Apprenda, developing solutions for organizations using the Apprenda Platform.  I also spend my time discussing cloud and devops related topics.  Currently I'm playing with Raspberry Pi's and would like to experiment with wearables when I have the time.
+
+Links
+-----
+
+* Blog: https://apprenda.com/blog/author/jvanbrackel/
+* Company: http://www.apprenda.com
+* Github: http://github.com/jasonvanbrackel
+
+Contact Info
+------------
+* E-mail: jvanbrackel at apprenda dot com
+* Twitter: https://www.twitter.com/jasonvanbrackel
