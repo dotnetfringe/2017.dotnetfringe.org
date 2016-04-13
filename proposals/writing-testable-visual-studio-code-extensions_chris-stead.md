@@ -9,18 +9,19 @@ Description
 -----------
 
 We will walk through creating a simple Visual Studio Code extension and integrating testing throughout the entire
-process. We will take a look at using Golden Master tests to guarantee all changes to non-executable files are not only checked at
-git commit time but also at test time.  We will also use the factory pattern and the Mockery library to break dependency on the 
-vscode module so integration points are testable.
+process. Using Golden Master tests, we will add guarantees around non-executable files so checks are performed at test time
+as well as at commit time. Our exploration will continue by looking into mocks and fakes using the Mockery library as well
+as the factory pattern to break the vscode module dependency, giving us a way to fully test our code and ensure behavior throughout
+our extension.
 
 ---------------
 
 Speaker Bio
 -----------
 
-Chris Stead is a mob team member at Hunter Industries and the creator of JS Refactorings, the Javascript refactoring
-extension for Visual Studio Code. Chris is a polyglot developer specializing in Javascript, functional programming
-and Test Driven Development. Chris is a regular blogger and a speaker at San Diego, CA meetups.
+Chris Stead mobs with the software team at Hunter Industries and the creator of JS Refactorings, the Javascript refactoring
+extension for Visual Studio Code. He is a polyglot developer specializing in Javascript, functional programming
+and Test Driven Development. Chris regularly blogs on programming topics and speaks at San Diego, CA meetups.
 
 Links
 -----
