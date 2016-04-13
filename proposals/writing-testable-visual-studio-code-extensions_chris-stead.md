@@ -19,8 +19,8 @@ our extension.
 Speaker Bio
 -----------
 
-Chris Stead mobs with the software team at Hunter Industries and the creator of JS Refactorings, the Javascript refactoring
-extension for Visual Studio Code. He is a polyglot developer specializing in Javascript, functional programming
+Chris Stead mobs with the software team at Hunter Industries and is the core developer on JS Refactorings, the Javascript
+refactoring extension for Visual Studio Code. He is a polyglot developer specializing in Javascript, functional programming
 and Test Driven Development. Chris regularly blogs on programming topics and speaks at San Diego, CA meetups.
 
 Links
