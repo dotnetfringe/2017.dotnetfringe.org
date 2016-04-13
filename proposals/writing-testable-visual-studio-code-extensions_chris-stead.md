@@ -9,9 +9,9 @@ Description
 -----------
 
 We will walk through creating a simple Visual Studio Code extension and integrating testing throughout the entire
-process. We will take a look at using approval tests to guarantee all changes are not only checked at git commit time
-but also at test time.  We will also use the factory pattern and the Mockery library to break dependency on the vscode
-module so integration points are testable.
+process. We will take a look at using Golden Master tests to guarantee all changes to non-executable files are not only checked at
+git commit time but also at test time.  We will also use the factory pattern and the Mockery library to break dependency on the 
+vscode module so integration points are testable.
 
 ---------------
 
