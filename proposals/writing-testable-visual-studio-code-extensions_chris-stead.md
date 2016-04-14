@@ -31,3 +31,4 @@ Links
 * Github: http://github.com/cmstead
 * Google+: https://plus.google.com/u/0/+ChrisStead
 * Twitter: https://twitter.com/cm_stead
+* Email: cmstead@gmail.com
