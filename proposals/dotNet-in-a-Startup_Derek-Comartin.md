@@ -13,7 +13,7 @@ The days of being a .NET developer using only a Microsoft stack of Windows, IIS,
 Or at least they are for us.
 
 This talk will cover my personal experiences of embracing .NET along with my roots in Linux and OSS.  These
-experiences are why we chose .NET and a variety of OSS technology and tools for a startup.  Also covering how
+experiences are why we chose .NET and a variety of OSS technologies and tools for a startup.  Also covering how
 we use these tools such as NancyFX, MediatR, Event Store and Elasticsearch to build our systems running in AWS.
 
 
