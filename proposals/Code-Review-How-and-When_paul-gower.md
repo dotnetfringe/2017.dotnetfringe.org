@@ -23,3 +23,4 @@ Links
 
 * Company: http://lunamark.com
 * Github: http://github.com/pmgower
+* LinkedIn: http://linkedin.com/in/pmgower
