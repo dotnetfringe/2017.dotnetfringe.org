@@ -8,7 +8,7 @@ Introduction to Ferop
 Description
 -----------
 
-Ferop is a .NET library that allows inline C/C++ to compile and run on Windows/Linux/OSX. It is written entirely in F# and works not only in F# projects, but also C# and VB. The use cases for using such a library include using C/C++ libraries that do not contain any .NET bindings, typically libraries are could be useful for game development.
+Ferop is a .NET library that allows inline C/C++ to compile and run on Windows/Linux/OSX. It is written entirely in F# and works not only in F# projects, but also C# and VB. The use cases for using such a library include using C/C++ libraries that do not contain any .NET bindings; these libraries typically could be useful for game development purposes.
 
 Speaker Bio
 -----------
