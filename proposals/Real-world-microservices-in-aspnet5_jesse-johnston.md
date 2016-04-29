@@ -20,5 +20,5 @@ Jesse, Beau and Jared are responsible for building the Forge microservice framew
 Links
 -----
 
-* Blog: https://medium.com/home-depot-quote-center 
+* Blog: https://medium.com/home-depot-quote-center, http://teamjohnston.net/blog/ 
 * Company: http://www.homedepot.com/, http://hdquotecenter.com/
