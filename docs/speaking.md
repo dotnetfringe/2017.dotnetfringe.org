@@ -15,7 +15,7 @@ Go ahead [submit a talk](https://github.com/dotnetfringe/dotnetfringe.github.io/
 
 ## Step 2: Proposal Selected
 
-After the CFP closes, our organizer team uses a two step selection process. The first step involves a vote by the entire organizing team. The voting scores create a sorted list of talks. From that, the [CFP Czar](get-involved.html#cfp-czar) will select the talks they think will make an interesting schedule (not necessarily the most highly voted talkss).
+After the CFP closes, our organizer team uses a two step selection process. The first step involves a vote by the entire organizing team. The voting scores create a sorted list of talks. From that, the [CFP Czar](get-involved.html#cfp-czar) will select the talks they think will make an interesting schedule (not necessarily the most highly voted talks).
 
 At that point, we will reach out to you, to let you know your talk was accepted, and ask you to confirm that you can still make it to the conference. If you say yes, we'll move on to the next step. 
 
