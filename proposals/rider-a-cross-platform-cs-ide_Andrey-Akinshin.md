@@ -1,26 +1,14 @@
-Let's talk about microbenchmarking
+Rider: A cross-platform C# IDE
 ========================
 
 * Speaker   : Andrey Akinshin
 * Available : All conference days
-* Length    : 40-60 minutes
+* Length    : 30-60 minutes
 
 Description
 -----------
 
-This talk is about a wonderful world of microbenchmarking and microperformance. Will will discuss why microbenchmarking is hard and how to measure very quick operations right way.
-
-Content:
-
-* General methodology
-* Common pitfalls and mistakes
-* How long we should measure and how many times?
-* Warmup importance
-* Why we should run benchmarks in different environments (different C# Compilers/CLR versions/JITs/Operation systems/etc)
-* Overhead evaluation
-* Statistics calculation
-* Good practices
-
+Rider is a new cross-platform C# IDE. It based on ReSharper and the IntelliJ platform, so you can use all the features of these products like smart code editing, code inspections, navigation, refactorings, built-in decompiler, debugger, and so on. I'll tell you about Rider in general (how Rider can help you to develop cool cross-platform applications) and what is inside (technical details about how it works).
 
 Speaker Bio
 -----------
