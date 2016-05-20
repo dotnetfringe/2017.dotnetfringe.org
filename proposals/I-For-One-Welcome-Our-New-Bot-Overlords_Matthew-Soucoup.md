@@ -8,9 +8,9 @@ I, For One, Welcome Our New Bot Overlords - An Intro To Microsoft's Bot Framewor
 Description
 -----------
 
-Bots! They've been with us for a while and with the new frameworks from Google, Amazon, Facebook and Microsoft it seems inevitable that they'll take over and rule the world by ordering pizza from a chat window because somebody mentioned pepporoni! As developers, we may be humanity's last, best hope, of preventing this bleak future. Or will we enable it?
+Bots! They've been with us for a while and with the new frameworks from Google, Amazon, Facebook and Microsoft it seems inevitable that they'll take over and rule the world... by ordering pizza from a chat window because somebody mentioned pepperoni! As developers, we may be humanity's last, best hope, of preventing this bleak future. Or will we enable it?
 
-Ok, ok - the dystopian fantasy aside - bots are pretty darn cool and so are the frameworks around them. In this session we're going to dig into Microsoft's Bot Framework and see how easy it is to create a Conversational User Interface. We'll look at best practices around designing a conversational bot, what the SDK gives us for tools to do so, and  
+Ok, ok - the dystopian fantasy aside - bots are pretty darn cool and so are the frameworks around them. In this session I'll share some practical advice learned from digging into Microsoft's Bot Framework preview to create Conversational User Interfaces, or bots. We'll look at both architectural and user experience best practices around designing a conversational bot, what tools the SDK gives us, and if we're feeling brave enough - unleash the bot onto the unsuspecting public! 
 
 
 Speaker Bio
