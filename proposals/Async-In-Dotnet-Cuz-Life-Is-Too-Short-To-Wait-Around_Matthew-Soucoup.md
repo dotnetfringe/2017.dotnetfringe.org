@@ -16,7 +16,7 @@ In this session we’ll talk about asynchronous programming with .NET. First we 
 Speaker Bio
 -----------
 
-Matthew is a Xamarin MVP and Certified Xamarin Developer from Madison, WI. He founded his company Code Mill Technologies and started the Madison Mobile .Net Developers Group.  Matt regularly speaks on .Net and Xamarin development at user groups, code camps and conferences throughout the nation. Matt gardens hot peppers, rides bikes, and loves Wisconsin micro-brews and cheese.
+Matthew is a Xamarin MVP from Madison, WI. He founded his company Code Mill Technologies and started the Madison Mobile .Net Developers Group.  Matt regularly speaks on .Net and Xamarin development at user groups, code camps and conferences such as Xamarin Evolve, CodeMash and That Conference. Matt gardens hot peppers, rides bikes, and loves Wisconsin micro-brews and cheese.
 
 Links
 -----
