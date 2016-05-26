@@ -1,4 +1,4 @@
-# Ship The Stub
+# Giving Your Way To Greatness
 
 * Speaker   : Tim Rayburn
 * Available : July 10-12th
