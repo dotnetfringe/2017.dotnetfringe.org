@@ -1,4 +1,5 @@
-# The .NET Fringe Code of Conduct
+The .NET Fringe Code of Conduct
+-------------------------------
 
 ## Need Help?
 

@@ -1,0 +1,214 @@
+<!--
+  Author: W3layouts
+  Author URL: http://w3layouts.com
+  License: Creative Commons Attribution 3.0 Unported
+  License URL: http://creativecommons.org/licenses/by/3.0/
+  -->
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>.NET/FRINGE/ - An atypical conference for open-source .NET developers.</title>
+    <meta name="description" content=".NET/FRINGE/ - An atypical conference for open-source .NET developers. July 10 - 12, 2016, Portland, OR">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!----webfonts---->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
+    <!----//webfonts---->
+    <!----//requred-js-files---->
+    <script src="../js/easing.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.scrolltofixed.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
+    <script type="text/javascript">
+      // function resize() {
+      //   width = window.innerWidth;
+      //   // height = window.innerHeight;
+      //   // largeHeader.style.height = height+'px';
+      //   canvas.style.width = width+'px';
+      //   // canvas.height = height;
+      // }
+      $(document).ready(function() {
+        $('#topnav').scrollToFixed();
+        $.localScroll({
+          target: 'body',
+          duration: 1000,
+          hash: true,
+          offset: function() { offsetHeight=document.getElementById('topnav').clientHeight * -1; return {top: offsetHeight, left: 0}; }
+        });
+        header_div = document.getElementById('header');
+        header_div.style.height=window.innerHeight+'px';
+
+        // window.addEventListener('resize', resize);
+
+      });
+    </script>
+  </head>
+  <body>
+<!--    <div class="header" id="header">
+      <div class="logo">
+        <a href="../index.html"><img src="../images/dotnetfringe-logo.png" alt=""/></a>
+        <h1>July 10 - 12, 2016 (PDX)</h1>
+        <div class="header_btn"><a class="btn2" href="../index.html#quotes"><span>Have A Look</span></a></div>
+      </div>
+    </div> -->
+    <nav id="topnav" class="navbar-custom navbar-scroll-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header" id="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <img src="../images/nav-icon.png" title="drop-down-menu">
+          </button>
+        </div>
+        <div class="navbar-collapse navbar-left navbar-main-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="../index.html#header">Home</a></li>
+            <li><a href="../index.html#signup">Sign Up</a></li>
+            <li><a href="../index.html#tickets">Tickets</a></li>
+            <li><a href="../index.html#cfp">Call For Proposals</a></li>
+            <li><a href="../index.html#photos">Photos</a></li>
+            <li><a href="../index.html#map">Venue</a></li>
+            <li><a href="../docs/index.html">Docs</a></li>
+            <!-- <li><a href="#speakers">Speakers</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contents" id="contents">
+      <div class="container">
+        <div class="copy">
+          <style>
+            .copy ul li {
+              font-size: 1.1em;
+              line-height: 1.25em;
+              margin-bottom: .75em;
+              color: white;
+            }
+            .copy {
+              font-size: 1.25em;
+            }
+            .copy h1 {
+              font-size: 2.5em;
+              line-height: 2.7em;
+            }
+            .copy h2 {
+              font-size: 2em;
+              line-height: 2.2em;
+            }
+            .copy h3 {
+              font-size: 1.5em;
+              line-height: 1.6em;
+            }
+            .copy a {
+              color: #FCB200;
+            }
+            .copy p {
+              font-size: 1.1em;
+              margin-bottom: 1em;
+            }
+          </style>
+          <h2 id="get-involved">Get Involved</h2>
+<p>We'd love for you to get involved! There are many ways to be part of .NET Fringe:</p>
+<ul>
+<li><p><strong>Speak</strong>: Our speakers are the stars of the show. It's a lot of work, but you get star treatment in return. Read more on <a href="speaking.html">becoming a speaker</a>.</p></li>
+<li><p><strong>Attend</strong>: You might not think it's a big deal, but just showing up to the conference is a major help! We're doing this for you, and we want to have a room full of amazing people. We keep ticket prices inexpensive so you can afford to go, even if your job won't pay for it. Go <a href="../index.html#tickets">get a ticket</a> now!</p></li>
+<li><p><strong>Sponsor</strong>: If your company wants to support the conference, we have a variety of sponsorship packages available. Send us an email at <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript> and our <a href="#sponsorship-coordinator">Sponsorship Coordinator</a> will follow-up with all the details.</p></li>
+<li><p><strong>Volunteer</strong>: We can always use more help during the conference. Maybe you could work the registration desk, help us setup or tear down at the venue, or clean up after the lunch hour. There's a ton of things to help with. We'll give you a free ticket if you commit to at least one day of volunteer work! Send us an email to <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript> to get started.</p></li>
+<li><p><strong>Organize</strong>: We have a number of roles that have deeper involvement and commitment that you could help with. Read more about those below!</p></li>
+</ul>
+<h2 id="the-organizing-team">The Organizing Team</h2>
+<p>.NET Fringe is organized by a small team of people based in Portland, Oregon. The team varies each year, but was originally founded by <a href="http://twitter.com/thoward37" title="Troy Howard">Troy Howard</a> and <a href="http://twitter.com/adron" title="Adron Hall">Adron Hall</a>.</p>
+<p>Our organizing team has a variety of responsibilities that all contribute towards delivering an awesome experience for our attendees and speakers. We've formalized those into the following roles:</p>
+<h2 id="super-genius-of-conf">SUPER GENIUS OF CONF</h2>
+<p>The <em>SUPER GENIUS OF CONF</em> oversees the direction of the conference, year after year, and ensures that it stays true to its mission, character and overall <em>vibe</em>.</p>
+<p>Additionally, they manage the budget, set ticket pricing, manage the ticketing system, invoice sponsors and make the final decisions about how we spend the money generated from ticket sales and sponsorships.</p>
+<p>They also help the other roles organize their work and fill in wherever needed, from sweeping the floor to updating the website, to ordering stickers.</p>
+<p>For 2016, our <em>SUPER GENIUS OF CONF</em> is <a href="http://twitter.com/thoward37" title="Troy Howard">Troy Howard</a>.</p>
+<h2 id="cfp-czar">CFP Czar</h2>
+<p>The <em>CFP Czar</em> is responsible for managing everything related to our speakers. They open and close the Call For Proposals (CFP), manage the talk selection process, do outreach to invite the best speakers we can find, communicate with potential speakers when a talk is accepted or rejected, coordinate speaker travel, organize the talk schedule, and help ensure the speakers are prepared for their talk.</p>
+<p>After the conference, they manage the process of getting videos uploaded to the site.</p>
+<p>For 2016, the .NET Fringe <em>CFP Czar</em> is <a href="http://twitter.com/gblock" title="Glenn Block">Glenn Block</a>.</p>
+<h2 id="sponsorship-coordinator">Sponsorship Coordinator</h2>
+<p>The <em>Sponsorship Coordinator</em> is responsible for managing our relationship with corporate sponsors. This involves preparing a sponsorship prospectus document detailing our sponsorship opportunities, handling inbound requests for information from potential sponsors, and reaching out to potential sponsors.</p>
+<p>The <em>Sponorship Coordinator</em> manages the entire lifecycle of a sponsorship including negotiations, accounts payable, and delivering on our promised sponsorship benefits like: updating the website with sponsor logos, providing on-site help for promotional materials, coordinating messaging from stage or in emails, etc.</p>
+<p>For 2016, the .NET Fringe <em>Sponsorship Coordinator</em> is <a href="http://twitter.com/synhershko" title="Itamar Syn-Hershko">Itamar Syn-Hershko</a>.</p>
+<h2 id="logitisics-coordinator">Logitisics Coordinator</h2>
+<p>The <em>Logistics Coordinator</em> is our on-site support system. They manage things like locating an appropriate venue, coordinating with caterers, coordinating with videographers, setting up temporary WiFi installations at the venue, renting equipment such as projection systems, chairs, and other incidentals. This is a very involved role and may require a certain amount of driving around town to collect supplies, and negotiating contracts with various service providers and vendors.</p>
+<p>For 2016, our <em>Logistics Coordinator</em> is <a href="http://twitter.com/adron" title="Adron Hall">Adron Hall</a>.</p>
+<p>NOTE: We'd love to find a replacement for Aron in this role. If you're interested, shoot us an email at <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>. The <em>Logistics Coordinator</em> must be based in/around Portland.</p>
+<h2 id="brand-director">Brand Director</h2>
+<p>The <em>Brand Director</em> is responsible for creating the unique identity of our conference. This involves everything from ensuring the venue has the right <em>vibe</em> to creating visual assets like logos for the website and social media, managing the website theme, creating t-shirts and stickers, and ensure our communications voice is consistent.</p>
+<p>For 2016, our <em>Brand Director</em> is <a href="http://twitter.com/thoward37" title="Troy Howard">Troy Howard</a>.</p>
+<p>NOTE: We'd love to find a replacement for Troy in this role. If you're interested, shoot us an email at <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>. The <em>Brand Director</em> can be based anywhere in the world.</p>
+<h2 id="volunteer-coordinator">Volunteer Coordinator</h2>
+<p>The <em>Volunteer Coordinator</em> is responsible for organizing members of community who would like to become volunteers. The <em>Volunteer Coordinator</em> organizes the schedule of volunteers, ensures we have enough volunteers to cover our needs, and during the conference, manages the task, questions, and other needs of the volunteer staff.</p>
+<p>For 2016, our <em>Volunteer Coordinator</em> is <a href="http://twitter.com/RichClaussen" title="Rich Claussen">Rich Claussen</a>.</p>
+<h2 id="activities-director">Activities Director</h2>
+<p>The <em>Activities Director</em> is responsible for arranging the extra activities outside of the main conference schedule. This includes our group bike ride, group hike, and Geek Train events. They also arrange the venue contract for the official after-party and coordinate any workshops or other ancillary events. There may also be additional ticketing or other attendee management tasks associated with these events.</p>
+<p>During these events, the <em>Activities Director</em> is also responsible for any <a href="code-of-conduct.html" title="Code of Conduct">Code Of Conduct</a> problems that may come up.</p>
+<p>For 2016, the <em>Activities Director</em> role is share by <a href="http://twitter.com/RebeccaClayCole" title="Rebecca Cole">Rebecca Cole</a> and <a href="http://twitter.com/adron" title="Adron Hall">Adron Hall</a>.</p>
+<h2 id="emcee">Emcee</h2>
+<p>The <em>Emcee</em> is the face and voice of the conference on stage. They are responsible for introducing the speakers on stage, and making various announcements during the conference. The <em>Emcee</em> also makes sure that speakers are ready to take the stage at their scheduled time, helps them connect to the A/V system and troubleshoot and projection or amplification problems, and helps speaker wear their microphone. During the talk, they ensure the speaker does not run over time (gives 5 minute warning, and cuts off long-running talks) as well as managing any interaction with the crowd that may come up, especially around Q&amp;A.</p>
+<p>For 2016, the <em>Emcee</em> role is shared by <a href="http://twitter.com/adron" title="Adron Hall">Adron Hall</a> and <a href="http://twitter.com/gblock" title="Glenn Block">Glenn Block</a>.</p>
+<p>NOTE: We'd love to find a replacement for Adron in this role. If you're interested, shoot us an email at <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>. The <em>Emcee</em> can be based anywhere in the world, but must be able to attend the conference.</p>
+<h2 id="communications-director">Communications Director</h2>
+<p>The <em>Communications Director</em> is responsible for managing outbound communications and promotions via email, Twitter, and other online media. The <em>Communications Director</em> works closely with the [Brand Director][#brand-director] to ensure the voice of the brand remains consistent with the conference's identity and <em>vibe</em>.</p>
+<p>For 2016, the <em>Communications Director</em> role is shared by <a href="http://twitter.com/thoward37" title="Troy Howard">Troy Howard</a> and <a href="http://twitter.com/adron" title="Adron Hall">Adron Hall</a>.</p>
+<p>NOTE: We'd love to find a replacement for Troy and Adron in this role. If you're interested, shoot us an email at <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#100;&#x6f;&#116;&#110;&#x65;&#116;&#102;&#114;&#x69;&#110;&#x67;&#x65;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>. The <em>Communications Director</em> can be based anywhere in the world.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="copy">
+          <p>&copy; .NET Fringe 2016 - <a href="docs/code-of-conduct.html">Code Of Conduct</a> - Previous: <a href="http://2015.dotnetfringe.org">2015</a> | Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+        </div>
+        <div class="social">
+          <ul>
+            <li class="github"><a href="https://github.com/dotnetfringe"><span> </span></a></li>
+            <li class="twitter"><a href="https://twitter.com/dotnetfringe"><span> </span></a></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>

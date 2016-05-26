@@ -1,0 +1,172 @@
+<!--
+  Author: W3layouts
+  Author URL: http://w3layouts.com
+  License: Creative Commons Attribution 3.0 Unported
+  License URL: http://creativecommons.org/licenses/by/3.0/
+  -->
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>.NET/FRINGE/ - An atypical conference for open-source .NET developers.</title>
+    <meta name="description" content=".NET/FRINGE/ - An atypical conference for open-source .NET developers. July 10 - 12, 2016, Portland, OR">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!----webfonts---->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
+    <!----//webfonts---->
+    <!----//requred-js-files---->
+    <script src="../js/easing.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.scrolltofixed.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
+    <script type="text/javascript">
+      // function resize() {
+      //   width = window.innerWidth;
+      //   // height = window.innerHeight;
+      //   // largeHeader.style.height = height+'px';
+      //   canvas.style.width = width+'px';
+      //   // canvas.height = height;
+      // }
+      $(document).ready(function() {
+        $('#topnav').scrollToFixed();
+        $.localScroll({
+          target: 'body',
+          duration: 1000,
+          hash: true,
+          offset: function() { offsetHeight=document.getElementById('topnav').clientHeight * -1; return {top: offsetHeight, left: 0}; }
+        });
+        header_div = document.getElementById('header');
+        header_div.style.height=window.innerHeight+'px';
+
+        // window.addEventListener('resize', resize);
+
+      });
+    </script>
+  </head>
+  <body>
+<!--    <div class="header" id="header">
+      <div class="logo">
+        <a href="../index.html"><img src="../images/dotnetfringe-logo.png" alt=""/></a>
+        <h1>July 10 - 12, 2016 (PDX)</h1>
+        <div class="header_btn"><a class="btn2" href="../index.html#quotes"><span>Have A Look</span></a></div>
+      </div>
+    </div> -->
+    <nav id="topnav" class="navbar-custom navbar-scroll-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header" id="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <img src="../images/nav-icon.png" title="drop-down-menu">
+          </button>
+        </div>
+        <div class="navbar-collapse navbar-left navbar-main-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="../index.html#header">Home</a></li>
+            <li><a href="../index.html#signup">Sign Up</a></li>
+            <li><a href="../index.html#tickets">Tickets</a></li>
+            <li><a href="../index.html#cfp">Call For Proposals</a></li>
+            <li><a href="../index.html#photos">Photos</a></li>
+            <li><a href="../index.html#map">Venue</a></li>
+            <li><a href="../docs/index.html">Docs</a></li>
+            <!-- <li><a href="#speakers">Speakers</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contents" id="contents">
+      <div class="container">
+        <div class="copy">
+          <style>
+            .copy ul li {
+              font-size: 1.1em;
+              line-height: 1.25em;
+              margin-bottom: .75em;
+              color: white;
+            }
+            .copy {
+              font-size: 1.25em;
+            }
+            .copy h1 {
+              font-size: 2.5em;
+              line-height: 2.7em;
+            }
+            .copy h2 {
+              font-size: 2em;
+              line-height: 2.2em;
+            }
+            .copy h3 {
+              font-size: 1.5em;
+              line-height: 1.6em;
+            }
+            .copy a {
+              color: #FCB200;
+            }
+            .copy p {
+              font-size: 1.1em;
+              margin-bottom: 1em;
+            }
+          </style>
+          <h2 id="speaking-at-.net-fringe">Speaking At .NET Fringe</h2>
+<p>Hi there! We're stoked that you want to be a speaker at our conference.</p>
+<p>We welcome you to our stage: both expert level speakers and absolute beginners who have never given a talk before.</p>
+<p>Here's what you can expect as a speaker for .NET Fringe:</p>
+<h2 id="step-1-submit-a-proposal">Step 1: Submit a Proposal</h2>
+<p>The first step to becoming a speaker for .NET Fringe is to submit a proposal for a talk. We accept proposals at any time, via GitHub pull requests, but each year we open a Call For Proposals (CFP) and there is a cut off date for the talks we'll consider for that year's schedule.</p>
+<p>Go ahead <a href="https://github.com/dotnetfringe/dotnetfringe.github.io/tree/master/proposals">submit a talk</a>!</p>
+<h2 id="step-2-proposal-selected">Step 2: Proposal Selected</h2>
+<p>After the CFP closes, our organizer team uses a two step selection process. The first step involves a vote by the entire organizing team. The voting scores create a sorted list of talks. From that, the <a href="get-involved.html#cfp-czar">CFP Czar</a> will select the talks they think will make an interesting schedule (not necessarily the most highly voted talks).</p>
+<p>At that point, we will reach out to you, to let you know your talk was accepted, and ask you to confirm that you can still make it to the conference. If you say yes, we'll move on to the next step.</p>
+<p>Once the schedule is filled with confirmed speakers, the <a href="get-involved.html#cfp-czar">CFP Czar</a> will send out notices to everyone whose talk didn't get selected with an offer for a discounted ticket and invitation to deliver a lightning talk during the conference.</p>
+<h2 id="step-3-preparing-for-the-conference">Step 3: Preparing For The Conference</h2>
+<p>Once you are a confirmed speaker on our schedule there are a number of things we need to do to prepare you for the conference:</p>
+<h3 id="update-the-website">Update the Website</h3>
+<p>We'll need a square photo, and a link to your preferred online presence (typically Twitter or GitHub account). We'll add you to the site and place you on the schedule.</p>
+<h3 id="promote-your-talk">Promote Your Talk</h3>
+<p>Once you're on the site, we'll tweet about your talk from our official <a href="http://twitter.com/dotnetfringe">@dotnetfringe</a> account. We encourage you to follow that account, and to retweet anything related to your talk. It'd also be great if you tweeted about your talk. We'll RT that if you do. :)</p>
+<p>We'll also send out regular emails to the attendees letting them know about confirmed speakers.</p>
+<h3 id="book-travel">Book Travel</h3>
+<p>.NET Fringe will gladly help you with travel costs if you are a speaker at our conference. We will reimburse up to $500 for domestic travelers and $1000 for international travelers. We will also cover your hotel stay for up to three nights.</p>
+<p>Generally, we expect you to book your own travel and lodging, then deliver receipts, so we can reimburse you at the end of the conference. If your funds are particularly tight, on a case-by-case basis we can help you book travel, and cost-effective lodging that is close to the venue.</p>
+<h2 id="step-4-deliver-your-talk">Step 4: Deliver Your Talk</h2>
+<p>The next big step is preparing your talk and delivering it at the conference. If you're a first time speaker, this can be particularly intimidating. We're glad to help you out and can pair you up with an experienced mentor to work through all the nuances.</p>
+<p>Some important things to check:</p>
+<ul>
+<li><strong>Content</strong>: Have you reviewed our Code of Conduct? Is the material in your slides appropriate and inclusive?</li>
+<li><strong>Network</strong>: Does your talk depend on a network connection? We do our best to ensure WiFi will be available to our speakers and audience, but sometimes these things flake out. It's best to make your talk as network-independent as possible.</li>
+<li><strong>Display</strong>: Do you have the right display ports and adapters on your laptop? Typically our system will be HDMI or VGA. Do you know how to configure an external display (the projector)? Do you need speaker notes on one display but not on the other? Have you tested your software in this configuration?</li>
+<li><strong>Microphone</strong>: We'll have an over-the-ear microphone for you. Are you able to wear that and comfortable speaking into an amplified mic in front of a crowd? Might be helpful to practice at home or at a private karaoke lounge.</li>
+<li><strong>Stage Fright</strong>: We find it's helpful to get up on the stage before you have to deliver the talk so that you're comfortable in the environment. We can work out a time during a break or when the venue is closed to the public so you can get comfortable up there ahead of time.</li>
+<li><strong>Questions After The Talk</strong>: We have found it's best not to do on-stage Q/A during talks. Please don't offer to answer questions while you're still on stage. Instead, we prefer that speakers make themselves available during the break after their talk for 1:1 Q/A, off stage. Typically, our speakers will just hang around near the stage after their talk and audience members will approach you.</li>
+</ul>
+<h2 id="step-5-publish-your-talk">Step 5: Publish Your Talk</h2>
+<p>Great! You've given your talk and everyone loved it. Now is the time to upload your slides to the interwebs somewhere so folks can reference them later. You're welcome to host those in our Github repo, just file a PR! Once they are up there, it's best to tweet out a link to the slides, and we'll RT you if you do.</p>
+<p>We also record video of all the talk and release those shortly after the conference. The videos are released with title slides and are licensed under Creative Commons. This is a great way to make the content available to a much wider audience and functions as a handy resume of your prior speaking experience. If you don't want your video published, please let us know as early as possible.</p>
+<p>You can see examples videos of talks from previous years here: <a href="https://www.youtube.com/channel/UCIz73jo7KPqVTssbUmiIfXg">https://www.youtube.com/channel/UCIz73jo7KPqVTssbUmiIfXg</a></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="copy">
+          <p>&copy; .NET Fringe 2016 - <a href="docs/code-of-conduct.html">Code Of Conduct</a> - Previous: <a href="http://2015.dotnetfringe.org">2015</a> | Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+        </div>
+        <div class="social">
+          <ul>
+            <li class="github"><a href="https://github.com/dotnetfringe"><span> </span></a></li>
+            <li class="twitter"><a href="https://twitter.com/dotnetfringe"><span> </span></a></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>

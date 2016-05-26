@@ -1,4 +1,4 @@
-Let's talk about microbenchmarking
+Let's talk about microoptimizations
 ========================
 
 * Speaker   : Andrey Akinshin
@@ -8,19 +8,16 @@ Let's talk about microbenchmarking
 Description
 -----------
 
-This talk is about a wonderful world of microbenchmarking and microperformance. Will will discuss why microbenchmarking is hard and how to measure very quick operations right way.
+This talk is about a wonderful world of microoptimizations and microperformance. We will duscuss different low-level factors which can affect your performance:
 
-Content:
-
-* General methodology
-* Common pitfalls and mistakes
-* How long we should measure and how many times?
-* Warmup importance
-* Why we should run benchmarks in different environments (different C# Compilers/CLR versions/JITs/Operation systems/etc)
-* Overhead evaluation
-* Statistics calculation
-* Good practices
-
+* Runtime
+  *MS.NET vs Mono vs CoreCLR*
+* IL
+ *old C# compilers vs Roslyn*
+* ASM (inlining, bound check elimination, loop unrolling, SIMD, and so on)
+  *LegacyJIT-x86 vs LegacyJIT-x64 vs RyuJIT-x64*
+* CPU (CPU cache, branch prediction, instruction-level parallelism, and so on)
+  *different processors vs each other*
 
 Speaker Bio
 -----------
