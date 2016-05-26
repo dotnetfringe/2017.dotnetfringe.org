@@ -492,6 +492,18 @@ p.m_2{
 .cfp p.bottom_desc {
   text-transform: none;
 }
+
+
+.geektrain {
+  text-align: center;
+  padding: 3em 0;
+}
+.geektrain p.bottom_desc {
+  text-transform: none;
+}
+
+
+
 .quotes {
 	background: url(../images/contact.png);
 	padding:8em 0 0;
