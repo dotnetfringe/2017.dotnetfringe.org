@@ -184,6 +184,14 @@ p.bottom_desc{
 	font-weight: 300;
 	margin-top:3em;
 }
+
+.gen_text{
+	color: #EDF6FF;
+	font-size:0.95em;
+	margin-bottom: 20px;
+	margin-top:3em;
+}
+
 .header_btn{
 	text-align:center;
 	padding-top: 5em;
@@ -502,6 +510,13 @@ p.m_2{
   text-transform: none;
 }
 
+.lodging {
+  text-align: center;
+  padding: 3em 0;
+}
+.lodging p.bottom_desc {
+  text-transform: none;
+}
 
 
 .quotes {
