@@ -2,7 +2,7 @@ Alternative Web Frameworks for .NET
 ===================================
 
 * Speaker   : Kyle Hodgson
-* Available : July 11th
+* Available : July 10th, 11th, or 12th 
 * Length    : 60 minutes
 
 Description
