@@ -1,0 +1,1 @@
+While WebAPI is a big improvement on WCF, it still leaves a lot to be desired. Nancy and ServiceStack are two alternatives that you should carefully consider when starting your next services backend. Come see what makes them different from Microsoft's approach.
