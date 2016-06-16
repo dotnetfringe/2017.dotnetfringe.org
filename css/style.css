@@ -177,8 +177,8 @@ p.top_desc{
 }
 p.bottom_desc{
 	color: #EDF6FF;
-	font-size:0.95em;
-	font-style:italic;
+	font-size: 1.15em;
+	/*font-style:italic;*/
 	text-transform:uppercase;
 	margin-bottom: 20px;
 	font-weight: 300;
@@ -597,71 +597,76 @@ h3.m_3{
 	color:#fff;
 }
 /*--speakers--*/
-.speakers{
-	padding:5em 0;
-	background:#fcb200;
+.speakers {
+	padding: 5em 0;
+	background: #fcb200;
 }
 .speakers-grid img {
 	border-radius: 10em;
-	border:3px solid #fcd500;
+	border: 3px solid #fcd500;
 	display: -webkit-inline-box;
 }
-.speakers-grid h3{
+.speakers .col-md-4 img {
+  height: 256px;
+}
+.speakers-grid h3 {
 	padding:2em 0 1em;
 }
-.speakers-grid h3 a{
-	color:#35353f;
-	font-style:italic;
+.speakers-grid h3 a {
+	color: #35353f;
+	font-style: italic;
 	font-size: 0.6em;
-	text-decoration:none;
+	text-decoration: none;
 }
-.speakers-grid h3 a:hover{
-	color:#555;
+.speakers-grid h3 a:hover {
+	color: #555;
+  cursor: pointer;
 }
-.speakers-grid p{
-	color:#35353f;
-	font-size:0.85em;
-	line-height:1.5em;
+.speakers-grid p {
+	color: #35353f;
+	font-size: 0.85em;
+	line-height: 1.5em;
 }
 /*--contact-*/
-.contact{
+.contact {
 	background: url(../images/contact.png);
-	padding:5em 0 2em;
+	padding: 5em 0 2em;
 }
-.contact_left h3{
-	color:#fff;
-	font-size:2em;
-	text-transform:uppercase;
-	font-weight:bold;
+.contact_left h3 {
+	color: #fff;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
 }
-h3.m_4{
+h3.m_4 {
 	color: #373742;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 2em;
 	font-weight: bold;
-	margin-bottom:1em;
+	margin-bottom: 2.5em;
+  margin-top:1em;
 }
-p.m_5{
+p.m_5 {
 	color: #373742;
 	text-align: center;
 	font-size: 1em;
 	margin-bottom: 3em;
 	font-weight: 400;
 }
-p.m_6{
+p.m_6 {
 	color: #FFF;
 	font-size: 1em;
 	line-height: 1.5em;
 	font-weight: 300;
-	padding:1.5em 0;
+	padding: 1.5em 0;
 }
-p.m_7{
+p.m_7 {
 	color: #FFF;
 	font-size: 1em;
 	line-height: 1.5em;
 	font-weight: 300;
-	margin-bottom:1.5em;
+	margin-bottom: 1.5em;
 }
 ul.contact_info {
 	padding: 0;
@@ -671,21 +676,21 @@ ul.contact_info {
 ul.contact_info li{
 	margin-bottom:2em;
 }
-i.pin{
+i.pin {
 	height: 50px;
 	width: 40px;
 	float: left;
 	background: url(../images/img-sprite.png)no-repeat -11px -122px;
 	margin-right: 2%;
 }
-i.mobile{
+i.mobile {
 	height: 50px;
 	width: 40px;
 	float: left;
 	background: url(../images/img-sprite.png)no-repeat -60px -123px;
 	margin-right: 2%;
 }
-i.message{
+i.message {
 	height: 34px;
 	width: 40px;
 	float: left;
@@ -702,26 +707,26 @@ ul.contact_info span.msg {
 	cursor: pointer;
 	line-height: 2em;
 }
-ul.contact_info span.msg:hover{
-	text-decoration:underline;
+ul.contact_info span.msg:hover {
+	text-decoration: underline;
 }
 .contact_right{
 	background:#fcb200;
 	padding:2em;
 }
 footer {
-	background:#35353f;
+	background: #35353f;
 	padding:2em 0;
 }
-.copy{
+.copy {
 	float:left;
 	margin-top: 13px;
 }
-.copy p{
-	color:#fff;
+.copy p {
+	color: #fff;
 }
-.copy p a{
-	color:#FCB200;
+.copy p a {
+	color: #FCB200;
 }
 .social {
 	float: right;
