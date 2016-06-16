@@ -605,6 +605,7 @@ h3.m_3{
 	border-radius: 10em;
 	border: 3px solid #fcd500;
 	display: -webkit-inline-box;
+  height: 206px;
 }
 .speakers .col-md-4 img {
   height: 256px;
