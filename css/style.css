@@ -1084,3 +1084,42 @@ li.google a span:hover {
 		height: 600px;
 	}
 }
+
+#sponsors .frame {
+  width: 100%;
+  white-space: nowrap;
+  text-align: center; margin: 1em 0;
+}
+
+#sponsors .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#sponsors img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  background: white;
+  padding: 25px;
+}
+
+/*#sponsors .col-md-12 .frame {
+  height: 300px;
+}
+#sponsors .col-md-12 img {
+  max-height: 300px;
+}*/
+#sponsors .col-md-6 .frame {
+  height: 260px;
+}
+#sponsors .col-md-6 img {
+  max-height: 260px;
+}
+#sponsors .col-md-3 img {
+  max-height: 75px;
+}
+#sponsors .col-md-3 .frame {
+  height: 75px;
+}
