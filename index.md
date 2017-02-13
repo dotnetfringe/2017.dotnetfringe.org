@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: splash
 ---
 
 <h1 data-shadow='2017'>.netfr!nge</h1>
