@@ -1,5 +1,8 @@
-Attending The Conference
-------------------------
+---
+layout: main
+---
+
+# Attending The Conference
 
 If you'd like to attend .NET Fringe, we have a variety of tickets available for this year's conference. Have a look below and pick the ticket that looks right for you.
 
