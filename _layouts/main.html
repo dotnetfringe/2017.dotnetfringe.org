@@ -11,8 +11,18 @@
   <body>
     {% include _styles.html %}
 
-    {{ content }}
+    {% include _topnav.html %}
 
+    <div class="contents" id="contents">
+      <div class="container">
+        <div class="copy">
+
+            {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include _footer.html %}
     {% include _scripts.html %}
   </body>
 </html>
