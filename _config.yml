@@ -6,6 +6,7 @@ url:              http://dotNetFringe.org
 
 
 # Jekyll configuration
+repository: KilleenCode/dotnetfringe.github.io
 github_repo_url: http://github.com/killeencode/dotnetfringe.github.io/
 timezone: America/New_York
 post-images: /images/post-images
