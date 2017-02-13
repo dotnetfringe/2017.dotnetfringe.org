@@ -77,6 +77,7 @@ cat << _EOF_
             <li><a href="../index.html#photos">Photos</a></li>
             <li><a href="../index.html#map">Venue</a></li>
             <li><a href="../docs/index.html">Docs</a></li>
+            <li><a href="../docs/archives.html">Previous Years</a></li>
             <!-- <li><a href="#speakers">Speakers</a></li> -->
           </ul>
         </div>
