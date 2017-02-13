@@ -77,7 +77,6 @@ cat << _EOF_
             <li><a href="../index.html#photos">Photos</a></li>
             <li><a href="../index.html#map">Venue</a></li>
             <li><a href="../docs/index.html">Docs</a></li>
-            <li><a href="../docs/archives.html">Previous Years</a></li>
             <!-- <li><a href="#speakers">Speakers</a></li> -->
           </ul>
         </div>
@@ -125,12 +124,13 @@ cat << _EOF_
     <footer>
       <div class="container">
         <div class="copy">
-          <p>&copy; .NET Fringe 2016 - <a href="code-of-conduct.html">Code Of Conduct</a> - Previous: <a href="http://2015.dotnetfringe.org">2015</a> | Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+          <p>&copy; .NET Fringe 2017 - <a href="code-of-conduct.html">Code Of Conduct</a> - <a href="../docs/archives.html">Previous Years</a></li> | Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
         </div>
         <div class="social">
           <ul>
             <li class="github"><a href="https://github.com/dotnetfringe"><span> </span></a></li>
             <li class="twitter"><a href="https://twitter.com/dotnetfringe"><span> </span></a></li>
+            <li class="google"><a href="https://www.youtube.com/channel/UCIz73jo7KPqVTssbUmiIfXg"><span> </span></a></li>
           </ul>
         </div>
         <div class="clearfix"></div>
