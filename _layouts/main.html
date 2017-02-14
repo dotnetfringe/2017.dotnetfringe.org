@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    {% if page.title %}
+    <title>{{ page.title }} | .NET/FRINGE/ - An atypical conference for open-source .NET developers.</title>
+    {% else %}
+    <title>.NET/FRINGE/ - An atypical conference for open-source .NET developers.</title>
+    {% endif %}
+    {% include _font.html %}
+    {% include _stylesheets.html %}
+
+    {% include _meta.html %}
+  </head>
+  <body>
+    {% include _inlineStyles.html %}
+
+    {% include _topnav.html %}
+
+    <div class="contents" id="contents">
+      <div class="container">
+        <div class="copy">
+
+            {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include _footer.html %}
+    {% include _scripts.html %}
+  </body>
+</html>

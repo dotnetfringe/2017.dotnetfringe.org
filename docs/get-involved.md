@@ -1,11 +1,15 @@
+---
+layout: main
+---
+
 Get Involved
 ------------
 
 We'd love for you to get involved! There are many ways to be part of .NET Fringe:
 
-- **Speak**: Our speakers are the stars of the show. It's a lot of work, but you get star treatment in return. Read more on [becoming a speaker](speaking.html).
+- **Speak**: Our speakers are the stars of the show. It's a lot of work, but you get star treatment in return. Read more on [becoming a speaker][speaking].
 
-- **Attend**: You might not think it's a big deal, but just showing up to the conference is a major help! We're doing this for you, and we want to have a room full of amazing people. We keep ticket prices inexpensive so you can afford to go, even if your job won't pay for it. Go [get a ticket](../index.html#tickets) now!
+- **Attend**: You might not think it's a big deal, but just showing up to the conference is a major help! We're doing this for you, and we want to have a room full of amazing people. We keep ticket prices inexpensive so you can afford to go, even if your job won't pay for it. Go [get a ticket][tickets] now!
 
 - **Sponsor**: If your company wants to support the conference, we have a variety of sponsorship packages available. Send us an email at [dotnetfringe@gmail.com] and our [Sponsorship Coordinator](#sponsorship-coordinator) will follow-up with all the details. 
 
@@ -106,4 +110,6 @@ For 2017, the *Communications Director* role is [Sara Ford].
 [Rebecca Cole]: http://twitter.com/RebeccaClayCole "Rebecca Cole"
 [Sara Ford]: http://twitter.com/saraford "Sara Ford"
 [Aaron Stannard]: http://twitter.com/Aaronontheweb "Aaron Stannard"
-[code of conduct]: code-of-conduct.html "Code of Conduct"
+[code of conduct]: {{ site.url }}/docs/code-of-conduct "Code of Conduct"
+[tickets]: {{ site.url }}/index.html#tickets
+[speaking]: {{ site.url }}/docs/speaking
