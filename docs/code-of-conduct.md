@@ -1,3 +1,7 @@
+---
+layout: main
+---
+
 The .NET Fringe Code of Conduct
 -------------------------------
 
