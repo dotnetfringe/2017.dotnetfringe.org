@@ -16,7 +16,7 @@ ul, ol, p {
 html, body {
 	font-family: 'Lato', sans-serif;
 	font-size: 100%;
-	background-color: #333;
+	background-color: hsla(230, 40%, 50%, 1);
 }
 
 body a {
@@ -207,7 +207,7 @@ p.bottom_desc{
 	font-size:1em;
 	font-weight:500;
 	line-height:4em;
-	color: #ffb500;
+	color:  hsla(230, 40%, 50%, 1);
 	text-transform: uppercase;
 	font-weight: 600;
 	cursor: pointer;
@@ -216,7 +216,7 @@ p.bottom_desc{
 	color:#fff;
 }
 .navbar-custom {
-	background: #ffb500;
+	background: #35353F;
 	/*border-bottom: 2px solid #35353f;*/
 }
 .subMenu {
@@ -716,7 +716,7 @@ ul.contact_info span.msg:hover {
 	padding:2em;
 }
 footer {
-	background: #35353f;
+	background: #35353F;
 	padding:2em 0;
 }
 .copy {
