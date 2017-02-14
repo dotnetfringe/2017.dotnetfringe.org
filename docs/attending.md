@@ -61,4 +61,4 @@ We handle this on a case-by-case basis, so please send us an email to [dotnetfri
 
 [tickets]: https://ti.to/dotnetfringe/dotnetfringe-2016
 [dotnetfringe@gmail.com]: mailto:dotnetfringe@gmail.com
-[speakers]: speaking.html
+[speakers]: {{ site.url}}/docs/speaking
