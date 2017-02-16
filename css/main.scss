@@ -3,5 +3,7 @@
 
 @charset "utf-8";
 
+@import '_variables';
 @import '_w3layout';
-@import '_content'
+@import '_base';
+@import '_bootstrap-override';
