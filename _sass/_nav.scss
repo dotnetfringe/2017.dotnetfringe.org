@@ -5,6 +5,7 @@
 
 .navbar-custom {
     background-color: $nav-background;
+    border-bottom: 2px solid $nav-border-color;
 
     li {
         margin: 0 auto;

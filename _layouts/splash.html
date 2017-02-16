@@ -7,11 +7,15 @@
     {% include _font.html %}
 
     {% include _meta.html %}
-    <link rel="stylesheet" href="{{ site.url }}/css/splash.css" />
+    {% include _stylesheets.html %}
   </head>
-  <body>
+  <body class="splash">
+
+    {% include _topnav.html %}
+
     {{ content }}
 
+    {% include _footer.html %}
     {% include _scripts.html %}
   </body>
 </html>
