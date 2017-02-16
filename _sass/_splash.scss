@@ -10,9 +10,13 @@ html, body {
 
 body.splash {
     text-align: center;
-    background-color: hsla(230, 40%, 50%, 1);
 }
 
+.splash-container
+{
+    background-color: $richBlue;
+    padding-bottom: 2rem;
+}
 .splash {
     h1 {
         text-transform: lowercase;
