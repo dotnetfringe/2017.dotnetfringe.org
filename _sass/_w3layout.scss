@@ -4,6 +4,9 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
+
+/* This theme has been edited in some cases, to use variables specific to this project */
+
 h4, h5, h6,
 h1, h2, h3 {
 	margin-top: 0;
@@ -727,7 +730,7 @@ footer {
 	color: #fff;
 }
 .copy p a {
-	color: #FCB200;
+	color: $color-link;
 }
 .social {
 	float: right;
