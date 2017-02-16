@@ -14,3 +14,10 @@ Not sure which ticket to buy?
 Learn more about attending the conference and how to figure out which ticket is right for you.
 
 ### [Buy a Ticket](http://todo.com)
+
+## CALL FOR PROPOSALS - NOW OPEN!
+Want to shape the minds of Fringe attendees?
+
+Submit a proposal to be a featured speaker!
+
+### [Submit Your Proposal -- Do it!](http://todo.com)
