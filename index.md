@@ -7,7 +7,7 @@ layout: splash
     <h2><a href="#"><span>JUNE 4-6, 2017 - PDX</span></a></h2>
 </div>
 
-## TICKETS - NOW AVAILABLE!
+<h2 id="tickets"> TICKETS - NOW AVAILABLE!</h2>
 Tickets are going fast, so don't hesitate!
 
 Not sure which ticket to buy?
@@ -15,7 +15,7 @@ Learn more about attending the conference and how to figure out which ticket is 
 
 ### [Buy a Ticket](http://todo.com)
 
-## CALL FOR PROPOSALS - NOW OPEN!
+<h2 id="cfp"> CALL FOR PROPOSALS - NOW OPEN!</h2>
 Want to shape the minds of Fringe attendees?
 
 Submit a proposal to be a featured speaker!
