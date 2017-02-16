@@ -1,0 +1,36 @@
+/* Colors, for use here only */
+$richBlue: #4d5eb3;
+$richBlue--darker: #3a4787;
+$richBlue--lighter: #8e98ce;
+$darkGray: #333333;
+$mintGreen: #61ffd3;
+
+/* General */
+$color-body: $darkGray;
+$color-link: $richBlue--lighter;
+$color-link--hover: $mintGreen;
+$color-content: #ffffff;
+
+/* Font */
+$font-normal: 300;
+$font-bold: 700;
+$font-extra-bold: 900;
+
+/* Animation */
+$transition-speed: 300ms;
+$transition-bez: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+/* Nav */
+
+// $nav-background: $richBlue;
+// $nav-current-color: $mintGreen;
+// $nav-current-background: $richBlue--darker;
+// $nav-hover-background: $richBlue--lighter;
+// $nav-link-color: #ffffff;
+
+$nav-background: $richBlue;
+$nav-current-color: $richBlue--darker;
+$nav-current-background: $mintGreen;
+$nav-hover-background: $richBlue--darker;
+$nav-link-color: #ffffff;
+$nav-link-hover-color: $color-link--hover;
