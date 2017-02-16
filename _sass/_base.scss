@@ -42,7 +42,9 @@ html, body {
     font-size: 1.1rem;
     color: $color-content;
   }
-  // again, specificity needed to override
+}
+
+// again, specificity needed to override
   a, .copy p a {
     font-weight: $font-bold;
     color: $color-link;
@@ -52,4 +54,3 @@ html, body {
       color: $color-link--hover;
     }
   }
-}
