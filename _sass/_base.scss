@@ -3,6 +3,7 @@
 
 html, body {
   background: $color-body;
+  color: $color-content;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,9 +31,9 @@ ul li {
 }
 p {
   font-weight: $font-normal;
-  margin: 1rem auto;
+  margin: 1rem auto 1rem;
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+  color: $color-content;
 }
 a {
   font-weight: $font-bold;
