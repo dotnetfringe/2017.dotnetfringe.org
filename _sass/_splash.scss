@@ -16,8 +16,6 @@ body.splash {
 {
     background-color: $richBlue;
     padding-bottom: 2rem;
-}
-.splash {
     h1 {
         text-transform: lowercase;
         display: inline-block;
@@ -41,6 +39,8 @@ body.splash {
         -webkit-text-fill-color: transparent;
         animation: shad-anim 15s linear infinite;
     }
+}
+.splash {
     @keyframes shad-anim {
         0% {
             background-position: 0 0
@@ -57,7 +57,6 @@ body.splash {
     h2 {
         color: #ddd;
         margin: 0 auto;
-        font-family: 'Righteous', serif;
         font-size: 3em;
         margin: 1em 0;
     }
