@@ -1,19 +1,27 @@
+// override bootstrap specificity 
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: $nav-hover-background;
+}
+
 .navbar-custom {
     background-color: $nav-background;
 
     li {
         margin: 0 auto;
+        a {
+            color: $nav-link-color;
+            font-weight: $font-bold;
+            text-decoration: none;
+            transition: background-color $transition-speed $transition-bez;
 
-        &.active a {            
-            background-color: $nav-active-background;
+            &:hover {
+                color: $nav-link-hover-color;
+            }
         }
-    }
 
-    a {
-        text-decoration: none;
-        color: #ffffff;
-        &:hover {
-
+        &.active a {
+            color: $nav-current-color;
+            background-color: $nav-current-background;
         }
     }
 }
