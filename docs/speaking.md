@@ -2,7 +2,7 @@
 layout: main
 ---
 
-Speaking At .NET Fringe
+# Speaking At .NET Fringe
 -----------------------
 
 Hi there! We're stoked that you want to be a speaker at our conference.
