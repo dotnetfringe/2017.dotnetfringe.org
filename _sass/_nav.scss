@@ -1,0 +1,19 @@
+.navbar-custom {
+    background-color: $nav-background;
+
+    li {
+        margin: 0 auto;
+
+        &.active a {            
+            background-color: $nav-active-background;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        &:hover {
+
+        }
+    }
+}
