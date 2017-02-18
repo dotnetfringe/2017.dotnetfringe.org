@@ -2,7 +2,7 @@
 
 title:            ".NET/FRINGE/ - An atypical conference for open-source .NET developers."
 locale:           en_US
-url:              http://localhost:4000 #http://dotNetFringe.org
+url:              http://dotNetFringe.org
 
 # Github Metadata integration
 repository: KilleenCode/dotnetfringe.github.io
