@@ -540,8 +540,8 @@ h2.service_head{
 	padding:4em 0;
 	background: url(../images/signup.png);
 	background-size:100% 100%;
-	border-top:4px solid $mintGreen;
-	border-bottom:4px solid $mintGreen;
+	border-top:4px solid $color-accent;
+	border-bottom:4px solid $color-accent;
 	text-align:center;
 }
 h3.m_3{
@@ -570,10 +570,10 @@ h3.m_3{
 	-webkit-transition: 0.5s ease;
 }
 .contact-form input[type="text"]:hover {
-	border:2px solid $mintGreen;
+	border:2px solid $color-accent;
 }
 .contact-form input[type="submit"] {
-	background: $mintGreen;
+	background: $color-accent;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb400', endColorstr='#e19c00',GradientType=0 );
 	padding: 0.7em 2em;
 	color: #1E1E24;
