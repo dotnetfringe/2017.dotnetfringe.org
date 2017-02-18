@@ -551,6 +551,9 @@ h3.m_3{
 	font-weight: 300;
 	margin-bottom: 1em;
 }
+.contact-form input[type="EMAIL"] {
+	color: $color-form-text;
+}
 .contact-form input[type="text"] {
 	width: 50%;
 	padding: 0.6em;
@@ -558,7 +561,7 @@ h3.m_3{
 	outline: none;
 	margin: 0.2em;
 	font-size: 1em;
-	color: #FFF;
+	color: $color-form-text;
 	background:#595A5D;
 	border:2px solid #595A5D;
 	border-radius: 0.2em;
@@ -569,6 +572,7 @@ h3.m_3{
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
 }
+
 .contact-form input[type="text"]:hover {
 	border:2px solid $color-accent;
 }
