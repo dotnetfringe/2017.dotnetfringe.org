@@ -9,7 +9,7 @@ repository: KilleenCode/dotnetfringe.github.io
 
 # Jekyll configuration
 
-github_repo_url: http://github.com/killeencode/dotnetfringe.github.io/
+github_repo_url: http://github.com/dotnetfringe/dotnetfringe.github.io/
 timezone: America/New_York
 post-images: /images/post-images
 permalink:   /:year/:month/:title/
