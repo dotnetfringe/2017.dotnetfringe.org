@@ -21,3 +21,18 @@ Want to shape the minds of Fringe attendees?
 Submit a proposal to be a featured speaker!
 
 ### [Submit Your Proposal -- Do it!](http://todo.com)
+
+<div class="signup" id="signup">
+      <div class="container">
+        <div class="slider-left">
+        <h3>Get Updates!</h3>
+        <p class="top_desc">Join the mailing list</p>
+          <div class="contact-form">
+            <form method="post" action="http://dotnetfringe.us8.list-manage.com/subscribe/post?u=ba68ae915a1a06c6cb2302e3c&amp;id=2ee142e90b" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+              <input type="text" type="EMAIL" placeholder="Email Address" value="" name="EMAIL" class="required email textbox" id="mce-EMAIL">
+              <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" >
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>

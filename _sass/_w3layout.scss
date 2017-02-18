@@ -540,7 +540,8 @@ h2.service_head{
 	padding:4em 0;
 	background: url(../images/signup.png);
 	background-size:100% 100%;
-	border-top:4px solid #ffb500;
+	border-top:4px solid $color-accent;
+	border-bottom:4px solid $color-accent;
 	text-align:center;
 }
 h3.m_3{
@@ -550,6 +551,9 @@ h3.m_3{
 	font-weight: 300;
 	margin-bottom: 1em;
 }
+.contact-form input[type="EMAIL"] {
+	color: $color-form-text;
+}
 .contact-form input[type="text"] {
 	width: 50%;
 	padding: 0.6em;
@@ -557,7 +561,7 @@ h3.m_3{
 	outline: none;
 	margin: 0.2em;
 	font-size: 1em;
-	color: #FFF;
+	color: $color-form-text;
 	background:#595A5D;
 	border:2px solid #595A5D;
 	border-radius: 0.2em;
@@ -568,17 +572,12 @@ h3.m_3{
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
 }
+
 .contact-form input[type="text"]:hover {
-	border:2px solid #ffb500;
+	border:2px solid $color-accent;
 }
 .contact-form input[type="submit"] {
-	background: #FEB400;
-	background: -moz-linear-gradient(top, rgba(254,180,0,1) 0%, rgba(225,156,0,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEB400), color-stop(100%,#E19C00));
-	background: -webkit-linear-gradient(top, #FEB400 0%,#E19C00 100%);
-	background: -o-linear-gradient(top, rgba(254,180,0,1) 0%,rgba(225,156,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(254,180,0,1) 0%,rgba(225,156,0,1) 100%);
-	background: linear-gradient(to bottom, #FEB400 0%,#E19C00 100%);
+	background: $color-accent;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb400', endColorstr='#e19c00',GradientType=0 );
 	padding: 0.7em 2em;
 	color: #1E1E24;
