@@ -1,5 +1,8 @@
-Attending The Conference
-------------------------
+---
+layout: main
+---
+
+# Attending The Conference
 
 If you'd like to attend .NET Fringe, we have a variety of tickets available for this year's conference. Have a look below and pick the ticket that looks right for you.
 
@@ -58,4 +61,4 @@ We handle this on a case-by-case basis, so please send us an email to [dotnetfri
 
 [tickets]: https://ti.to/dotnetfringe/dotnetfringe-2016
 [dotnetfringe@gmail.com]: mailto:dotnetfringe@gmail.com
-[speakers]: speaking.html
+[speakers]: {{ site.url}}/docs/speaking
