@@ -1,4 +1,8 @@
-Speaking At .NET Fringe
+---
+layout: main
+---
+
+# Speaking At .NET Fringe
 -----------------------
 
 Hi there! We're stoked that you want to be a speaker at our conference.
@@ -61,5 +65,5 @@ Great! You've given your talk and everyone loved it. Now is the time to upload y
 
 We also record video of all the talk and release those shortly after the conference. The videos are released with title slides and are licensed under Creative Commons. This is a great way to make the content available to a much wider audience and functions as a handy resume of your prior speaking experience. If you don't want your video published, please let us know as early as possible. 
 
-You can see examples videos of talks from previous years here: [https://www.youtube.com/channel/UCIz73jo7KPqVTssbUmiIfXg](https://www.youtube.com/channel/UCIz73jo7KPqVTssbUmiIfXg)
+You can see examples videos of talks from previous years here: [.NET Fringe archives](archives.html)
 
