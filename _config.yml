@@ -5,7 +5,7 @@ locale:           en_US
 url:              http://dotNetFringe.org
 
 # Github Metadata integration
-repository: KilleenCode/dotnetfringe.github.io
+repository: dotnetfringe/dotnetfringe.github.io
 
 # Jekyll configuration
 
