@@ -2,7 +2,8 @@
 
 title:            ".NET/FRINGE/ - An atypical conference for open-source .NET developers."
 locale:           en_US
-url:              http://dotNetFringe.org
+url:              http://dotnetfringe.org
+baseurl:          ""
 
 # Github Metadata integration
 repository: dotnetfringe/dotnetfringe.github.io
