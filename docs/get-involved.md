@@ -110,6 +110,6 @@ For 2017, the *Communications Director* role is [Sara Ford].
 [Rebecca Cole]: http://twitter.com/RebeccaClayCole "Rebecca Cole"
 [Sara Ford]: http://twitter.com/saraford "Sara Ford"
 [Aaron Stannard]: http://twitter.com/Aaronontheweb "Aaron Stannard"
-[code of conduct]: {{ site.url }}/docs/code-of-conduct "Code of Conduct"
-[tickets]: {{ site.url }}/index.html#tickets
-[speaking]: {{ site.url }}/docs/speaking
+[code of conduct]: docs/code-of-conduct "Code of Conduct"
+[tickets]: index.html#tickets
+[speaking]: docs/speaking
