@@ -1,0 +1,58 @@
+/* For all general element styling */
+
+
+html, body {
+  background: $color-body;
+  color: $color-content;
+
+  // specificity needed to overule theme
+  a {
+    transition: color $transition-speed $transition-bez;
+  }
+}
+
+h2 {
+  margin: 3rem auto 1.5rem;
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+.docs {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: $font-extra-bold;
+  }
+  h1 {
+    text-align: center;
+    margin: 4rem auto 2rem;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+  }
+
+  h3 {
+    margin: 2rem auto 1rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+  ul li {
+    font-size: 1.1rem;
+    line-height: 1.40rem;
+    margin-bottom: .75rem;
+  }
+  p {
+    font-weight: $font-normal;
+    margin: 1rem auto 1rem;
+    font-size: 1.1rem;
+    color: $color-content;
+  }
+}
+
+// again, specificity needed to override
+  a, .copy p a {
+    font-weight: $font-bold;
+    color: $color-link;
+    text-decoration: underline;
+
+    &:hover {
+      color: $color-link--hover;
+    }
+  }

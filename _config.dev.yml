@@ -1,0 +1,5 @@
+# Site wide configuration
+
+repository: KilleenCode/dotnetfringe.github.io
+url:        http://localhost:4000
+baseurl:    ""
