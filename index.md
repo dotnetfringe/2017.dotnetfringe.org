@@ -20,7 +20,7 @@ Want to shape the minds of Fringe attendees?
 
 Submit a proposal to be a featured speaker!
 
-### [Submit Your Proposal -- Do it!](http://todo.com)
+### [Submit Your Proposal -- Do it!](https://docs.google.com/forms/d/e/1FAIpQLSfetqO83alwC01DUBrDX_tqQ1GJG47DsALazX4RB4r7aqbaYA/viewform)
 
 <div class="signup" id="signup">
       <div class="container">
