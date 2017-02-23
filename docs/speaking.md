@@ -9,9 +9,9 @@ Here's what you can expect as a speaker for .NET Fringe:
 
 ## Step 1: Submit a Proposal
 
-The first step to becoming a speaker for .NET Fringe is to submit a proposal for a talk. We accept proposals at any time, via GitHub pull requests, but each year we open a Call For Proposals (CFP) and there is a cut off date for the talks we'll consider for that year's schedule. 
+The first step to becoming a speaker for .NET Fringe is to submit a proposal for a talk. We accept proposals at any time, [via email][dotnetfringe@gmail.com], but each year we open a Call For Proposals (CFP) and there is a cut off date for the talks we'll consider for that year's schedule. 
 
-Go ahead [submit a talk](https://github.com/dotnetfringe/dotnetfringe.github.io/tree/master/proposals)!
+Go ahead [submit a talk][cfp]!
 
 ## Step 2: Proposal Selected
 
@@ -31,13 +31,13 @@ We'll need a square photo, and a link to your preferred online presence (typical
 
 ### Promote Your Talk
 
-Once you're on the site, we'll tweet about your talk from our official [\@dotnetfringe](http://twitter.com/dotnetfringe) account. We encourage you to follow that account, and to retweet anything related to your talk. It'd also be great if you tweeted about your talk. We'll RT that if you do. :)
+Once you're on the site, we'll tweet about your talk from our official [\@dotnetfringe][twitter] account. We encourage you to follow that account, and to retweet anything related to your talk. It'd also be great if you tweeted about your talk. We'll RT that if you do. :)
 
 We'll also send out regular emails to the attendees letting them know about confirmed speakers. 
 
 ### Book Travel 
 
-.NET Fringe will gladly help you with travel costs if you are a speaker at our conference. We will reimburse up to $500 for domestic travelers and $1000 for international travelers. We will also cover your hotel stay for up to three nights.
+.NET Fringe will gladly help you with travel costs if you are a speaker at our conference. We will reimburse up to $1000 for domestic travelers (USA/Canada) and $1500 for international travelers. This flat reimbursement limit applies to both travel and lodging expenses.
 
 Generally, we expect you to book your own travel and lodging, then deliver receipts, so we can reimburse you at the end of the conference. If your funds are particularly tight, on a case-by-case basis we can help you book travel, and cost-effective lodging that is close to the venue.
 
@@ -48,7 +48,7 @@ The next big step is preparing your talk and delivering it at the conference. If
 
 Some important things to check: 
 
-- **Content**: Have you reviewed our Code of Conduct? Is the material in your slides appropriate and inclusive? 
+- **Content**: Have you reviewed our [Code of Conduct][code of conduct]? Is the material in your slides appropriate and inclusive? 
 - **Network**: Does your talk depend on a network connection? We do our best to ensure WiFi will be available to our speakers and audience, but sometimes these things flake out. It's best to make your talk as network-independent as possible.
 - **Display**: Do you have the right display ports and adapters on your laptop? Typically our system will be HDMI or VGA. Do you know how to configure an external display (the projector)? Do you need speaker notes on one display but not on the other? Have you tested your software in this configuration?
 - **Microphone**: We'll have an over-the-ear microphone for you. Are you able to wear that and comfortable speaking into an amplified mic in front of a crowd? Might be helpful to practice at home or at a private karaoke lounge. 
@@ -61,5 +61,10 @@ Great! You've given your talk and everyone loved it. Now is the time to upload y
 
 We also record video of all the talk and release those shortly after the conference. The videos are released with title slides and are licensed under Creative Commons. This is a great way to make the content available to a much wider audience and functions as a handy resume of your prior speaking experience. If you don't want your video published, please let us know as early as possible. 
 
-You can see examples videos of talks from previous years here: [https://www.youtube.com/channel/UCIz73jo7KPqVTssbUmiIfXg](https://www.youtube.com/channel/UCIz73jo7KPqVTssbUmiIfXg)
+You can see some videos of talks from previous years [on our YouTube channel][youtube].
 
+[twitter]: http://twitter.com/dotnetfringe
+[dotnetfringe@gmail.com]: mailto:dotnetfringe@gmail.com
+[code of conduct]: code-of-conduct.html "Code of Conduct"
+[cfp]: https://docs.google.com/forms/d/e/1FAIpQLSfetqO83alwC01DUBrDX_tqQ1GJG47DsALazX4RB4r7aqbaYA/viewform
+[youtube]: https://www.youtube.com/channel/UCIz73jo7KPqVTssbUmiIfXg
