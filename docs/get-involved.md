@@ -17,7 +17,7 @@ We'd love for you to get involved! There are many ways to be part of .NET Fringe
 The Organizing Team
 -------------------
 
-.NET Fringe is organized by a small team of people based in Portland, Oregon. The team varies each year, but was originally founded by [Troy Howard] and [Adron Hall].
+.NET Fringe is organized by a small team of people based in Portland, Oregon. The team varies each year, but was originally founded by [Troy Howard], [Adron Hall] and [Glenn Block].
 
 Our organizing team has a variety of responsibilities that all contribute towards delivering an awesome experience for our attendees and speakers. We've formalized those into the following roles: 
 
