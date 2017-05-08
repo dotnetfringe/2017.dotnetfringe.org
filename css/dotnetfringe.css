@@ -144,6 +144,15 @@ h2.logo a {
   border-bottom: solid 4px hsla(230, 40%, 50%, 1);
 }
 
+.mapoverlay {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  top: 300px;
+  margin-top: -300px;
+}
+
 @media only screen and (min-width: 900px) {
   h1.logo { font-size: 12em; }
   h2.logo { font-size: 3em; margin: 1em 0; }
