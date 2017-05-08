@@ -65,7 +65,7 @@ h2.logo a {
 
 .content-container {
   background: white;
-  padding-top: 6em;
+  padding-top: 1em;
   padding-bottom: 2em;
 }
 
@@ -89,6 +89,59 @@ h2.logo a {
 
 .footer-container .column {
   line-height: 4em;
+}
+
+.footer-container a {
+  color: #b1c4ca;
+}
+
+.dnf-menu h3 a {
+
+}
+
+.row .image-grid {
+  margin-bottom: 0;
+}
+
+.image-grid .image-container {
+  height: 300px;
+  white-space: nowrap;
+  text-align: center;
+  margin: 1em 0;
+}
+
+
+.image-grid .image-container-inner {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.image-grid img {
+  max-height: 300px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.image-grid .image-container .two-up {
+  height: 300px;
+}
+
+.image-grid .two-up img {
+  max-height: 300px;
+}
+
+.image-grid .four-up .image-container {
+  height: 200px;
+}
+
+.image-grid .four-up img {
+  max-height: 200px;
+}
+
+.dnf-menu h3 a:hover {
+  cursor: pointer;
+  border-bottom: solid 4px hsla(230, 40%, 50%, 1);
 }
 
 @media only screen and (min-width: 900px) {
