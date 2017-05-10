@@ -131,6 +131,9 @@ h2.logo a {
   max-height: 300px;
 }
 
+img.auth0 {
+  width: 100%;
+}
 .image-grid .four-up .image-container {
   height: 200px;
 }
