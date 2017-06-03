@@ -1,3 +1,7 @@
+// Based on Google sample code 
+// here: https://developers.google.com/google-apps/calendar/quickstart/node and 
+// here: https://developers.google.com/google-apps/calendar/create-events
+
 var fs = require('fs');
 var readline = require('readline');
 var google = require('googleapis');
