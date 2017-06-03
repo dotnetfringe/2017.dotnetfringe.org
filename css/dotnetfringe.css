@@ -179,3 +179,64 @@ img.auth0 {
   .mailinglist input[type=text] { width: 100%; }
 }
 
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  /*margin: 1rem;*/
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.schedule-list {
+  text-align: left;
+}
+.schedule-list .row {
+  margin-bottom: .75em;
+}
+.schedule-list .column.schedule-time {
+  text-align: left;
+  /*min-width: 200px;*/
+}
+.schedule-list .schedule-name {
+  font-weight: bold;
+}
+div.row.card h1 {
+  margin: 20px 0;
+}
+
+.schedule .row .column.column-offset-10 {
+  margin-left: 0;
+}
+
+.schedule .row .column.column-60 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+div.row.card {
+    flex: 0 0 90%;
+    max-width: 90%;
+}
+
+/* Larger than mobile screen */
+@media (min-width: 40.0rem) {
+  .schedule .row .column.column-offset-10 {
+    margin-left: 10%;
+  }
+  .schedule-list .column.schedule-time {
+    text-align: right;
+  }
+  div.row.card h1 {
+    margin: 50px 0;
+  }
+  .schedule-list .row {
+    margin-bottom: .25em;
+  }
+  .schedule .row .column.column-60 {
+      flex: 0 0 80%;
+      max-width: 80%;
+  }
+
+}
+
