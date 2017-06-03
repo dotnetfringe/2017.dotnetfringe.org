@@ -1,0 +1,241 @@
+{
+  "schedule": [
+    {
+      "title": "Workshop: Doors Open @ Mission Theater",
+      "url":"",
+      "start":"06-04-2017 09:00 AM",
+      "end":"06-04-2017 09:05 AM",
+      "location":"mt"   
+    },
+    {
+      "title": "Auth0 Extend Workshop: The Year of Living Serverlessly",
+      "url":"https://dotnetfringe.org/workshops.html#auth0",
+      "start":"06-04-2017 09:00 AM",
+      "end":"06-04-2017 12:00 PM",
+      "location":"mt"  
+    },
+    {
+      "title": "Elastic Workshop: Elasticsearch for the .NET Developer",
+      "url":"https://dotnetfringe.org/workshops.html#auth0",
+      "start":"06-04-2017 1:00 PM",
+      "end":"06-04-2017 4:00 PM",
+      "location":"mt"  
+    },
+    {
+      "title": "Bike Ride",
+      "url":"https://dotnetfringe.org/bikeride.html",
+      "start":"06-04-2017 5:00 PM",
+      "end":"06-04-2017 7:00 PM"
+    },
+    {
+      "title": "Welcome Reception @ Mission Theater",
+      "url":"",
+      "start":"06-04-2017 7:00 PM",
+      "end":"06-04-2017 11:00 PM",
+      "location":"mt"  
+    },
+    {
+      "title": "Main event: Doors Open @ Crystal Ballroom",
+      "url":"",
+      "start":"06-05-2017 8:00 AM",
+      "end":"06-05-2017 9:00 AM",
+      "location":"cb"  
+    },
+    {
+      "title": "Sean Killeen - Casting a Wider .NET: OSS Maturity in the .NET Community",
+      "url":"https://dotnetfringe.org/speakers.html#sean-killeen",
+      "start":"06-05-2017 9:00 AM",
+      "end":"06-05-2017 9:30 AM",
+      "location":"cb"  
+    },
+    {
+      "title": "Caitie McAffery - Distributed Sagas: A Protocol for Coordinating Microservices",
+      "url":"https://dotnetfringe.org/speakers.html#caitie-mcaffery",
+      "start":"06-05-2017 9:45 AM",
+      "end":"06-05-2017 10:15 AM",
+      "location":"cb"  
+    },
+    {
+      "title": "Jeremy Bellows - Neuroevolution",
+      "url":"https://dotnetfringe.org/speakers.html#jeremy-bellows",
+      "start":"06-05-2017 10:45 AM",
+      "end":"06-05-2017 11:15 AM",
+      "location":"cb"  
+    },
+    {
+      "title": "Bobby Johnson - Zero to Sixty with DotNetCoreKoans",
+      "url":"https://dotnetfringe.org/speakers.html#bobby-johnson",
+      "start":"06-05-2017 11:30 AM",
+      "end":"06-05-2017 12:00 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Lunch",
+      "url":"",
+      "start":"06-05-2017 12:00 PM",
+      "end":"06-05-2017 1:00 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Lightning Talks",
+      "url":"https://github.com/dotnetfringe/dotnetfringe.github.io/wiki/2017-Lightning-Talks",
+      "start":"06-05-2017 1:00 PM",
+      "end":"06-05-2017 1:45 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Ted Neward - Polytechnical Careering",
+      "url":"https://dotnetfringe.org/speakers.html#ted-neward",
+      "start":"06-05-2017 1:45 PM",
+      "end":"06-05-2017 2:15 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Jasmine Greenaway - Climbing trees with UI Automation",
+      "url":"https://dotnetfringe.org/speakers.html#jasmine-greenaway",
+      "start":"06-05-2017 2:30 PM",
+      "end":"06-05-2017 3:00 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Natallia Dzenisenka - Parallel Programming with F# and Hopac",
+      "url":"https://dotnetfringe.org/speakers.html#natallia-dzenisenka",
+      "start":"06-05-2017 3:30 PM",
+      "end":"06-05-2017 4:00 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Deren Liao - gRPC: Efficient RPC framework for .NET microservices",
+      "url":"https://dotnetfringe.org/speakers.html#deren-liao",
+      "start":"06-05-2017 4:00 PM",
+      "end":"06-05-2017 4:30 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Alistair Champan - Using Docker to supercharge .NET development on Linux",
+      "url":"https://dotnetfringe.org/speakers.html#alistair-champan",
+      "start":"06-05-2017 4:45 PM",
+      "end":"06-05-2017 5:15 PM",
+      "location":"cb"  
+    },
+    {
+      "title": ".NET Fringe Family Photo",
+      "url":"",
+      "start":"06-05-2017 5:15 PM",
+      "end":"06-05-2017 5:20 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Official Conference Party @ Ground Kontrol",
+      "url":"https://dotnetfringe.org/schedule.html#party",
+      "start":"06-05-2017 7:00 PM",
+      "end":"06-05-2017 11:00 PM",
+      "location":"gc"  
+    },
+    {
+      "title": "Main event: Doors Open @ Crystal Ballroom",
+      "url":"",
+      "start":"06-06-2017 8:00 AM",
+      "end":"06-06-2017 9:00 AM",
+      "location":"cb"  
+    },
+    {
+      "title": "Mikayla Hutchinson - Mono: Today and Tomorrow",
+      "url":"https://dotnetfringe.org/speakers.html#mikayla-hutchinson",
+      "start":"06-06-2017 9:00 AM",
+      "end":"06-06-2017 9:30 AM",
+      "location":"cb"  
+    },
+    {
+      "title": "Kent Bye - VR &amp; AR: Design Patterns for the Experiential Age",
+      "url":"https://dotnetfringe.org/speakers.html#speakers.html#kent-bye",
+      "start":"06-06-2017 9:45 AM",
+      "end":"06-06-2017 10:15 AM",
+      "location":"cb"  
+    },
+    {
+      "title": "Hiring Speed Dating in Lola's Room",
+      "url":"https://dotnetfringe.org/schedule.html#hiring-speed-dating",
+      "start":"06-06-2017 10:15 AM",
+      "end":"06-06-2017 10:45 AM",
+      "location":"cb"  
+    },
+    {
+      "title": "Jeremy Abbott - Productive Web Applications (F#)",
+      "url":"https://dotnetfringe.org/speakers.html#jeremy-abbott",
+      "start":"06-06-2017 10:45 AM",
+      "end":"06-06-2017 11:15 AM",
+      "location":"cb"  
+    },
+    {
+      "title": "Immo Landwerth - .NET Standard for Library Authors",
+      "url":"https://dotnetfringe.org/speakers.html#immo-landwerth",
+      "start":"06-06-2017 11:30 AM",
+      "end":"06-06-2017 12:00 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Lunch",
+      "url":"",
+      "start":"06-06-2017 12:00 PM",
+      "end":"06-06-2017 1:00 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Lightning Talks",
+      "url":"https://github.com/dotnetfringe/dotnetfringe.github.io/wiki/2017-Lightning-Talks",
+      "start":"06-06-2017 1:00 PM",
+      "end":"06-06-2017 1:45 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Ken Egozi - Devil's Advocate",
+      "url":"https://dotnetfringe.org/speakers.html#ken-egozi",
+      "start":"06-06-2017 1:45 PM",
+      "end":"06-06-2017 2:15 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Sergey Bykov - Orleans: \"Rails for the Cloud\" to \"Distributed Actor-Oriented DB\"",
+      "url":"https://dotnetfringe.org/speakers.html#sergey-bykov",
+      "start":"06-06-2017 2:30 PM",
+      "end":"06-06-2017 3:00 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Andreia Gaita - C# in Games: Weird and Interesting Uses of .NET in Game Dev",
+      "url":"https://dotnetfringe.org/speakers.html#andreia-gaita",
+      "start":"06-06-2017 3:30 PM",
+      "end":"06-06-2017 4:00 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Karel Zikmund - Challenges of managing CoreFX repo",
+      "url":"https://dotnetfringe.org/speakers.html#karel-zikmund",
+      "start":"06-06-2017 4:00 PM",
+      "end":"06-06-2017 4:30 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Sara Ford - The Psychology of Developer Tool Usability",
+      "url":"https://dotnetfringe.org/speakers.html#sara-ford",
+      "start":"06-06-2017 4:45 PM",
+      "end":"06-06-2017 5:15 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Mingle, Organize Dinner Plans, Organize Brunch Plans",
+      "url":"",
+      "start":"06-06-2017 5:15 PM",
+      "end":"06-06-2017 6:00 PM",
+      "location":"cb"  
+    },
+    {
+      "title": "Main Event: Doors Close - See you at .NET Fringe 2018!",
+      "url":"",
+      "start":"06-06-2017 6:00 PM",
+      "end":"06-06-2017 6:05 PM",
+      "location":"cb"  
+    }
+  ]
+}
